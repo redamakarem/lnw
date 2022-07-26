@@ -1,19 +1,28 @@
-<section>TEst</section>
-{% schema %}
-{
-    "name":"LNW Collecion Slider",
-   "settings": [
-    {
-        "id":"collection-slider",
-        "name":"Collection Slider",
-        "type":"collection",
-    }
-   ],
-   "template": ["index"],
-   "presets":[
-   {
-    "name":"LNW Collection",
-    "category":"LNW ",
-   }],
-}
-{% endschema %}
+<section>
+    <ul>
+      {% for product in section.settings.collection-slider.products %}
+        <li>{{ product.title }}</li>
+        {% endfor %}
+    </ul>
+  </section>
+  
+  {% schema %}
+  {
+      "name": "LNW Collecion Slider",
+      "settings": [{
+          "id": "collection-slider",
+          "label": "collection",
+          "type": "collection"
+      }],
+      "presets": [{
+          "name": "LNW Collection",
+          "category": "LNW "
+      }]
+  }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
