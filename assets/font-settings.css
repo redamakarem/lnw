@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=c9165d6189d6f4514b1064dd0ab2e03960e20d6821a8f1e53b78964f275f3baa") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n4.e0ee1e2c008a0f429542630edf70be01045ac5e9.woff?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=43428259569b80f7b68bb8a77fee73db074e1fa76d3f42f2436e6b0efa83c4a5") format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=c9165d6189d6f4514b1064dd0ab2e03960e20d6821a8f1e53b78964f275f3baa") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n4.e0ee1e2c008a0f429542630edf70be01045ac5e9.woff?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=43428259569b80f7b68bb8a77fee73db074e1fa76d3f42f2436e6b0efa83c4a5") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: Lato;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_n5.10bc1bd2bdb4c0ac35363745e79901b69a0be29a.woff2?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=3dcfc6da72df053d36f144211de85b887e2aa05c6e9d81fdd6cc8c0dc6ae47d0") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n5.f7f0195bc06ce869daac4bf73d242fb9b37734db.woff?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=817cd3c69748ab8d2383a1ba3a2707ea59963449414c9d01622b95ee075be34e") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Lato;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_n5.10bc1bd2bdb4c0ac35363745e79901b69a0be29a.woff2?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=3dcfc6da72df053d36f144211de85b887e2aa05c6e9d81fdd6cc8c0dc6ae47d0") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n5.f7f0195bc06ce869daac4bf73d242fb9b37734db.woff?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=817cd3c69748ab8d2383a1ba3a2707ea59963449414c9d01622b95ee075be34e") format("woff");
+}
+
+
+
+
+
+
+
+  @font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_i4.7307831c0d06d264a76f2f7310f8a29d0507d6d0.woff2?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=12c85ffb5146b30b0269983a2bba2fbc1bb37b7ec1f6602090edab1610a31eb7") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_i4.fb695d0d68d5b174347edaf543726b1903b57796.woff?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=2b255cff6925326692eccf4e1fd7d02276c7abaa967c8a07ac16f701e15c5cec") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Lato;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_i5.34a1281e461a2dbf339c6340939aff4fa5a02ce4.woff2?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=799c29edd93c8c74f2bd639e46fea9c8512a17f056d5faee3783e3803e9acc6f") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_i5.dfa979b4c6c5c096432f0742c70ca73f045a9465.woff?h1=bC1uLXcuY29t&h2=bC1uLXcuY24&h3=bG92ZW5vdHdhci5jbw&h4=bG92ZW5vdHdhci51aw&hmac=72ca2f8f390f1a7bce811dc45311729212ab68b00f5af79cf1e923aa4b33960e") format("woff");
+}
+
