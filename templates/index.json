@@ -7,8 +7,6 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify://shop_images/6.png",
-            "mobile_image": "shopify://shop_images/5.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
@@ -17,7 +15,7 @@
             "text_color": "text-light",
             "transparent": true,
             "link_text": "",
-            "link": "shopify://products/maya",
+            "link": "shopify:\/\/products\/maya",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
@@ -26,8 +24,6 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify://shop_images/KAMA_BANNERS.jpg",
-            "mobile_image": "shopify://shop_images/LNW_Insta_Content_1.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
@@ -36,7 +32,7 @@
             "text_color": "text-light",
             "transparent": true,
             "link_text": "learn more",
-            "link": "shopify://pages/good-kama",
+            "link": "shopify:\/\/pages\/good-kama",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large caps"
           }
@@ -46,8 +42,6 @@
           "disabled": true,
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify://shop_images/KAMA_BANNERS_2.jpg",
-            "mobile_image": "shopify://shop_images/LNW_Insta_Content_2.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "VIBES FOR LIFE",
@@ -84,7 +78,7 @@
           "settings": {
             "subheading": "Introducing",
             "title": "Text block",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
@@ -99,10 +93,9 @@
         "1658851102d9951bd7-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2022-07-15_at_12.05.06.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "Image with text",
             "description": "Tell your brand's story through images.",
             "flex_align": "align--middle-center",
@@ -115,7 +108,10 @@
           }
         }
       },
-      "block_order": ["1658851102d9951bd7-1", "1658851102d9951bd7-0"],
+      "block_order": [
+        "1658851102d9951bd7-1",
+        "1658851102d9951bd7-0"
+      ],
       "settings": {
         "height": "screen-height-one-half",
         "padding": false,
@@ -129,7 +125,6 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/jan-zhukov-Uk5cY7w2MgM-unsplash.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -139,7 +134,7 @@
             "text_color": "text-light",
             "transparent": true,
             "link_text": "",
-            "link": "/collections/all",
+            "link": "\/collections\/all",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
@@ -149,20 +144,23 @@
           "settings": {
             "subheading": "",
             "title": "PLEASURE YOU DESERVE",
-            "text": "<p>AS THE TEMPERATURE RISES, SO DOES LIBIDO. MAKE IT A SUMMER OF SUSTAINABLE LOVE WITH OUR HIGH-QUALITY RANGE OF ECO SEX TOYS.</p><p>All of our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.</p>",
+            "text": "<p>AS THE TEMPERATURE RISES, SO DOES LIBIDO. MAKE IT A SUMMER OF SUSTAINABLE LOVE WITH OUR HIGH-QUALITY RANGE OF ECO SEX TOYS.<\/p><p>All of our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
             "text_color": "text-dark",
             "bg_color": "#e7e3de",
             "button_text": "SHOP NOW",
-            "button_url": "shopify://collections",
+            "button_url": "shopify:\/\/collections",
             "button_color": "btn--link",
             "button_style": "hero__btn btn btn--large caps"
           }
         }
       },
-      "block_order": ["image", "text"],
+      "block_order": [
+        "image",
+        "text"
+      ],
       "settings": {
         "height": "screen-height-two-thirds",
         "padding": false,
@@ -178,14 +176,14 @@
           "settings": {
             "subheading": "BECAUSE SUSTAINABILITY IS SEXY",
             "title": "THE HEADS COLLECTION",
-            "text": "<p>The whole Love Not War range is interchangeable, so once you own a base unit, you can buy a separate head, creating multiple toys in one! This significantly increases your choices while reducing consumption.</p>",
+            "text": "<p>The whole Love Not War range is interchangeable, so once you own a base unit, you can buy a separate head, creating multiple toys in one! This significantly increases your choices while reducing consumption.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
             "text_color": "text-dark",
             "bg_color": "#ffffff",
             "button_text": "SHOP NOW",
-            "button_url": "shopify://collections/heads",
+            "button_url": "shopify:\/\/collections\/heads",
             "button_color": "btn--link",
             "button_style": "hero__btn btn btn--large caps"
           }
@@ -193,7 +191,6 @@
         "16426117316a9bbfea-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/THE_HEADS_COLLECTION.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -209,7 +206,10 @@
           }
         }
       },
-      "block_order": ["16426117316a9bbfea-1", "16426117316a9bbfea-0"],
+      "block_order": [
+        "16426117316a9bbfea-1",
+        "16426117316a9bbfea-0"
+      ],
       "settings": {
         "height": "screen-height-two-thirds",
         "padding": true,
@@ -236,32 +236,28 @@
         "logos-0": {
           "type": "logo-item",
           "settings": {
-            "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”</em></p>",
-            "logo": "shopify://shop_images/vice_2x_97730fcf-b247-42e2-9751-c6d0dc1a6a6f.png",
+            "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”<\/em><\/p>",
             "logo_width": 130
           }
         },
         "bcb1660a-bf58-457b-818a-3deaa03fac83": {
           "type": "logo-item",
           "settings": {
-            "description": "<p><em>“The best part is, it’s eco-friendly, made from recycled materials that are as good for the planet as they are for you or your partner.”</em></p>",
-            "logo": "shopify://shop_images/well-good_2x_002d1603-eb43-46ac-8ac4-a8db888c0ab2.png",
+            "description": "<p><em>“The best part is, it’s eco-friendly, made from recycled materials that are as good for the planet as they are for you or your partner.”<\/em><\/p>",
             "logo_width": 180
           }
         },
         "logos-1": {
           "type": "logo-item",
           "settings": {
-            "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”</em></p>",
-            "logo": "shopify://shop_images/cosmopolitan_2x_d4c9e2ac-243b-423d-bb2b-0c759cabb460.png",
+            "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”<\/em><\/p>",
             "logo_width": 160
           }
         },
         "logos-2": {
           "type": "logo-item",
           "settings": {
-            "description": "<p><em>“All four Love Not War toys are made from recycled aluminium and the G-Spot vibe’s slick design and simple interface opens the door to ecstasy-inducing G-Spot play.”</em></p>",
-            "logo": "shopify://shop_images/marie-claire_2x_03a18a01-c55d-4e71-9326-9f45a8ae024f.png",
+            "description": "<p><em>“All four Love Not War toys are made from recycled aluminium and the G-Spot vibe’s slick design and simple interface opens the door to ecstasy-inducing G-Spot play.”<\/em><\/p>",
             "logo_width": 160
           }
         }
@@ -288,7 +284,6 @@
             "title": "",
             "featured_collection": "vibrators",
             "show_image": false,
-            "image": "shopify://shop_images/1500x1000px2.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
@@ -305,7 +300,6 @@
             "title": "",
             "featured_collection": "heads",
             "show_image": false,
-            "image": "shopify://shop_images/THE_HEADS_COLLECTION.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
@@ -317,8 +311,13 @@
           }
         }
       },
-      "block_order": ["tabs-0", "tabs-1"],
-      "settings": { "title": "Our Collections" }
+      "block_order": [
+        "tabs-0",
+        "tabs-1"
+      ],
+      "settings": {
+        "title": "Our Collections"
+      }
     },
     "165208714488ae755c": {
       "type": "featured-posts",
@@ -326,13 +325,15 @@
         "165208714406a6e9f8-0": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "love-not-war-blog/why-masturbation-should-be-a-part-of-your-self-care-routine",
+            "featured_post": "love-not-war-blog\/why-masturbation-should-be-a-part-of-your-self-care-routine",
             "subheading": "#MasturbationMonth",
             "bg_position": "center-center"
           }
         }
       },
-      "block_order": ["165208714406a6e9f8-0"],
+      "block_order": [
+        "165208714406a6e9f8-0"
+      ],
       "settings": {
         "show_author": false,
         "show_date": false,
@@ -345,10 +346,9 @@
         "220fe9c0-ed5c-400d-b333-cef8371c3986": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/1_1.png",
             "bg_position": "center-center",
             "title": "2022 Red Dot Award Winner",
-            "text": "<p>The Red Dot Award has become known as a much sought after ‘seal of quality’ and is presented only to products that have an outstanding design feature, so we are delighted to win an award for our KOI vibrator. </p><p>The Red Dot Awards receive more than 18,000 entries every year from design professionals and is considered one of the world’s largest and most renowned design competitions. </p>",
+            "text": "<p>The Red Dot Award has become known as a much sought after ‘seal of quality’ and is presented only to products that have an outstanding design feature, so we are delighted to win an award for our KOI vibrator. <\/p><p>The Red Dot Awards receive more than 18,000 entries every year from design professionals and is considered one of the world’s largest and most renowned design competitions. <\/p>",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
@@ -360,10 +360,9 @@
         "32fd3c71-ecc0-4bdd-a484-d1bf5a80b3ff": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/2_1.png",
             "bg_position": "center-center",
             "title": "2022 iF Design Award Winner",
-            "text": "<p>Love Not War has been awarded a prestigious <a href=\"https://www.ifdesign.com/en/\">Gold iF Design Award 2022</a>, their highest recognition, for our outstanding design achievements. </p><p>The iF Design Award is one of the world’s most prestigious design awards. Organised in Germany since 1953, the iF seal signifies great product design, for consumers and the design community. There are more than 11,000 entries every year from design professionals, companies and organisations. </p>",
+            "text": "<p>Love Not War has been awarded a prestigious <a href=\"https:\/\/www.ifdesign.com\/en\/\">Gold iF Design Award 2022<\/a>, their highest recognition, for our outstanding design achievements. <\/p><p>The iF Design Award is one of the world’s most prestigious design awards. Organised in Germany since 1953, the iF seal signifies great product design, for consumers and the design community. There are more than 11,000 entries every year from design professionals, companies and organisations. <\/p>",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
@@ -375,31 +374,29 @@
         "16427609466e363142-0": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_69.png",
             "bg_position": "center-center",
             "title": "2022 Green Product Award Nominee",
-            "text": "<p>Since 2013, the Green Product Award distinguishes globally sustainable, innovative products and services that are already on the market.It is aimed at start-ups and established companies who wish to highlight their sustainable achievements.</p><p>The full Love Not War range has been nominated and results will be announced late this year</p>",
+            "text": "<p>Since 2013, the Green Product Award distinguishes globally sustainable, innovative products and services that are already on the market.It is aimed at start-ups and established companies who wish to highlight their sustainable achievements.<\/p><p>The full Love Not War range has been nominated and results will be announced late this year<\/p>",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "caps--large",
             "enable_video": false,
-            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
         "16427609466e363142-1": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_70.png",
             "bg_position": "center-center",
             "title": "2022 Xbiz Award Nominee",
-            "text": "<p>The Xbiz Awards are the highest accolade of the global pleasure industry. In its first year since launching, Love Not War has received 3 nominations.</p><p>- Luxury Pleasure Product/Line of the Year - GRÁ</p><p>- Progressive Pleasure Products Company of the Year</p><p>- New Pleasure Products Company of the Year</p>",
+            "text": "<p>The Xbiz Awards are the highest accolade of the global pleasure industry. In its first year since launching, Love Not War has received 3 nominations.<\/p><p>- Luxury Pleasure Product\/Line of the Year - GRÁ<\/p><p>- Progressive Pleasure Products Company of the Year<\/p><p>- New Pleasure Products Company of the Year<\/p>",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "caps--large",
             "enable_video": false,
-            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         }
       },
@@ -483,14 +480,14 @@
           "settings": {
             "subheading": "",
             "title": "LNW X HERO Condoms = “Good Kama”",
-            "text": "<p>In commemoration of World Health Day 2022, the theme of which is ‘Our Planet Our Health’, we’re teaming up with like-minded, eco-friendly Aussie brand, <a href=\"https://herocondoms.com.au/\"><span style=\"text-decoration:underline\">HERO Condoms</span></a> to bring you sexual health combo that gives you all the good vibes and even better karma.</p><p>Together we have created the limited edition ‘<span style=\"text-decoration:underline\">Good Kama</span>’ vibrator in vibrant blue, a twist on our existing <a href=\"https://www.l-n-w.com/collections/vibrators/products/kama?variant=32257085800541\"><span style=\"text-decoration:underline\">Kama</span></a> vibrator, and our friends at HERO Condoms have pledged that for every ‘Good Kama’ sold, they will donate 24 HERO condoms to communities across the world who are in need. </p><p>And because we love you and want you to feel how good sustainable sex can be, we’re giving one box of HERO condoms along with every purchase made through our website this week*.</p>",
+            "text": "<p>In commemoration of World Health Day 2022, the theme of which is ‘Our Planet Our Health’, we’re teaming up with like-minded, eco-friendly Aussie brand, <a href=\"https:\/\/herocondoms.com.au\/\"><span style=\"text-decoration:underline\">HERO Condoms<\/span><\/a> to bring you sexual health combo that gives you all the good vibes and even better karma.<\/p><p>Together we have created the limited edition ‘<span style=\"text-decoration:underline\">Good Kama<\/span>’ vibrator in vibrant blue, a twist on our existing <a href=\"https:\/\/www.l-n-w.com\/collections\/vibrators\/products\/kama?variant=32257085800541\"><span style=\"text-decoration:underline\">Kama<\/span><\/a> vibrator, and our friends at HERO Condoms have pledged that for every ‘Good Kama’ sold, they will donate 24 HERO condoms to communities across the world who are in need. <\/p><p>And because we love you and want you to feel how good sustainable sex can be, we’re giving one box of HERO condoms along with every purchase made through our website this week*.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
             "text_color": "text-dark",
             "bg_color": "#ffffff",
             "button_text": "Learn more",
-            "button_url": "shopify://pages/good-kama",
+            "button_url": "shopify:\/\/pages\/good-kama",
             "button_color": "btn--neutral",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
@@ -544,14 +541,14 @@
           "settings": {
             "subheading": "",
             "title": "PLEASURE THAT DOESN'T COST THE EARTH",
-            "text": "<p>At Love Not War we are committed to being good to you, your body and the earth. </p><p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.</p><p>Made from locally sourced sustainable materials, in our custom-built green-energy powered factory, our sex toys are both safe for your body and the environment.</p>",
+            "text": "<p>At Love Not War we are committed to being good to you, your body and the earth. <\/p><p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.<\/p><p>Made from locally sourced sustainable materials, in our custom-built green-energy powered factory, our sex toys are both safe for your body and the environment.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
             "text_color": "text-dark",
             "bg_color": "#fca38d",
             "button_text": "Learn more",
-            "button_url": "shopify://pages/sustainability-love-not-war",
+            "button_url": "shopify:\/\/pages\/sustainability-love-not-war",
             "button_color": "btn--neutral",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
@@ -559,7 +556,6 @@
         "bf7dbc0f-8e31-41a5-b6b4-cc42ec9b2c2e": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LNW_Insta_Content_2.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -592,7 +588,6 @@
         "1642618005135bac18-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_52.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -612,20 +607,23 @@
           "settings": {
             "subheading": "",
             "title": "WHY CHOOSE LOVE NOT WAR?",
-            "text": "<p>We have been nominated for four top industry awards including ‘Progressive Sex Toy Company’, ‘New Pleasure Company of the Year’,  ‘Luxury Pleasure Product: Gra’ and also for a Green Product Award.</p><p>Our products are not only eco-friendly but are also high-quality products that are built to last.</p><p>We are the world's leading eco-friendly vibrator brand, loved by toy testers and media alike</p>",
+            "text": "<p>We have been nominated for four top industry awards including ‘Progressive Sex Toy Company’, ‘New Pleasure Company of the Year’,  ‘Luxury Pleasure Product: Gra’ and also for a Green Product Award.<\/p><p>Our products are not only eco-friendly but are also high-quality products that are built to last.<\/p><p>We are the world's leading eco-friendly vibrator brand, loved by toy testers and media alike<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
             "text_color": "text-dark",
             "bg_color": "#ffffff",
             "button_text": "SHOP NOW",
-            "button_url": "shopify://collections",
+            "button_url": "shopify:\/\/collections",
             "button_color": "btn--link",
             "button_style": "hero__btn btn btn--large caps"
           }
         }
       },
-      "block_order": ["1642618005135bac18-0", "1642618005135bac18-1"],
+      "block_order": [
+        "1642618005135bac18-0",
+        "1642618005135bac18-1"
+      ],
       "settings": {
         "height": "screen-height-two-thirds",
         "padding": true,
@@ -636,8 +634,6 @@
     "hero": {
       "type": "section-hero",
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_57.png",
-        "mobile_image": "shopify://shop_images/Untitled_design_63_1.png",
         "bg_position": "center-top",
         "height": "screen-height-one-half",
         "overlay_opacity": 0,
@@ -648,7 +644,7 @@
         "text_color": "text-light",
         "transparent": true,
         "link_text": "Learn More",
-        "link": "shopify://pages/one-tree-planted",
+        "link": "shopify:\/\/pages\/one-tree-planted",
         "button_color": "btn--white",
         "button_style": "hero__btn btn btn--input caps"
       }
@@ -657,7 +653,7 @@
       "type": "section-newsletter",
       "settings": {
         "title": "Newsletter",
-        "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+        "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
         "enable_name": true,
         "flex_align": "align--middle-stacked",
         "text_color": "dark",
@@ -686,14 +682,15 @@
     },
     "16426127035bd96a27": {
       "type": "apps",
-      "blocks": {
-        "a28063f9-f609-4600-89b7-51b9b62175b1": {
-          "type": "shopify://apps/instafeed-instagram-feed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": { "heading_size": 20, "feed_width": 100, "html_area": "" }
-        }
-      },
-      "block_order": ["a28063f9-f609-4600-89b7-51b9b62175b1"],
-      "settings": { "include_margins": false }
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "1658879990a23c576b": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "adidas"
+      }
     }
   },
   "order": [
@@ -714,6 +711,7 @@
     "hero",
     "newsletter",
     "164261742122bdbed7",
-    "16426127035bd96a27"
+    "16426127035bd96a27",
+    "1658879990a23c576b"
   ]
 }
