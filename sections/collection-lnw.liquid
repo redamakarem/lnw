@@ -1,11 +1,18 @@
 <section>
-    <ul id="lnw-product-list">
-      {% for product in section.settings.collection-slider.products %}
-        <li>
-            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
-        </li>
-        {% endfor %}
-    </ul>
+    <div class="section-content">
+        <div class="collection-title">
+            {{section.settings.collection-slider.title}}
+        </div>
+        <div id="slider-container">
+            <ul id="lnw-product-list">
+                {% for product in section.settings.collection-slider.products %}
+                  <li>
+                      <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
+                  </li>
+                  {% endfor %}
+              </ul>
+        </div>
+    </div>
   </section>
   
   {% schema %}
