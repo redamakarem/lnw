@@ -1,5 +1,5 @@
 <section>
-    <ul>
+    <ul id="lnw-product-list">
       {% for product in section.settings.collection-slider.products %}
         <li>
             <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
@@ -27,4 +27,19 @@
   {% endstylesheet %}
   
   {% javascript %}
+  $('#lnw-product-list').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }
+    ]
+});
   {% endjavascript %}
