@@ -680,17 +680,17 @@
         "show_comments": false
       }
     },
-    "16426127035bd96a27": {
-      "type": "apps",
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "1658879990a23c576b": {
+    "16589478971c3227ea": {
       "type": "collection-lnw",
       "settings": {
         "collection-slider": "adidas",
         "controls-position": "right"
+      }
+    },
+    "16426127035bd96a27": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
       }
     }
   },
@@ -712,7 +712,7 @@
     "hero",
     "newsletter",
     "164261742122bdbed7",
-    "16426127035bd96a27",
-    "1658879990a23c576b"
+    "16589478971c3227ea",
+    "16426127035bd96a27"
   ]
 }
