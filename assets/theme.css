@@ -10,7 +10,9 @@ https://flickity.metafizzy.co
 
 /*! ============ Add any custom styles below this line ================== */
   
-  
+  .row-reverse{
+    flex-direction: row-reverse !important;
+  }
   @media screen and (max-width:780px){  
   .screen-height-full {
     height: 29vh;
