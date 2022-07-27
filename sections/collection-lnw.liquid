@@ -1,7 +1,9 @@
 <section>
     <ul>
       {% for product in section.settings.collection-slider.products %}
-        <li>{{ product.title }}</li>
+        <li>
+            <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape }}" />
+        </li>
         {% endfor %}
     </ul>
   </section>
