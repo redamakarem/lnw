@@ -690,7 +690,7 @@
       "type": "collection-lnw",
       "settings": {
         "collection-slider": "adidas",
-        "controls-position": "left"
+        "controls-position": "right"
       }
     }
   },
