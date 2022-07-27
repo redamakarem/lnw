@@ -689,7 +689,8 @@
     "1658879990a23c576b": {
       "type": "collection-lnw",
       "settings": {
-        "collection-slider": "adidas"
+        "collection-slider": "adidas",
+        "controls-position": "right"
       }
     }
   },
