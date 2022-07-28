@@ -21,7 +21,13 @@ https://flickity.metafizzy.co
     border-radius: 8px;
     padding: 8px 12px;
     font-weight: 700;
-    
+
+  }
+
+  .homepage-slideshow .flickity-page-dots .dot, .homepage-slideshow .slick-dots .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
   }
 
   @media screen and (max-width:780px){  
