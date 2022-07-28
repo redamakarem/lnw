@@ -13,6 +13,14 @@ https://flickity.metafizzy.co
   .row-reverse{
     flex-direction: row-reverse !important;
   }
+
+  .lnw__btn{
+    text-transform: none;
+    border: 1px solid #14222D;
+    color: #14222D;
+    border-radius: 8px;
+  }
+
   @media screen and (max-width:780px){  
   .screen-height-full {
     height: 29vh;
