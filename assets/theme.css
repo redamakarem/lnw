@@ -19,6 +19,9 @@ https://flickity.metafizzy.co
     border: 1px solid #14222D;
     color: #14222D;
     border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 700;
+    
   }
 
   @media screen and (max-width:780px){  
