@@ -94,6 +94,7 @@
         "1658851102d9951bd7-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/first-row.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -126,6 +127,7 @@
         "image": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/second-row.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
