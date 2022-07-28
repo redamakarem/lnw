@@ -186,7 +186,7 @@
             "align_text": "text-left",
             "text_color": "text-dark",
             "bg_color": "#ffffff",
-            "button_text": "SHOP NOW",
+            "button_text": "Shop Now",
             "button_url": "shopify:\/\/collections\/heads",
             "button_color": "btn--link",
             "button_style": "lnw__btn"
