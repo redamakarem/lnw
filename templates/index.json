@@ -172,6 +172,13 @@
         "wrapper": false
       }
     },
+    "16589478971c3227ea": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "adidas",
+        "controls-position": "right"
+      }
+    },
     "16426117322608063c": {
       "type": "section-custom-content",
       "blocks": {
@@ -684,13 +691,6 @@
         "show_comments": false
       }
     },
-    "16589478971c3227ea": {
-      "type": "collection-lnw",
-      "settings": {
-        "collection-slider": "adidas",
-        "controls-position": "right"
-      }
-    },
     "16426127035bd96a27": {
       "type": "apps",
       "settings": {
@@ -702,6 +702,7 @@
     "slideshow",
     "1658851103e97320c6",
     "image-with-text",
+    "16589478971c3227ea",
     "16426117322608063c",
     "1658851351429a3e54",
     "logos",
@@ -716,7 +717,6 @@
     "hero",
     "newsletter",
     "164261742122bdbed7",
-    "16589478971c3227ea",
     "16426127035bd96a27"
   ]
 }
