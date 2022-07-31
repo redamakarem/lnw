@@ -181,6 +181,20 @@
     },
     "165930724844934d89": {
       "type": "testimonials-lnw",
+      "blocks": {
+        "e2e160c0-303a-4d88-8dd2-becc04eee967": {
+          "type": "testimonial-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "Design Award",
+            "year": "2022",
+            "back-text": "Ullamco modi corpori"
+          }
+        }
+      },
+      "block_order": [
+        "e2e160c0-303a-4d88-8dd2-becc04eee967"
+      ],
       "settings": {
         "testimonial-slider": "test"
       }
