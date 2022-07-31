@@ -179,6 +179,12 @@
         "controls-position": "right"
       }
     },
+    "165930724844934d89": {
+      "type": "testimonials-lnw",
+      "settings": {
+        "testimonial-slider": "test"
+      }
+    },
     "16426117322608063c": {
       "type": "section-custom-content",
       "blocks": {
@@ -703,6 +709,7 @@
     "1658851103e97320c6",
     "image-with-text",
     "16589478971c3227ea",
+    "165930724844934d89",
     "16426117322608063c",
     "1658851351429a3e54",
     "logos",
