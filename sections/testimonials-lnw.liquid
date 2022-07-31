@@ -4,28 +4,24 @@
         <div class="testimonial-track">
 
             {%- for block in section.blocks -%}
-                <div class="testimonial-card">
-                    <div class="testimonial-meta">
-                        <img src="{{ block.settings.avatar | img_url }}" alt="Testimonial Image" class="avatar">
-                        <div class="author-meta">
-                            <h3>{{ block.settings.name }}</h3>
-                            <div class="star-rating">
-
-                                {% for i in (1..5) %}
-                                    {% if i > block.settings.rating %}
-                                        {% break %}
-                                    {% else %}
-                                        <img src="{{ 'star.png' | asset_url }}" alt="Star Rating">
-                                    {% endif %}
-                                {% endfor %}
-
-                            </div>
+            <div class="item">
+                <div class="card">
+                    <div class="front">
+                        <div class="logo-wrapper">
+                            <img src="{{ block.settings.logo | img_url }}" alt="Logo image" class="logo">
+                        </div>
+                        <div class="heading-wrapper">
+                            <h3>{{ block.settings.heading }}</h3>
+                        </div>
+                        <div class="year-wrapper">
+                            <h5>{{ block.settings.year }}</h5>
                         </div>
                     </div>
-                    <div class="testimonial-content">
-                        <p>{{ block.settings.testimonial }}</p>
+                    <div class="back">
+                        <p class="award-desc">{{block.settings.back-text}}</p>
                     </div>
                 </div>
+            </div>
             {%- endfor -%}
 
         </div>
@@ -58,27 +54,25 @@
             "settings": [
                 {
                     "type": "image_picker",
-                    "id": "avatar",
-                    "label": "Avatar Image"
+                    "id": "logo",
+                    "label": "Logo"
                 },
                 {
                     "type": "text",
-                    "id": "name",
-                    "label": "Name"
+                    "id": "heading",
+                    "label": "Heading"
                 },
                 {
                     "type": "text",
-                    "id": "testimonial",
-                    "label": "Testimonial Content"
+                    "id": "year",
+                    "label": "Year"
                 },
                 {
-                    "type": "range",
-                    "id": "rating",
-                    "label": "Star Rating",
-                    "default": 5,
-                    "min": 0,
-                    "max": 5
+                    "type": "text",
+                    "id": "back-text",
+                    "label": "Back text"
                 }
+                
             ]
         }
     ]
