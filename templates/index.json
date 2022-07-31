@@ -179,6 +179,26 @@
         "controls-position": "right"
       }
     },
+    "1659306007dc40d0f8": {
+      "type": "testimonials-lnw",
+      "blocks": {
+        "44c9da2c-f276-473a-92d9-e335ab6bdb38": {
+          "type": "testimonial-card",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/second-row.png",
+            "name": "Test",
+            "testimonial": "Test Test Test Test Test",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "44c9da2c-f276-473a-92d9-e335ab6bdb38"
+      ],
+      "settings": {
+        "testimonial-slider": ""
+      }
+    },
     "16426117322608063c": {
       "type": "section-custom-content",
       "blocks": {
@@ -703,6 +723,7 @@
     "1658851103e97320c6",
     "image-with-text",
     "16589478971c3227ea",
+    "1659306007dc40d0f8",
     "16426117322608063c",
     "1658851351429a3e54",
     "logos",
