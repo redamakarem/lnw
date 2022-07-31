@@ -190,10 +190,20 @@
             "testimonial": "Test Test Test Test Test",
             "rating": 5
           }
+        },
+        "a52c57e0-afef-4abd-ad93-4907a3cf396b": {
+          "type": "testimonial-card",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/second-row.png",
+            "name": "Test 2",
+            "testimonial": "Test 2 Test 2 Test 2 Test 2 Test 2 Test 2 Test 2 Test 2 Test 2",
+            "rating": 5
+          }
         }
       },
       "block_order": [
-        "44c9da2c-f276-473a-92d9-e335ab6bdb38"
+        "44c9da2c-f276-473a-92d9-e335ab6bdb38",
+        "a52c57e0-afef-4abd-ad93-4907a3cf396b"
       ],
       "settings": {
         "testimonial-slider": ""
