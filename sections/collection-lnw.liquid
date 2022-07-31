@@ -21,7 +21,7 @@
             
         </div>
         <div id="slider-container">
-            <ul id="lnw-product-list">
+            <ul id="lnw-product-list" class="owl-carousel">
                 {% for product in section.settings.collection-slider.products %}
                   <li>
                       <div class="carousel-item">
@@ -124,7 +124,7 @@
   {% endstylesheet %}
   
   {% javascript %}
-  $('#lnw-product-list').owlCarousel({
+  $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
