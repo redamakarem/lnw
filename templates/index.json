@@ -182,21 +182,21 @@
     "165930724844934d89": {
       "type": "testimonials-lnw",
       "blocks": {
-        "e2e160c0-303a-4d88-8dd2-becc04eee967": {
-          "type": "testimonial-card",
+        "f6436b88-d04e-417b-b30d-dbcf45937f6d": {
+          "type": "award-card",
           "settings": {
             "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
-            "heading": "Design Award",
+            "heading": "Heading",
             "year": "2022",
-            "back-text": "Ullamco modi corporia"
+            "back-text": "Hic et totam sunt et"
           }
         }
       },
       "block_order": [
-        "e2e160c0-303a-4d88-8dd2-becc04eee967"
+        "f6436b88-d04e-417b-b30d-dbcf45937f6d"
       ],
       "settings": {
-        "testimonial-slider": "test"
+        "award-slider": ""
       }
     },
     "16426117322608063c": {
