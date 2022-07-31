@@ -179,6 +179,26 @@
         "controls-position": "right"
       }
     },
+    "165930724844934d89": {
+      "type": "testimonials-lnw",
+      "blocks": {
+        "e2e160c0-303a-4d88-8dd2-becc04eee967": {
+          "type": "testimonial-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "Design Award",
+            "year": "2022",
+            "back-text": "Ullamco modi corporia"
+          }
+        }
+      },
+      "block_order": [
+        "e2e160c0-303a-4d88-8dd2-becc04eee967"
+      ],
+      "settings": {
+        "testimonial-slider": "test"
+      }
+    },
     "16426117322608063c": {
       "type": "section-custom-content",
       "blocks": {
@@ -703,6 +723,7 @@
     "1658851103e97320c6",
     "image-with-text",
     "16589478971c3227ea",
+    "165930724844934d89",
     "16426117322608063c",
     "1658851351429a3e54",
     "logos",
