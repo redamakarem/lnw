@@ -1,7 +1,7 @@
-<section class="testimonial-slider">
+<section class="award-slider">
     <div class="page-width">
-        <h2>{{ section.settings.testimonial-slider }}</h2>
-        <div class="testimonial-track">
+        <h2>{{ section.settings.award-slider }}</h2>
+        <div class="award-track">
 
             {%- for block in section.blocks -%}
             <div class="item">
@@ -32,25 +32,25 @@
 
 {% schema %}
 {
-    "name": "Testimonial Slider",
+    "name": "award Slider",
     "settings": [
         {
-            "id": "testimonial-slider",
+            "id": "award-slider",
             "type": "text",
-            "label": "Add a testimonial slider"
+            "label": "Add a award slider"
         }
     ],
     "templates": ["index"],
     "presets": [
         {
-            "name": "Testimonial Slider",
+            "name": "award Slider",
             "category": "Sliders"
         }
     ],
     "blocks": [
         {
-            "name": "Testimonial Card",
-            "type": "testimonial-card",
+            "name": "award Card",
+            "type": "award-card",
             "settings": [
                 {
                     "type": "image_picker",
@@ -81,7 +81,7 @@
 
 
 {% javascript %}
-  var owl = $('.testimonial-track').owlCarousel({
+  var owl = $('.award-track').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
