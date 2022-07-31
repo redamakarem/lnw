@@ -139,5 +139,12 @@
             items:3
         }
     }
+});
+$('.prev-slide').click(function() {
+    owl.trigger('owl.prev');
+})
+// Go to the previous item
+$('.next-slide').click(function() {
+    owl.trigger('owl.next');
 })
   {% endjavascript %}
