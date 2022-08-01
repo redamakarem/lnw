@@ -1,0 +1,134 @@
+<section class="recommended-products">
+    <div class="page-width">
+        <div>
+            <div class="lnw-recommended-image">
+                <img src="{{section.settings.main-image | img_url}}" alt="">
+            </div>
+            <div class="lnw-recommended-products">
+                <h3>{{ section.settings.heading }}</h3>
+                <p class="recommended-desc">{{ section.settings.description }}</p>
+                <div class="products-wrapper">
+                    <div class="product">
+                        <div class="product-collection">section.settings.product1.collections[0].title</div>
+                        <div class="product-image">{{section.settings.product1.featured_image | img_url}}</div>
+                        <div class="product-footer">
+                            <div class="product-name">{{section.settings.product1.title}}</div>
+                            <div class="product-price">{{ section.settings.product1.price | money_with_currency }}</div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-collection">{{section.settings.product2.collections[0].title}}</div>
+                        <div class="product-image">{{section.settings.product2.featured_image | img_url}}</div>
+                        <div class="product-footer">
+                            <div class="product-name">{{section.settings.product2.title}}</div>
+                            <div class="product-price">{{ section.settings.product2.price | money_with_currency }}</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Recommended products",
+    "settings": [
+        {
+            "id": "lnw-recommended products",
+            "type": "text",
+            "label": "Add a recommended products section"
+        },
+        {
+            "id": "main-image",
+            "type": "image_picker",
+            "label": "Select an image"
+        },
+        {
+            "id": "heading",
+            "type": "text",
+            "label": "Enter heading"
+        },
+        {
+            "id": "description",
+            "type": "text",
+            "label": "Enter description"
+        },
+        {
+            "id": "product1",
+            "type": "product",
+            "label": "Select a product"
+        },
+        {
+            "id": "product2",
+            "type": "product",
+            "label": "Select a product"
+        }
+    ],
+    "templates": ["index"],
+    "presets": [
+        {
+            "name": "Recommended Products",
+            "category": "LNW"
+        }
+    ]
+}
+{% endschema %}
+
+{% javascript %}
+  var owl = $('.blog-posts-track').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1600:{
+            items:4
+        }
+    }
+});
+
+$(".card").flip();
+
+  {% endjavascript %}
+
+  {% stylesheet %}
+  .blog-posts-track {
+    padding: 0px 50px;
+}
+.card{
+    min-height:300px;
+}
+  .front {
+    border: 1px solid #F0F0F2;
+    border-radius: 20px;
+    padding: 15px 20px;
+    min-height: 300px;
+}
+.back{
+    min-height: 300px;
+    border: 1px solid #F0F0F2;
+    background-color: #F0EEEC;
+    border-radius: 20px;
+
+}
+
+p.award-desc {
+    padding: 32px;
+    font-weight: 500;
+}
+
+.logo-wrapper img {
+    max-width: 96px;
+    height: auto;
+}
+  {% endstylesheet %}
