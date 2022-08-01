@@ -9,7 +9,7 @@
                 <p class="recommended-desc">{{ section.settings.description }}</p>
                 <div class="products-wrapper">
                     <div class="product">
-                        <div class="product-collection">section.settings.product1.collections[0].title</div>
+                        <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
                         <div class="product-image"><img src="{{section.settings.product1.featured_image | img_url}}" alt=""></div>
                         <div class="product-footer">
                             <div class="product-name">{{section.settings.product1.title}}</div>
