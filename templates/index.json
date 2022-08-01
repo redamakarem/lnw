@@ -199,6 +199,23 @@
         "award-slider": "test"
       }
     },
+    "16593604036b256fa6": {
+      "type": "blog-carousel-lnw",
+      "blocks": {
+        "1cd87566-8dd6-4743-a0be-905248cf210b": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "test-blog\/nulla-aliqua-in-earum-aspernatur-cillum-libero-unde-natus-reprehenderit"
+          }
+        }
+      },
+      "block_order": [
+        "1cd87566-8dd6-4743-a0be-905248cf210b"
+      ],
+      "settings": {
+        "blog-posts-slider": "Educational Hub"
+      }
+    },
     "16426117322608063c": {
       "type": "section-custom-content",
       "blocks": {
@@ -724,6 +741,7 @@
     "image-with-text",
     "16589478971c3227ea",
     "165930724844934d89",
+    "16593604036b256fa6",
     "16426117322608063c",
     "1658851351429a3e54",
     "logos",
