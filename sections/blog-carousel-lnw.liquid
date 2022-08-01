@@ -1,0 +1,118 @@
+<section class="award-slider">
+    <div class="page-width">
+        <h2>{{ section.settings.blog-posts-slider }}</h2>
+        <div class="blog-posts-track owl-carousel">
+
+            {%- for block in section.blocks -%}
+            <div class="item">
+                <div class="card">
+                    <div class="front">
+                        <div class="logo-wrapper">
+                            <img src="{{ block.settings.blog-article.image | img_url }}" alt="Article image" class="logo">
+                        </div>
+                        <div class="heading-wrapper">
+                            <h3>{{ block.settings.blog-article.title }}</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="back">
+                        <p class="award-desc">{{ block.settings.blog-article.excerpt }}</p>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}
+
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Blog Posts Slider",
+    "settings": [
+        {
+            "id": "blog-posts-slider",
+            "type": "text",
+            "label": "Add a blog posts slider"
+        }
+    ],
+    "templates": ["index"],
+    "presets": [
+        {
+            "name": "award Slider",
+            "category": "Sliders"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Blog Post Card",
+            "type": "blog-post-card",
+            "settings": [
+                {
+                    "type": "article",
+                    "id": "blog-article",
+                    "label": "Article"
+                }
+                
+            ]
+        }
+    ]
+}
+{% endschema %}
+
+{% javascript %}
+  var owl = $('.blog-posts-track').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1600:{
+            items:4
+        }
+    }
+});
+
+$(".card").flip();
+
+  {% endjavascript %}
+
+  {% stylesheet %}
+  .award-track {
+    padding: 0px 15px;
+}
+.card{
+    min-height:300px;
+}
+  .front {
+    border: 1px solid #F0F0F2;
+    border-radius: 20px;
+    padding: 15px 20px;
+    min-height: 300px;
+}
+.back{
+    min-height: 300px;
+    border: 1px solid #F0F0F2;
+    background-color: #F0EEEC;
+    border-radius: 20px;
+
+}
+
+p.award-desc {
+    padding: 32px;
+    font-weight: 500;
+}
+
+.logo-wrapper img {
+    max-width: 96px;
+    height: auto;
+}
+  {% endstylesheet %}
