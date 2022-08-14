@@ -21,9 +21,9 @@
             
         </div>
         <div id="slider-container">
-            <ul id="lnw-product-list" class="owl-carousel">
+            <div id="lnw-product-list" class="owl-carousel">
                 {% for product in section.settings.collection-slider.products %}
-                  <li>
+                  <div>
                       <div class="carousel-item">
                         <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
                         <div class="carousel-item-footer">
@@ -31,9 +31,9 @@
                             <div class="product-title">{{product.price}}</div>
                         </div>
                       </div>
-                  </li>
+                  </div>
                   {% endfor %}
-              </ul>
+              </div>
         </div>
     </div>
   </section>
