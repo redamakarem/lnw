@@ -23,6 +23,10 @@
             {%- endfor -%}
 
         </div>
+        <div class="slider-controls">
+            <div class="prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
+            <div class="next-slide"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
+        </div>
     </div>
 </section>
 
@@ -114,5 +118,21 @@ p.award-desc {
 .logo-wrapper img {
     max-width: 96px;
     height: auto;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    flex-shrink: inherit;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-right: 15px;
+}
+
+.slick-arrow {
+    cursor: pointer;
+    padding: 0px 5px;
 }
   {% endstylesheet %}
