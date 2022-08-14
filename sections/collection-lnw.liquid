@@ -150,6 +150,6 @@ $('.prev-slide').click(function() {
 $('.next-slide').click(function() {
     owl.trigger('next.owl.carousel');
 })
-var slideHeight = $('.carousel-item').outerHeight(true);
+var slideHeight = $('.carousel-item').height();
 $('.title-wrapper').height(slideHeight);
   {% endjavascript %}
