@@ -7,7 +7,7 @@
             <div class="item">
                 <div class="card">
                     <div class="front" style="background-image: url('{{ block.settings.blog-article.image | img_url }}'); background-size: cover;">
-                        <div class="article-date">{{ article.published_at | date: "%a, %b %d, %Y" }}</div>
+                        <div class="article-date">{{ block.settings.blog-article.published_at | date: "%a, %b %d, %Y" }}</div>
                         <div class="heading-wrapper">
                             <h3>{{ block.settings.blog-article.title }}</h3>
                         </div>
