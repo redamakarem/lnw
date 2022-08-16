@@ -190,13 +190,23 @@
             "year": "2022",
             "back-text": "Hic et totam sunt et"
           }
+        },
+        "6888fd3b-51f5-412a-82d9-70d595294ad9": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test",
+            "year": "test",
+            "back-text": "test"
+          }
         }
       },
       "block_order": [
-        "f6436b88-d04e-417b-b30d-dbcf45937f6d"
+        "f6436b88-d04e-417b-b30d-dbcf45937f6d",
+        "6888fd3b-51f5-412a-82d9-70d595294ad9"
       ],
       "settings": {
-        "award-slider": "test"
+        "award-slider": "Awards"
       }
     },
     "16593742018d4c775a": {
@@ -320,7 +330,7 @@
             "image": "shopify:\/\/shop_images\/One_Tree_Planted_Partners_-_shop_1.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "",
             "description": "",
             "flex_align": "align--middle-center",
