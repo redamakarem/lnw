@@ -24,6 +24,11 @@ https://flickity.metafizzy.co
 
   }
 
+
+  .btn--outline.btn--white.lnw{
+    border-radius:8px;
+  }
+
   .homepage-slideshow .flickity-page-dots .dot, .homepage-slideshow .slick-dots .dot{
     width: 10px;
     height: 10px;
