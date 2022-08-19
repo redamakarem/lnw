@@ -75,23 +75,6 @@
     "1658851103e97320c6": {
       "type": "section-custom-content",
       "blocks": {
-        "1658851102d9951bd7-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Text block",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "text_color": "text-dark",
-            "bg_color": "#ffffff",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
         "1658851102d9951bd7-0": {
           "type": "image",
           "settings": {
@@ -109,11 +92,28 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "1658851102d9951bd7-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Why Choose Love Not War",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "lnw__btn"
+          }
         }
       },
       "block_order": [
-        "1658851102d9951bd7-1",
-        "1658851102d9951bd7-0"
+        "1658851102d9951bd7-0",
+        "1658851102d9951bd7-1"
       ],
       "settings": {
         "height": "screen-height-one-half",
@@ -125,6 +125,23 @@
     "image-with-text": {
       "type": "section-custom-content",
       "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "PLEASURE YOU DESERVE",
+            "text": "<p>AS THE TEMPERATURE RISES, SO DOES LIBIDO. MAKE IT A SUMMER OF SUSTAINABLE LOVE WITH OUR HIGH-QUALITY RANGE OF ECO SEX TOYS.<\/p><p>All of our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#e7e3de",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections",
+            "button_color": "btn--link",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
         "image": {
           "type": "image",
           "settings": {
@@ -142,28 +159,11 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "PLEASURE YOU DESERVE",
-            "text": "<p>AS THE TEMPERATURE RISES, SO DOES LIBIDO. MAKE IT A SUMMER OF SUSTAINABLE LOVE WITH OUR HIGH-QUALITY RANGE OF ECO SEX TOYS.<\/p><p>All of our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "text_color": "text-dark",
-            "bg_color": "#e7e3de",
-            "button_text": "SHOP NOW",
-            "button_url": "shopify:\/\/collections",
-            "button_color": "btn--link",
-            "button_style": "hero__btn btn btn--large caps"
-          }
         }
       },
       "block_order": [
-        "image",
-        "text"
+        "text",
+        "image"
       ],
       "settings": {
         "height": "screen-height-two-thirds",
