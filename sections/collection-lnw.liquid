@@ -173,15 +173,14 @@ $('.prev-slide').click(function() {
 $('.next-slide').click(function() {
     owl.trigger('next.owl.carousel');
 })
-$(window).resize(function(){
 
+window.addEventListener('resize', function(event) {
     var slideHeight = $('.carousel-item img').height();
     if (window.innerWidth  > 760) {
         $('.title-wrapper').height(slideHeight);
 
-        console.log(window.innerWidth);
      }
-     
+     console.log(window.innerWidth);
 
-})
+}, true);
   {% endjavascript %}
