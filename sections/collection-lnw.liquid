@@ -167,7 +167,15 @@
 });
 var slideHeight = $('.carousel-item img').height();
 if (window.innerWidth  > 760) {
+    if($('.lnw-collection-row').hasClass('row-reverse')==false){
+        $('.lnw-collection-row').addClass('row-reverse')
+    }
     $('.title-wrapper').height(slideHeight);
+ }
+ else{
+    if($('.lnw-collection-row').hasClass('row-reverse')){
+        $('.lnw-collection-row').removeClass('row-reverse')
+    }
  }
 $('.prev-slide').click(function() {
     owl.trigger('prev.owl.carousel');
