@@ -9,7 +9,7 @@
     %}
 
 <section>
-    <div class="{{'section-content ' | append:row_reverse_class}}">
+    <div class="{{'lnw-collection-row ' | append:row_reverse_class}}">
         <div class="title-wrapper">
             <div class="slider-controls">
                 <div class="prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
@@ -78,7 +78,7 @@
     flex:3
   }
 
-  .section-content {
+  .lnw-collection-row {
     margin: 20px;
     display: flex;
     justify-content: start;
@@ -131,6 +131,15 @@
 
     display:none;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .lnw-collection-row{
+        display:flex;
+        flex-direction: column;
+    }
+   
+  }
   {% endstylesheet %}
   
   {% javascript %}
