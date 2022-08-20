@@ -160,7 +160,7 @@
     }
 });
 var slideHeight = $('.carousel-item img').height();
-if ($(window).width() > 760) {
+if (window.innerWidth  > 760) {
     $('.title-wrapper').height(slideHeight);
  }
 $('.prev-slide').click(function() {
@@ -173,7 +173,7 @@ $('.next-slide').click(function() {
 $(window).resize(function(){
 
     var slideHeight = $('.carousel-item img').height();
-    if ($(window).width() > 760) {
+    if (window.innerWidth  > 760) {
         $('.title-wrapper').height(slideHeight);
      }
      
