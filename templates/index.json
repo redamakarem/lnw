@@ -215,7 +215,7 @@
         "lnw-recommended-products": "Recommendedd",
         "main-image": "shopify:\/\/shop_images\/second-row.png",
         "heading": "LNW X HERO Condoms = “Good Kama”",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\"",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature",
         "product1": "adidas-classic-backpack",
         "product2": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth"
       }
@@ -227,6 +227,7 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/image_9.png",
             "logo_width": 130
           }
         },
@@ -234,6 +235,7 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“The best part is, it’s eco-friendly, made from recycled materials that are as good for the planet as they are for you or your partner.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/image_6.png",
             "logo_width": 180
           }
         },
@@ -241,13 +243,15 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/image_7.png",
             "logo_width": 160
           }
         },
         "logos-2": {
           "type": "logo-item",
           "settings": {
-            "description": "<p><em>“All four Love Not War toys are made from recycled aluminium and the G-Spot vibe’s slick design and simple interface opens the door to ecstasy-inducing G-Spot play.”<\/em><\/p>",
+            "description": "<p>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly<\/p><p> one of the best I’ve ever tried….I lost a weekend to this one.”<\/p>",
+            "logo": "shopify:\/\/shop_images\/image_8.png",
             "logo_width": 160
           }
         }
@@ -259,7 +263,7 @@
         "logos-2"
       ],
       "settings": {
-        "title": "IN THE PRESS",
+        "title": "",
         "logo_opacity": 100,
         "text_color": "text-dark",
         "bg_color": "#e7e3de"
