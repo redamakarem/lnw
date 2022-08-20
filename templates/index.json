@@ -27,6 +27,7 @@
           "settings": {
             "bg_position": "center-center",
             "image": "shopify:\/\/shop_images\/banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mask_group.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
