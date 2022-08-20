@@ -149,6 +149,10 @@
         }
     }
 });
+$(document).ready(function(){
+    var slideHeight = $('.carousel-item img').height();
+    $('.title-wrapper').height(slideHeight);
+})
 $('.prev-slide').click(function() {
     owl.trigger('prev.owl.carousel');
 })
