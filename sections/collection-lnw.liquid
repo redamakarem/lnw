@@ -160,7 +160,9 @@
     }
 });
 var slideHeight = $('.carousel-item img').height();
-$('.title-wrapper').height(slideHeight);
+if ($(window).width() > 760) {
+    $('.title-wrapper').height(slideHeight);
+ }
 $('.prev-slide').click(function() {
     owl.trigger('prev.owl.carousel');
 })
@@ -169,7 +171,12 @@ $('.next-slide').click(function() {
     owl.trigger('next.owl.carousel');
 })
 $(window).resize(function(){
+
     var slideHeight = $('.carousel-item img').height();
-$('.title-wrapper').height(slideHeight);
+    if ($(window).width() > 760) {
+        $('.title-wrapper').height(slideHeight);
+     }
+     
+
 })
   {% endjavascript %}
