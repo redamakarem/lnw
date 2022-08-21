@@ -277,7 +277,7 @@
             "icon_name": "icon-lock-card",
             "icon_color": "#545454",
             "title": "Secure transactions",
-            "text": "Transactions are handled with bank-grade security."
+            "text": ""
           }
         },
         "7c5ea4e8-2b3b-4a75-8b56-e8972d0d0ac6": {
@@ -286,7 +286,7 @@
             "icon_name": "icon-lock-window",
             "icon_color": "#545454",
             "title": "Discreet Packaging",
-            "text": "It's our little secret."
+            "text": ""
           }
         },
         "icon-1": {
@@ -295,7 +295,7 @@
             "icon_name": "icon-basket-like",
             "icon_color": "#545454",
             "title": "Simple checkout",
-            "text": "Our secure checkout is quick and easy to use."
+            "text": ""
           }
         },
         "icon-2": {
@@ -304,7 +304,7 @@
             "icon_name": "icon-chat",
             "icon_color": "#545454",
             "title": "Get in touch",
-            "text": "Have questions? Get in touch with us at any time at hello@l-n-w.com."
+            "text": ""
           }
         }
       },
