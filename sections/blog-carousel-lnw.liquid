@@ -68,7 +68,7 @@
 {% endschema %}
 
 {% javascript %}
-  var owl = $('.blog-posts-track').owlCarousel({
+  var awardSlider = $('.blog-posts-track').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -88,10 +88,10 @@
     }
 });
 $('.award-slider .prev-slide').click(function() {
-    slider.trigger('prev.owl.carousel');
+    awardSlider.trigger('prev.owl.carousel');
 });
 $('.award-slider .next-slide').click(function() {
-    slider.trigger('next.owl.carousel');
+    awardSlider.trigger('next.owl.carousel');
 });
 $(".card").flip();
 
