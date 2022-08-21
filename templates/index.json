@@ -275,9 +275,8 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-card",
-            "icon_alt": "shopify:\/\/shop_images\/r1.png",
             "icon_color": "#545454",
-            "title": "",
+            "title": "Secure transactions",
             "text": ""
           }
         },
