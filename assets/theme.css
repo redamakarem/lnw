@@ -54,7 +54,7 @@ https://flickity.metafizzy.co
     order: 2;
 }
 
-  section#brick-section--template--14727323222064__image-with-text div:nth-child(1) .text__standard {
+  section#brick-section--template--14727323222064__image-with-text div:nth-child(1) .text__standard * {
     text-align:center;
 }
   
