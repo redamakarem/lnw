@@ -159,22 +159,32 @@
   {% endstylesheet %}
   
   {% javascript %}
-  var owl = $('.lnw-collection-slider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:2
-        },
-        475:{
-            items:2
-        },
-        1600:{
-            items:4
+
+  $('.lnw-collection-slider').each(function( index ) {
+    $( this ).owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:2
+            },
+            475:{
+                items:2
+            },
+            1600:{
+                items:4
+            }
         }
-    }
-});
+    });
+    $( this ).closest('.shopify-section').find('.prev-slide').click(function() {
+        $( this ).trigger('prev.owl.carousel');
+    })
+    $( this ).closest('.shopify-section').find('.next-slide').click(function() {
+        $( this ).trigger('next.owl.carousel');
+    })
+  });
+  
 var slideHeight = $('.carousel-item img').height();
 if (window.innerWidth  > 760) {
     if($('.lnw-collection-row').hasClass('row-reverse')==false){
@@ -188,13 +198,7 @@ if (window.innerWidth  > 760) {
     }
  }
     
-$('.prev-slide').click(function() {
-    owl.trigger('prev.owl.carousel');
-})
-// Go to the previous item
-$('.next-slide').click(function() {
-    owl.trigger('next.owl.carousel');
-})
+
 
 window.addEventListener('resize', function(event) {
     var slideHeight = $('.carousel-item img').height();
