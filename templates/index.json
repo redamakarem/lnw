@@ -191,15 +191,6 @@
     "165930724844934d89": {
       "type": "testimonials-lnw",
       "blocks": {
-        "f6436b88-d04e-417b-b30d-dbcf45937f6d": {
-          "type": "award-card",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
-            "heading": "Heading",
-            "year": "2022",
-            "back-text": "Hic et totam sunt et"
-          }
-        },
         "6888fd3b-51f5-412a-82d9-70d595294ad9": {
           "type": "award-card",
           "settings": {
@@ -211,7 +202,6 @@
         }
       },
       "block_order": [
-        "f6436b88-d04e-417b-b30d-dbcf45937f6d",
         "6888fd3b-51f5-412a-82d9-70d595294ad9"
       ],
       "settings": {
