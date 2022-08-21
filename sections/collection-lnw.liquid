@@ -171,6 +171,60 @@
   .standard__rte p{
     text-align:center;
   }
+  
+   
   }
   {% endstylesheet %}
   
+  {% javascript %}
+
+  $('.lnw-collection-slider').each(function( index ) {
+    var slider = $( this ).owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:2
+            },
+            475:{
+                items:2
+            },
+            1200:{
+                items:4
+            }
+        }
+    });
+    $( this ).closest('.shopify-section').find('.prev-slide').click(function() {
+        slider.trigger('prev.owl.carousel');
+    })
+    $( this ).closest('.shopify-section').find('.next-slide').click(function() {
+        slider.trigger('next.owl.carousel');
+    })
+  });
+  
+var slideHeight = $('.carousel-item img').first().height();
+if (window.innerWidth  > 760) {
+    if($('.lnw-collection-row').hasClass('row-reverse')==false){
+        $('.lnw-collection-row').addClass('row-reverse')
+    }
+    $('.title-wrapper').height(slideHeight);
+ }
+ else{
+    if($('.lnw-collection-row').hasClass('row-reverse')){
+        $('.lnw-collection-row').removeClass('row-reverse')
+    }
+ }
+    
+
+
+window.addEventListener('resize', function(event) {
+    var slideHeight = $('.carousel-item img').first().height();
+    if (window.innerWidth  > 760) {
+        $('.title-wrapper').height(slideHeight);
+
+     }
+     console.log(window.innerWidth);
+
+}, true);
+  {% endjavascript %}
