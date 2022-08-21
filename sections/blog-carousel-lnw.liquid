@@ -1,4 +1,4 @@
-<section class="award-slider">
+<section class="blog-slider">
     <div class="page-width">
         <h2>{{ section.settings.blog-posts-slider }}</h2>
         <div class="blog-posts-track owl-carousel">
@@ -68,7 +68,7 @@
 {% endschema %}
 
 {% javascript %}
-  var awardSlider = $('.blog-posts-track').owlCarousel({
+  var blogSlider = $('.blog-posts-track').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -87,11 +87,11 @@
         }
     }
 });
-$('.award-slider .prev-slide').click(function() {
-    awardSlider.trigger('prev.owl.carousel');
+$('.blog-slider .prev-slide').click(function() {
+    blogSlider.trigger('prev.owl.carousel');
 });
-$('.award-slider .next-slide').click(function() {
-    awardSlider.trigger('next.owl.carousel');
+$('.blog-slider .next-slide').click(function() {
+    blogSlider.trigger('next.owl.carousel');
 });
 $(".card").flip();
 

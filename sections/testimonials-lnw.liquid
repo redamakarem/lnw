@@ -86,7 +86,7 @@
 
 
 {% javascript %}
-  var owl = $('.award-track').owlCarousel({
+  var awardSlider = $('.award-track').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -105,11 +105,11 @@
         }
     }
 });
-$('.award-slider.prev-slide').click(function() {
-    slider.trigger('prev.owl.carousel');
+$('.award-slider .prev-slide').click(function() {
+    awardSlider.trigger('prev.owl.carousel');
 })
-$('.award-slider.next-slide').click(function() {
-    slider.trigger('next.owl.carousel');
+$('.award-slider .next-slide').click(function() {
+    awardSlider.trigger('next.owl.carousel');
 })
 
 $(".card").flip();
