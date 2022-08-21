@@ -90,11 +90,10 @@ color: #14222D;
    h2{
         font-family: 'Lato';
         font-style: normal;
-        font-weight: 900;
+        font-weight: 900 !important;
         font-size: 28px; 
        text-transform: uppercase;
      text-align:center;
-     font-weight: 900 !importabt;
     }
   .video-background>video {
     width: 100%;
