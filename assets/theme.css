@@ -43,6 +43,12 @@ https://flickity.metafizzy.co
 }
   
 @media screen and (max-width:780px){   
+   .h2{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px; 
+    }
   .video-background>video {
     width: 100%;
   }
