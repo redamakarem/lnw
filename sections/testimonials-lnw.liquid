@@ -107,11 +107,11 @@
 });
 $('.award-prev-slide').click(function() {
     console.log('AWARD PREV')
-    awardSlider.trigger('prev.owl.carousel');
+    awardSlider.trigger('owl.next');
 });
 $('.award-next-slide').click(function() {
     console.log('AWARD PREV');
-    awardSlider.trigger('next.owl.carousel');
+    awardSlider.trigger('owl.prev');
 });
 
 $(".card").flip();
