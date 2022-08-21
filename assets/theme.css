@@ -110,6 +110,8 @@ color: #14222D;
     }
   .mobile-only{
     display:flex !important;
+    justify-content: center;
+    padding: 30px 0px;
   }
   .desktop-only{
     display:none !important
