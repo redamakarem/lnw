@@ -76,30 +76,7 @@
 }
 {% endschema %}
 
-{% javascript %}
-  var owl = $('.blog-posts-track').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        },
-        1600:{
-            items:4
-        }
-    }
-});
 
-$(".card").flip();
-
-  {% endjavascript %}
 
   {% stylesheet %}
     .lnw-recommended-wrapper {
