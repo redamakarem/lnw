@@ -1,6 +1,9 @@
 <section class="blog-slider">
     <div class="page-width">
-        <h2>{{ section.settings.blog-posts-slider }}</h2>
+        <div class="edu-hub-header">
+            <h2>{{ section.settings.blog-posts-slider }}</h2>
+            <a href="{{ section.settings.blog-link }}" class="lnw__btn">Load More</a>
+        </div>
         <div class="blog-posts-track owl-carousel">
 
             {%- for block in section.blocks -%}
