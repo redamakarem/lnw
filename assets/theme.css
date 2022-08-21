@@ -93,6 +93,7 @@ color: #14222D;
         font-weight: 900;
         font-size: 28px; 
        text-transform: uppercase;
+     text-align:center;
     }
   .video-background>video {
     width: 100%;
