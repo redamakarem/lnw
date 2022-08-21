@@ -67,37 +67,7 @@
 }
 {% endschema %}
 
-{% javascript %}
-  var blogSlider = $('.blog-posts-track').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        },
-        1600:{
-            items:4
-        }
-    }
-});
-$('.blog-slider .prev-slide').click(function() {
-    console.log('PREVIOUS');
-    blogSlider.trigger('prev.owl.carousel');
-});
-$('.blog-slider .next-slide').click(function() {
-    console.log('NEXT');
-    blogSlider.trigger('next.owl.carousel');
-});
-$(".card").flip();
 
-  {% endjavascript %}
 
   {% stylesheet %}
   .blog-posts-track {
