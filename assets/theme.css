@@ -68,6 +68,21 @@ h2{
         font-size: 28px; 
     }
 
+
+.newsletter-title{
+left: 3.84%;
+right: 65.01%;
+top: 14.36%;
+bottom: 77.72%;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 32px;
+text-transform: uppercase;
+color: #14222D;
+}
+
   @media screen and (max-width:780px){  
   .screen-height-full {
     height: 29vh;
