@@ -359,7 +359,7 @@
             "button_text": "Learn more",
             "button_url": "",
             "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
+            "button_style": "lnw__btn"
           }
         }
       },
