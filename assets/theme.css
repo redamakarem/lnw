@@ -94,6 +94,7 @@ color: #14222D;
         font-size: 28px; 
        text-transform: uppercase;
      text-align:center;
+     font-weight: 900 !importabt;
     }
   .video-background>video {
     width: 100%;
