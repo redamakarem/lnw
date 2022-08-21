@@ -388,7 +388,8 @@
         "1cd87566-8dd6-4743-a0be-905248cf210b"
       ],
       "settings": {
-        "blog-posts-slider": "Educational Hub"
+        "blog-posts-slider": "Educational Hub",
+        "blog-link": "shopify:\/\/blogs\/test-blog"
       }
     },
     "rich-text": {
