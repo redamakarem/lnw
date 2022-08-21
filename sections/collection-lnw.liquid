@@ -178,7 +178,7 @@
   
   {% javascript %}
 
-  $('.owl-carousel').each(function( index ) {
+  $('.lnw-collection-slider').each(function( index ) {
     var slider = $( this ).owlCarousel({
         loop:true,
         margin:10,
@@ -202,7 +202,7 @@
         slider.trigger('next.owl.carousel');
     })
   });
-  $('.card').flip();
+  
 var slideHeight = $('.carousel-item img').first().height();
 if (window.innerWidth  > 760) {
     if($('.lnw-collection-row').hasClass('row-reverse')==false){
