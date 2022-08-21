@@ -99,7 +99,7 @@
           "type": "text",
           "settings": {
             "subheading": "",
-            "title": "Why Choose Love Not War",
+            "title": "Why Choose Love <br>Not War",
             "text": "<p>We have been nominated for four top industry awards including ‘Progressive Sex Toy Company’, ‘New Pleasure Company of the Year’,  ‘Luxury Pleasure Product: Gra’ and also for a Green Product Award. <\/p>",
             "text_size": 2,
             "text_columns": 1,
@@ -179,6 +179,13 @@
       "settings": {
         "collection-slider": "adidas",
         "controls-position": "right"
+      }
+    },
+    "16610729723d14e3eb": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "converse",
+        "controls-position": "left"
       }
     },
     "165930724844934d89": {
@@ -426,6 +433,7 @@
     "1658851103e97320c6",
     "image-with-text",
     "16589478971c3227ea",
+    "16610729723d14e3eb",
     "165930724844934d89",
     "16593742018d4c775a",
     "logos",

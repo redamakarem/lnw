@@ -46,6 +46,13 @@ https://flickity.metafizzy.co
   .video-background>video {
     width: 100%;
   }
+  section#brick-section--template--14727323222064__1658851103e97320c6 div:nth-child(1) {
+    order: 2;
+}
+
+  section#brick-section--template--14727323222064__image-with-text div:nth-child(1) {
+    order: 2;
+}
   
   a.hero__btn.btn.btn--large.btn--outline.caps.btn--white.aos-init.aos-animate {
     margin-bottom: 10px;
