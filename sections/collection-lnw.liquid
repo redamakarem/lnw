@@ -185,7 +185,7 @@
     })
   });
   
-var slideHeight = $('.carousel-item img').height();
+var slideHeight = $('.carousel-item img').first().height();
 if (window.innerWidth  > 760) {
     if($('.lnw-collection-row').hasClass('row-reverse')==false){
         $('.lnw-collection-row').addClass('row-reverse')
@@ -201,7 +201,7 @@ if (window.innerWidth  > 760) {
 
 
 window.addEventListener('resize', function(event) {
-    var slideHeight = $('.carousel-item img').height();
+    var slideHeight = $('.carousel-item img').first().height();
     if (window.innerWidth  > 760) {
         $('.title-wrapper').height(slideHeight);
 
