@@ -13,6 +13,19 @@ https://flickity.metafizzy.co
   .row-reverse{
     flex-direction: row-reverse !important;
   }
+.desktop-only{
+  display: flex !important;
+}
+
+.mobile-only{
+  display: none !important;
+}
+
+.edu-hub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
   .lnw__btn{
     text-transform: none;
@@ -95,6 +108,12 @@ color: #14222D;
        text-transform: uppercase;
      text-align:center;
     }
+  .mobile-only{
+    display:flex !important;
+  }
+  .desktop-only{
+    display:none !important
+  }
   .video-background>video {
     width: 100%;
   }
