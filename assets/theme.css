@@ -53,6 +53,12 @@ https://flickity.metafizzy.co
   section#brick-section--template--14727323222064__image-with-text div:nth-child(1) {
     order: 2;
 }
+
+  section#brick-section--template--14727323222064__image-with-text div:nth-child(1) .text__standard {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
   
   a.hero__btn.btn.btn--large.btn--outline.caps.btn--white.aos-init.aos-animate {
     margin-bottom: 10px;
