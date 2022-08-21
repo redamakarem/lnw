@@ -24,12 +24,7 @@
             {%- endfor -%}
 
         </div>
-        <div class="controls-container">
-            <div class="blog-slider-controls">
-                <div class="prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
-                <div class="next-slide"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
-            </div>
-        </div>
+        
     </div>
 </section>
 
@@ -41,6 +36,11 @@
             "id": "blog-posts-slider",
             "type": "text",
             "label": "Add a blog posts slider"
+        },
+        {
+            "id": "blog-link",
+            "type": "url",
+            "label": "Blog Link"
         }
     ],
     "templates": ["index"],
@@ -87,14 +87,7 @@
         }
     }
 });
-$('.blog-slider .prev-slide').click(function() {
-    console.log('PREVIOUS');
-    blogSlider.trigger('prev.owl.carousel');
-});
-$('.blog-slider .next-slide').click(function() {
-    console.log('NEXT');
-    blogSlider.trigger('next.owl.carousel');
-});
+
 $(".card").flip();
 
   {% endjavascript %}
