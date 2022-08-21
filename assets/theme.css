@@ -43,11 +43,23 @@ https://flickity.metafizzy.co
 }
   
 @media screen and (max-width:780px){   
+   h2{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px; 
+    }
   .video-background>video {
     width: 100%;
   }
   section#brick-section--template--14727323222064__1658851103e97320c6 div:nth-child(1) {
     order: 2;
+}
+
+  section#brick-section--template--14727323222064__1658851103e97320c6 div:nth-child(1) .text__standard{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 
   section#brick-section--template--14727323222064__image-with-text div:nth-child(1) {
