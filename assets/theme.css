@@ -116,6 +116,11 @@ color: #14222D;
   .desktop-only{
     display:none !important
   }
+
+  .edu-hub-header{
+    justify-content:center !important;
+  }
+  
   .video-background>video {
     width: 100%;
   }
