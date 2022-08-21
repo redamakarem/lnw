@@ -35,6 +35,39 @@ https://flickity.metafizzy.co
     border-radius: 5px;
   }
 
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+    border: none;
+}
+
+button#subscribe {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 0px;
+    background-color: #14222D;
+}
+
+.newsletter-form #email_input_footer {
+    border-bottom: 1px solid #14222D;
+}
+
+span.input-group-btn {
+    display: block;
+    width: 100%;
+    background-color: white !important;
+    border: 0px;
+    margin-top: 15px;
+}
+
+h2{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px; 
+    }
+
   @media screen and (max-width:780px){  
   .screen-height-full {
     height: 29vh;

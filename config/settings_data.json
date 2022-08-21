@@ -138,7 +138,7 @@
           "footer-2": {
             "type": "newsletter",
             "settings": {
-              "richtext": "",
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
               "enable_name": false
             }
           },
