@@ -26,8 +26,8 @@
 
         </div>
         <div class="slider-controls">
-            <div class="prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
-            <div class="next-slide"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
+            <div class=".award-prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
+            <div class=".award-next-slide"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
         </div>
     </div>
 </section>
@@ -105,10 +105,12 @@
         }
     }
 });
-$('.award-slider .prev-slide').click(function() {
+$('.award-prev-slide').click(function() {
+    console.log('AWARD PREV')
     awardSlider.trigger('prev.owl.carousel');
 });
-$('.award-slider .next-slide').click(function() {
+$('.award-next-slide').click(function() {
+    console.log('AWARD PREV')
     awardSlider.trigger('next.owl.carousel');
 });
 
