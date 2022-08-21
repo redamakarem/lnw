@@ -161,7 +161,7 @@
   {% javascript %}
 
   $('.lnw-collection-slider').each(function( index ) {
-    $( this ).owlCarousel({
+    var slider = $( this ).owlCarousel({
         loop:true,
         margin:10,
         nav:true,
@@ -178,10 +178,10 @@
         }
     });
     $( this ).closest('.shopify-section').find('.prev-slide').click(function() {
-        $( this ).trigger('prev.owl.carousel');
+        slider.trigger('prev.owl.carousel');
     })
     $( this ).closest('.shopify-section').find('.next-slide').click(function() {
-        $( this ).trigger('next.owl.carousel');
+        slider.trigger('next.owl.carousel');
     })
   });
   
