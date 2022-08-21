@@ -61,6 +61,13 @@ span.input-group-btn {
     margin-top: 15px;
 }
 
+h2{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px; 
+    }
+
   @media screen and (max-width:780px){  
   .screen-height-full {
     height: 29vh;
