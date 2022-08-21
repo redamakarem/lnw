@@ -87,7 +87,12 @@
         }
     }
 });
-
+$('.award-slider .prev-slide').click(function() {
+    slider.trigger('prev.owl.carousel');
+});
+$('.award-slider .next-slide').click(function() {
+    slider.trigger('next.owl.carousel');
+});
 $(".card").flip();
 
   {% endjavascript %}
