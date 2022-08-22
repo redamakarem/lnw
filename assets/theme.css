@@ -124,6 +124,9 @@ color: #14222D;
   .edu-hub-header{
     justify-content:center !important;
   }
+  section.award-slider {
+    padding: 0px 15px;
+}
   
   .video-background>video {
     width: 100%;
