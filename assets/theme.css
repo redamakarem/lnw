@@ -21,6 +21,10 @@ https://flickity.metafizzy.co
   display: none !important;
 }
 
+section.award-slider {
+    padding: 0px 50px;
+}
+
 .edu-hub-header {
     display: flex;
     justify-content: space-between;
@@ -110,10 +114,20 @@ color: #14222D;
     }
   .mobile-only{
     display:flex !important;
+    justify-content: center;
+    padding: 30px 0px;
   }
   .desktop-only{
     display:none !important
   }
+
+  .edu-hub-header{
+    justify-content:center !important;
+  }
+  section.award-slider {
+    padding: 0px 15px;
+}
+  
   .video-background>video {
     width: 100%;
   }

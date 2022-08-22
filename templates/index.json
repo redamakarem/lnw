@@ -118,7 +118,7 @@
         "1658851102d9951bd7-1"
       ],
       "settings": {
-        "height": "screen-height-one-half",
+        "height": "screen-height-full",
         "padding": false,
         "borders": false,
         "wrapper": false
@@ -168,7 +168,7 @@
         "image"
       ],
       "settings": {
-        "height": "screen-height-two-thirds",
+        "height": "screen-height-full",
         "padding": false,
         "borders": false,
         "wrapper": false
@@ -359,7 +359,7 @@
             "button_text": "Learn more",
             "button_url": "",
             "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
+            "button_style": "lnw__btn"
           }
         }
       },
