@@ -21,6 +21,10 @@ https://flickity.metafizzy.co
   display: none !important;
 }
 
+section.award-slider {
+    padding: 0px 15px;
+}
+
 .edu-hub-header {
     display: flex;
     justify-content: space-between;
