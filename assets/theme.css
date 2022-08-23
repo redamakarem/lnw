@@ -24,6 +24,9 @@ https://flickity.metafizzy.co
 section.award-slider {
     padding: 0px 56px;
 }
+section.recommended-products {
+  padding: 0px 56px;
+}
 
 .edu-hub-header {
     display: flex;
