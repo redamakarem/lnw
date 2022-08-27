@@ -34,6 +34,7 @@
     "type_nav_size": 75,
     "type_nav_caps": true,
     "boxed_enable": true,
+    "boxed_width": 1512,
     "parallax_enable": false,
     "parallax_strength": 15,
     "product_grid_outline": false,
