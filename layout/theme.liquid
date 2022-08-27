@@ -158,12 +158,12 @@
 
   <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  <div class="container" style="{% if settings.boxed_enable %}display:flex;flex-direction:column;align-items:center{% endif %}" data-site-container>
+  <div class="container" data-site-container>
     {% section 'announcement' %}
     {% section 'header' %}
 
     <!-- CONTENT -->
-    <main role="main" id="MainContent" class="main-content" style="{% if settings.boxed_enable %}min-width:1200px;max-width:{{ settings.boxed_width }}px;{% endif %}">
+    <main role="main" id="MainContent" class="main-content">
 
       {{ content_for_layout }}
 
