@@ -158,7 +158,7 @@
 
   <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  <div class="container {% if settings.boxed_enable %}lnw-boxed{% endif %}" data-site-container>
+  <div class="container" style="{% if settings.boxed_enable %}display:flex;flex-direction:column{% endif %}" data-site-container>
     {% section 'announcement' %}
     {% section 'header' %}
 
