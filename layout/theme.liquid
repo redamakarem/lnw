@@ -60,18 +60,7 @@
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
-  {% if settings.boxed_enable %}
-  <style>
-    .lnw-boxed{
-      display: flex;
-      flex-direction: column;
-    }
-    .lnw-boxed #MainContent{
-      min-width: 1200px;
-      max-width: "{% settings.boxed_width %}" ;
-    }
-  </style>
-  {% endif %}
+  
 
   <script>
     if (window.navigator.userAgent.indexOf('MSIE ') > 0 || window.navigator.userAgent.indexOf('Trident/') > 0) {
@@ -174,7 +163,7 @@
     {% section 'header' %}
 
     <!-- CONTENT -->
-    <main role="main" id="MainContent" class="main-content">
+    <main role="main" id="MainContent" class="main-content" style="{% if settings.boxed_enable %}{{ settings.boxed_width }}{% endif %}">
 
       {{ content_for_layout }}
 
