@@ -265,6 +265,24 @@
   {
     "name": "Layout",
     "settings": [
+
+      {
+        "type": "header",
+        "content": "Boxed Layout"
+      },
+      {
+        "type": "checkbox",
+        "id": "boxed_enable",
+        "label": "Enable boxed layout",
+        "default": false
+      },
+      {
+        "type": "number",
+        "id": "boxed_width",
+        "label": "Width of the page",
+        "default": 1440
+      },
+
       {
         "type": "header",
         "content": "Animations"
