@@ -163,7 +163,7 @@
     {% section 'header' %}
 
     <!-- CONTENT -->
-    <main role="main" id="MainContent" class="main-content" style="{% if settings.boxed_enable %}min-width:1200px;max-width:{{ settings.boxed_width }}{% endif %}">
+    <main role="main" id="MainContent" class="main-content" style="{% if settings.boxed_enable %}min-width:1200px;max-width:{{ settings.boxed_width }}px;{% endif %}">
 
       {{ content_for_layout }}
 
