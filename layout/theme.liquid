@@ -161,7 +161,7 @@
     {% section 'header' %}
 
     <!-- CONTENT -->
-    <main role="main" id="MainContent" class="main-content {% if settings.favicon != blank %}lnw-boxed{% endif %}">
+    <main role="main" id="MainContent" class="main-content {% if settings.boxed_enable %}lnw-boxed{% endif %}">
 
       {{ content_for_layout }}
 
