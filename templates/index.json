@@ -368,7 +368,7 @@
         "166068655001e7d1cb-1"
       ],
       "settings": {
-        "height": "screen-height-one-half",
+        "height": "screen-height-full",
         "padding": false,
         "borders": false,
         "wrapper": false
