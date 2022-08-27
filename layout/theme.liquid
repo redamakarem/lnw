@@ -156,12 +156,12 @@
 
   <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  <div class="container" data-site-container>
+  <div class="container {% if settings.boxed_enable %}lnw-boxed{% endif %}" data-site-container>
     {% section 'announcement' %}
     {% section 'header' %}
 
     <!-- CONTENT -->
-    <main role="main" id="MainContent" class="main-content {% if settings.boxed_enable %}lnw-boxed{% endif %}">
+    <main role="main" id="MainContent" class="main-content">
 
       {{ content_for_layout }}
 
