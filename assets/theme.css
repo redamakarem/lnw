@@ -25,7 +25,6 @@ https://flickity.metafizzy.co
     justify-content: space-between;
     width: calc(100% / 2);
     box-sizing: border-box;
-    height: 3000px;
 } 
 
 
@@ -42,7 +41,6 @@ https://flickity.metafizzy.co
     box-sizing: border-box;
     position: fixed;
     left: calc(100% / 2);
-    height: 3000px;
     /* padding-bottom: 15vh; */
 }
 
