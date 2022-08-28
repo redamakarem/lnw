@@ -89,11 +89,18 @@
           "settings": {
             "second-column-text": "Test"
           }
+        },
+        "6db6180b-6387-4ba7-8933-04dc17628448": {
+          "type": "first-column-elements",
+          "settings": {
+            "first-column-text": "Col 1 Text"
+          }
         }
       },
       "block_order": [
         "e26b2502-3e48-477e-808c-58f6d65e743e",
-        "9b7611e9-aeec-4721-8a3d-347a9e38cf43"
+        "9b7611e9-aeec-4721-8a3d-347a9e38cf43",
+        "6db6180b-6387-4ba7-8933-04dc17628448"
       ],
       "settings": {
         "lnw-split-scroll": "Reverse Scroll"
