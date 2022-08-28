@@ -110,6 +110,7 @@ var footerTop = $('#shopify-section-footer').offset().top - $('#shopify-section-
 $(document).ready(function(){
     $(".container-2").css('position','inherit');
     $(".container-2").attr('scroll-amt',0)
+    $(".container-2").css('bottom',$(window).height() *-2);
 })
 $(window).on('scroll',function(){
     console.log(footerTop,$(window).scrollTop())
