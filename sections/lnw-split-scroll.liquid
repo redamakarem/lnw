@@ -20,25 +20,27 @@
              
     
         </div>
-    
-    
+
         <div class="container-2">
-            <div class="image">
-                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
-            </div>
-            <div class="image">
-                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
-            </div> 
-            <div class="image">
-                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
-            </div> 
-            <div class="image">
-                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
-            </div> 
-            <div class="image">
-                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
-            </div> 
+            {% for block in second_col_blocks %}
+            {% if block.settings.second-column-image != blank %}
+                <div class="image">
+                    <img src="{{ block.settings.blog-article.image | img_url }}">
+                </div>
+            {% endif %} 
+            {% if block.settings.second-column-text != blank %}
+                <div class="image">
+                    {{ block.settings.second-column-text }}
+                </div>
+                {% endif %} 
+                
+            {% endfor %}
+             
+    
         </div>
+    
+    
+        
         
     </div>
 </div>
