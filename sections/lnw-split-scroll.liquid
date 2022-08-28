@@ -106,6 +106,7 @@
 var bannerHeight = $('#shopify-section-template--14727323222064__slideshow').height()
 var col2Height = $('.container-2').height()
 var footerTop = $('#shopify-section-footer').offset().top - $('#shopify-section-footer').height();
+var initialHeight = $(window).height() *-2;
 
 $(document).ready(function(){
     $(".container-2").css('position','inherit');
@@ -116,7 +117,7 @@ $(window).on('scroll',function(){
     console.log(footerTop,$(window).scrollTop())
     if($(window).scrollTop()> bannerHeight && $(window).scrollTop()<footerTop ){
         $(".container-2").css('position','fixed')
-        $(".container-2").css('bottom',($(window).scrollTop() - bannerHeight)*-1);
+        $(".container-2").css('bottom',(initialHeight + $(window).scrollTop() + bannerHeight));
         $(".container-2").attr('scroll-amt',($(window).scrollTop() - bannerHeight))
         // $(".container-2").css('bottom', attr('scroll-amt')*-1)
 
