@@ -74,6 +74,12 @@
         "autoplay_speed": 4
       }
     },
+    "1661684896a6c7f51c": {
+      "type": "lnw-split-reverse",
+      "settings": {
+        "lnw-split-scroll": "Split Scroll"
+      }
+    },
     "1658851103e97320c6": {
       "type": "section-custom-content",
       "blocks": {
@@ -421,6 +427,7 @@
   },
   "order": [
     "slideshow",
+    "1661684896a6c7f51c",
     "1658851103e97320c6",
     "image-with-text",
     "16589478971c3227ea",
