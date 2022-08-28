@@ -1,6 +1,47 @@
-<section>
-    Test
-</section>
+{% assign first_col_blocks = section.blocks | where: 'type', 'first-column-elements' %}
+{% assign second_col_blocks = section.blocks | where: 'type', 'second-column-elements' %}
+
+<div id="outer">
+    <div id="scroll-container">
+        <div class="container-1">
+            {% for block in first_col_blocks %}
+            {% if block.settings.first-column-image != blank %}
+                <div class="image">
+                    <img src="{{ block.settings.blog-article.image | img_url }}">
+                </div>
+            {% endif %} 
+            {% if block.settings.first-column-text != blank %}
+                <div class="image">
+                    {{ block.settings.first-column-text }}
+                </div>
+                {% endif %} 
+                
+            {% endfor %}
+             
+    
+        </div>
+    
+    
+        <div class="container-2">
+            <div class="image">
+                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
+            </div>
+            <div class="image">
+                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
+            </div> 
+            <div class="image">
+                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
+            </div> 
+            <div class="image">
+                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
+            </div> 
+            <div class="image">
+                <img src="https://source.unsplash.com/nlk-rURJCXU/581x800">
+            </div> 
+        </div>
+        
+    </div>
+</div>
 
 {% schema %}
 {
