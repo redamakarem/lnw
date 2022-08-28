@@ -95,12 +95,20 @@
           "settings": {
             "first-column-text": "Col 1 Text"
           }
+        },
+        "23d02b6c-f932-4c4f-b41e-9b74a2b7c7fb": {
+          "type": "second-column-elements",
+          "settings": {
+            "second-column-image": "shopify:\/\/shop_images\/first-row.png",
+            "second-column-text": ""
+          }
         }
       },
       "block_order": [
         "e26b2502-3e48-477e-808c-58f6d65e743e",
         "9b7611e9-aeec-4721-8a3d-347a9e38cf43",
-        "6db6180b-6387-4ba7-8933-04dc17628448"
+        "6db6180b-6387-4ba7-8933-04dc17628448",
+        "23d02b6c-f932-4c4f-b41e-9b74a2b7c7fb"
       ],
       "settings": {
         "lnw-split-scroll": "Reverse Scroll"
