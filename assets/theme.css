@@ -69,10 +69,7 @@ https://flickity.metafizzy.co
     transition: .3s ease;
 
 }
-img:hover{
-    transform: scale(1.1, 1.1);
-    
-}
+
 /* Reverse scroll css end */
 
   .row-reverse{
