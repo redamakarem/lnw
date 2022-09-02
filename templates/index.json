@@ -100,8 +100,7 @@
         "23d02b6c-f932-4c4f-b41e-9b74a2b7c7fb": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/first-row.png",
-            "second-column-text": ""
+            "second-column-text": "Col 2 text"
           }
         }
       },
