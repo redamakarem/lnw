@@ -253,6 +253,10 @@ color: #14222D;
     padding: 5px !important;
 }
 
+  ..col-container{
+    grid-template-columns: 100%;
+  }
+
   .standard__rte p{
     text-align:center;
   }
