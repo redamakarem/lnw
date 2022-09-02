@@ -211,6 +211,38 @@ color: #14222D;
   a.hero__btn.btn.btn--large.btn--outline.caps.btn--white.aos-init.aos-animate {
     margin-bottom: 10px;
   }
+
+  .lnw-collection-row{
+        display:flex;
+        flex-direction: column;
+        padding: 0px 15px;
+        width:100%;
+        margin:0px !important;
+    }
+
+    .slider-controls{
+        justify-content:space-around;
+        width:72px;
+        padding:0px;
+
+    }
+    .lnw-recommended-wrapper{
+        flex-direction: column;
+    }
+    .title-wrapper{
+        flex-direction: row-reverse;
+        width:100%;
+        font-size:28px;
+    }
+    .collection-title {
+        font-size: 28px;
+        font-weight: 900;
+        padding:15px;
+    }
+
+  .standard__rte p{
+    text-align:center;
+  }
 }
 
 @media screen and (min-width:781px){   
