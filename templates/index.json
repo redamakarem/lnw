@@ -74,6 +74,23 @@
         "autoplay_speed": 4
       }
     },
+    "1662137516bf5e9250": {
+      "type": "lnw-split-scroll",
+      "blocks": {
+        "bcfe1060-4350-44d2-bfea-df9462518619": {
+          "type": "first-column-elements",
+          "settings": {
+            "first-column-text": "Col 1 text 1"
+          }
+        }
+      },
+      "block_order": [
+        "bcfe1060-4350-44d2-bfea-df9462518619"
+      ],
+      "settings": {
+        "lnw-split-scroll": ""
+      }
+    },
     "1658851103e97320c6": {
       "type": "section-custom-content",
       "blocks": {
@@ -421,6 +438,7 @@
   },
   "order": [
     "slideshow",
+    "1662137516bf5e9250",
     "1658851103e97320c6",
     "image-with-text",
     "16589478971c3227ea",
