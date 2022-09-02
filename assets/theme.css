@@ -253,7 +253,7 @@ color: #14222D;
     padding: 5px !important;
 }
 
-  ..col-container{
+  .col-container{
     grid-template-columns: 100%;
   }
 
