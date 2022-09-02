@@ -19,6 +19,10 @@ body{
   height: 100vh;
 }
 
+.lnw-wrapper{
+      padding: 0 56px;
+}
+
 .col-container {
   display: grid;
   grid-template-columns: 50% 50%;
