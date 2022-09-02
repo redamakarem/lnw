@@ -76,6 +76,17 @@
     },
     "1662137241e327e10d": {
       "type": "lnw-split-scroll",
+      "blocks": {
+        "b7059bbc-0cc9-4df2-803c-96ae1e24447c": {
+          "type": "first-column-elements",
+          "settings": {
+            "first-column-text": "Col 1 text 1"
+          }
+        }
+      },
+      "block_order": [
+        "b7059bbc-0cc9-4df2-803c-96ae1e24447c"
+      ],
       "settings": {
         "lnw-split-scroll": "Spli Scroll"
       }
