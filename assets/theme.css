@@ -234,7 +234,7 @@ color: #14222D;
         flex-direction: column;
     }
     .title-wrapper{
-        flex-direction: row-reverse;
+        flex-direction: row-reverse !important;
         width:100%;
         font-size:28px;
     }
