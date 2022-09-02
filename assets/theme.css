@@ -256,6 +256,10 @@ color: #14222D;
   .col-container{
     grid-template-columns: 100%;
   }
+  .col-container .image{
+    width:100%;
+    height: 360px;
+  }
 
   .standard__rte p{
     text-align:center;
