@@ -93,20 +93,20 @@
         "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-text": ""
+            "first-column-text": "col 1 text 1"
           }
         },
         "e818b3fa-5130-408f-aaac-c4c3b2507bc4": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-text": "Col 2 text 1"
+            "second-column-image": "shopify:\/\/shop_images\/One_Tree_Planted_Partners_-_shop_1.png",
+            "second-column-text": ""
           }
         },
         "f152003e-92a2-4e88-acd4-695a92eaaff4": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-image": "shopify:\/\/shop_images\/first-row.png",
-            "first-column-text": ""
+            "first-column-text": "col1 text 2"
           }
         }
       },
