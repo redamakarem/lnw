@@ -82,10 +82,18 @@
           "settings": {
             "first-column-text": "Col 1 text 1"
           }
+        },
+        "7c4a6c7d-d444-4b8f-88c3-061b4eeb4e6a": {
+          "type": "second-column-elements",
+          "settings": {
+            "second-column-image": "shopify:\/\/shop_images\/second-row.png",
+            "second-column-text": ""
+          }
         }
       },
       "block_order": [
-        "b7059bbc-0cc9-4df2-803c-96ae1e24447c"
+        "b7059bbc-0cc9-4df2-803c-96ae1e24447c",
+        "7c4a6c7d-d444-4b8f-88c3-061b4eeb4e6a"
       ],
       "settings": {
         "lnw-split-scroll": "Spli Scroll"
