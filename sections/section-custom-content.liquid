@@ -35,6 +35,11 @@
     assign wrapper_class = 'wrapper--brick'
   endif
 
+  assign lnw_wrapper_class = ''
+  if section.settings.wrapper
+    assign lnw-wrapper_class = 'lnw-wrapper'
+  endif
+
   assign transparent_header = false
   assign non_image_block_types = 'text, newsletter, reviews, product, collection' | split: ','
   unless non_image_block_types contains section.blocks[0].type and non_image_block_types contains section.blocks[1].type
@@ -50,7 +55,7 @@
   {% if transparent_header %}data-overlay-header{% endif %}
   style="--padding-ratio: {{ padding_ratio | default: '100%' }}"
   id="brick-section--{{ section.id }}"
-  class="brick__section brick--{{ section.blocks.size }} {{ margin_class }} {{ border_class }} {{ wrapper_class }} {{ section.settings.height }} {{ swaparoo_class }}">
+  class="brick__section brick--{{ section.blocks.size }} {{ margin_class }} {{ border_class }} {{ wrapper_class }} {{ lnw_wrapper_class }} {{ section.settings.height }} {{ swaparoo_class }}">
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'image' %}
@@ -328,6 +333,12 @@
       "type": "checkbox",
       "id": "wrapper",
       "label": "Contain width",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "lnw-wrapper",
+      "label": "LNW width",
       "default": false
     }
   ],
