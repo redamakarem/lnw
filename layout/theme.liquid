@@ -252,8 +252,8 @@
             console.log('initialMarginTop ===== '+initialMarginTop)
             
             
-            $('.col-2').css('margin-top',initialMarginTop + 'px')
-
+            //$('.col-2').css('margin-top',initialMarginTop + 'px')
+            $(":root").css('--initial-margin',initialMarginTop+'px')
 
         });
         $(window).scroll(function(){
@@ -261,7 +261,7 @@
             if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
                 scrollVal = $(window).scrollTop() - bannerHeight;
                 $(":root").css('--scroll-val',scrollVal+'px')
-              $(":root").css('--initial-margin',scrollVal+'px')
+              
             }
             else if($(window).scrollTop()<bannerHeight){
                 scrollVal = 0;
