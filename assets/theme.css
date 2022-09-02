@@ -12,62 +12,44 @@ https://flickity.metafizzy.co
 
 
 /* Reverse scroll css */
-#scroll-container{
-    display: flex;
+:root{
+  --scroll-val:0;
 }
-
-/* PREMIER BLOC */
-
-.container-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: calc(100% / 2);
-    box-sizing: border-box;
-} 
-
-
-
-   
-/* DEUXIEME BLOC */ 
-
-.container-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: calc(100% / 2);
-    box-sizing: border-box;
-    position: fixed;
-    left: calc(100% / 2);
-    /* padding-bottom: 15vh; */
+body{
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
 }
-
-/* TROISIEME BLOC */
-
-
-
-
-/* IMAGES */
-
-
-.image{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.banner{
+  height: 100vh;
 }
-.image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;   
-    transition: .3s ease;
-
+.col-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.col-2{
+  transform:translate3d(0,calc(var(--scroll-val)*2),0);
+}
+.col-box{
+  height: 100vh;
+  width: 100%;
+}
+.image img {
+  object-fit: cover;
+  height: 100%;
+}
+.image {
+  width: 100%;
+}
+footer{
+  background-color: #000;
+  height: 100vh;
 }
 
 /* Reverse scroll css end */
