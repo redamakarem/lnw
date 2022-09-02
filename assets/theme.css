@@ -30,6 +30,7 @@ body{
   flex-direction: column;
 }
 .col-2{
+  margin-top: var(--initial-margin);
   transform:translate3d(0,calc(var(--scroll-val)*2),0);
 }
 .col-box{
