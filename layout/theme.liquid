@@ -243,8 +243,9 @@
         var footerTop =0
         $(document).ready(function(){
              footerTop = $('footer').offset().top - $('footer').height();
+          menuHeight = $(":root").css('--menu-height')
             //bannerHeight = $('#shopify-section-template--14727323222064__slideshow').height();
-            bannerHeight = $('.col-1').offset().top;
+            bannerHeight = $('.col-1').offset().top + menuHeight;
             colHeight = $('.col-2').height();
           perCol = $('.col-2 .col-box').length
           myOffset = perCol -1;
