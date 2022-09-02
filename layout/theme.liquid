@@ -252,6 +252,7 @@
 
         });
         $(window).scroll(function(){
+          $(window).scrollTop()
             if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
                 scrollVal = $(window).scrollTop() - bannerHeight;
                 $(":root").css('--scroll-val',scrollVal+'px')
