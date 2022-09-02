@@ -19,6 +19,10 @@ body{
   height: 100vh;
 }
 
+.lnw-wrapper{
+      padding: 0 56px;
+}
+
 .col-container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -178,6 +182,10 @@ color: #14222D;
   .edu-hub-header{
     justify-content:center !important;
   }
+
+  .lnw-wrapper{
+      padding: 0 15px;
+}
   section.award-slider {
     padding: 0px 15px;
 }
