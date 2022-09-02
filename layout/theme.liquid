@@ -244,7 +244,8 @@
         var deviceWidth;
         $(document).ready(function(){
           deviceWidth = window.innerWidth;
-             footerTop = $('footer').offset().top - $('footer').height();
+          if(deviceWidth > 780){
+            footerTop = $('footer').offset().top - $('footer').height();
               menuHeight = parseInt($(":root").css('--menu-height'), 10);
             //bannerHeight = $('#shopify-section-template--14727323222064__slideshow').height();
             bannerHeight = $('.col-1').offset().top - menuHeight;
@@ -256,10 +257,11 @@
             initialMarginTop = $('.col-2 .col-box').first().height() * ($('.col-2 .col-box').length-1) *-1
             console.log('menuHeight ===== '+menuHeight)            
             $(":root").css('--initial-margin',initialMarginTop+'px')
+          }
 
         });
         $(window).scroll(function(){
-          if(deviceWidth){
+          if(deviceWidth > 780){
             if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
                 scrollVal = $(window).scrollTop() - bannerHeight;
                 $(":root").css('--scroll-val',scrollVal+'px')
