@@ -36,7 +36,7 @@
   endif
 
   assign lnw_wrapper_class = ''
-  if section.settings.wrapper
+  if section.settings.lnw-wrapper
     assign lnw-wrapper_class = 'lnw-wrapper'
   endif
 
@@ -55,7 +55,7 @@
   {% if transparent_header %}data-overlay-header{% endif %}
   style="--padding-ratio: {{ padding_ratio | default: '100%' }}"
   id="brick-section--{{ section.id }}"
-  class="brick__section brick--{{ section.blocks.size }} {{ margin_class }} {{ border_class }} {{ wrapper_class }} {{ lnw_wrapper_class }} {{ section.settings.height }} {{ swaparoo_class }}">
+  class="brick__section brick--{{ section.blocks.size }} {{ margin_class }} {{ border_class }} {{ wrapper_class }} {{ lnw-wrapper_class }} {{ section.settings.height }} {{ swaparoo_class }}">
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'image' %}
