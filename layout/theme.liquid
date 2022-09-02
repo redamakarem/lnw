@@ -246,6 +246,7 @@
           deviceWidth = window.innerWidth;
           if(deviceWidth > 780){
             footerTop = $('.lnw-collection-row').first().offset().top;
+            console.log('footerTop ==== '+ footerTop)
               menuHeight = parseInt($(":root").css('--menu-height'), 10);
             
             bannerHeight = $('.col-1').offset().top - menuHeight;
@@ -262,6 +263,7 @@
         });
         $(window).scroll(function(){
           if(deviceWidth > 780){
+            console.log($(window).scrollTop())
             if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
                 scrollVal = $(window).scrollTop() - bannerHeight;
                 $(":root").css('--scroll-val',scrollVal+'px')
