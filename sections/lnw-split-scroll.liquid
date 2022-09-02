@@ -1,17 +1,17 @@
 {% assign first_col_blocks = section.blocks | where: 'type', 'first-column-elements' %}
 {% assign second_col_blocks = section.blocks | where: 'type', 'second-column-elements' %}
 
-<div id="outer">
-    <div id="scroll-container">
-        <div class="container-1">
+
+<div class="col-container" id="col-container">
+        <div class="col col-1">
             {% for block in first_col_blocks %}
             {% if block.settings.first-column-image != blank %}
-                <div class="image">
-                    <img src="{{ block.settings.first-column-image | img_url }}">
+            <div class="image col-box" style="background-image:url('{{ block.settings.first-column-image | img_url }}'); background-size: cover;">
+                    
                 </div>
             {% endif %} 
             {% if block.settings.first-column-text != blank %}
-                <div class="image">
+            <div class="text col-box">
                     {{ block.settings.first-column-text }}
                 </div>
                 {% endif %} 
@@ -24,27 +24,18 @@
         <div class="container-2">
             {% for block in second_col_blocks %}
             {% if block.settings.second-column-image != blank %}
-                <div class="image">
-                    <img src="{{ block.settings.second-column-image | img_url }}">
+            <div class="image col-box" style="background-image:url('{{ block.settings.first-column-image | img_url }}'); background-size: cover;">
+                    
                 </div>
             {% endif %} 
             {% if block.settings.second-column-text != blank %}
-                <div class="image">
+            <div class="text col-box">
                     {{ block.settings.second-column-text }}
                 </div>
                 {% endif %} 
-                
             {% endfor %}
-             
-    
         </div>
-    
-    
-        
-        
     </div>
-</div>
-
 {% schema %}
 {
     
@@ -102,28 +93,81 @@
 }
 {% endschema %}
 
+{% stylesheet %}
+:root{
+    --scroll-val:0;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+.banner{
+    height: 100vh;
+}
+.col-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-2{
+    transform:translate3d(0,calc(var(--scroll-val)*2),0);
+  }
+  .col-box{
+    height: 100vh;
+    width: 100%;
+  }
+  .image img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+  footer{
+    background-color: #000;
+    height: 100vh;
+  }
+{% endstylesheet %}
+
 {% javascript %}
-var bannerHeight = $('#shopify-section-template--14727323222064__slideshow').height()
-var col2Height = $('.container-2').height()
-var footerTop = $('#shopify-section-footer').offset().top - $('#shopify-section-footer').height();
-var initialHeight = $(window).height() *-2;
-
+var bannerHeight = 0;
+var scrollVal = 0
+var footerTop = 0
+var perCol = 0
+var myOffset = 0
+var colHeight = 0;
+var initialMarginTop = 0
+var currentMarginTop = 0;
+var footerTop =0
 $(document).ready(function(){
-    $(".container-2").css('position','inherit');
-    $(".container-2").attr('scroll-amt',0)
-    $(".container-2").css('bottom',$(window).height() *-2);
-})
-$(window).on('scroll',function(){
-    console.log(footerTop,$(window).scrollTop())
-    if($(window).scrollTop()> bannerHeight && $(window).scrollTop()<footerTop ){
-        $(".container-2").css('position','fixed')
-        $(".container-2").css('bottom',(initialHeight + $(window).scrollTop() + bannerHeight));
-        $(".container-2").attr('scroll-amt',($(window).scrollTop() - bannerHeight))
-        // $(".container-2").css('bottom', attr('scroll-amt')*-1)
+     footerTop = $('footer').offset().top - $('footer').height();
+    bannerHeight = $('.banner').height();
+    colHeight = $('.col-2').height();
+    initialMarginTop = ($('.col-2').height() - $('.col-2 .col-box').first().height())*-1 ;
+    perCol = $('.col-2').children.length;
+    myOffset = perCol -1;
+    $('.col-2').css('margin-top',initialMarginTop + 'px')
 
+
+});
+$(window).scroll(function(){
+    if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
+        scrollVal = $(window).scrollTop() - bannerHeight;
+        $(":root").css('--scroll-val',scrollVal+'px')
     }
-     else{
-        $(".container-2").css('position','inherit');
-     }
+    else if($(window).scrollTop()<bannerHeight){
+        scrollVal = 0;
+        $(":root").css('--scroll-val',scrollVal+'px');
+    }
+    else if($(window).scrollTop()>footerTop){
+        scrollVal = initialMarginTop;
+        $(":root").css('--scroll-val',scrollVal+'px');
+    }
 });
 {% endjavascript %}
