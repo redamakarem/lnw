@@ -215,10 +215,14 @@ color: #14222D;
   .lnw-collection-row{
         display:flex;
         flex-direction: column;
-        padding: 0px 15px;
         width:100%;
         margin:0px !important;
     }
+
+  .lnw-collection-slider {
+    width: 100vw;
+    padding: 0px 15px;
+}
 
     .slider-controls{
         justify-content:space-around;
