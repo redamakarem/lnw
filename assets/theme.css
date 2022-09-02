@@ -239,7 +239,7 @@ color: #14222D;
         font-size:28px;
     }
     .collection-title {
-        font-size: 28px;
+        font-size: 28px !important;
         font-weight: 900;
         padding:15px;
     }
