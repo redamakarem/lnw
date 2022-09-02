@@ -36,6 +36,13 @@ body{
   height: 100vh;
   width: 100%;
 }
+.text.col-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 52px;
+    justify-content: center;
+}
 .image img {
   object-fit: cover;
   height: 100%;
