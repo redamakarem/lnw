@@ -245,7 +245,7 @@
         $(document).ready(function(){
           deviceWidth = window.innerWidth;
           if(deviceWidth > 780){
-            footerTop = $('.lnw-collection-row').first().offset().top;
+            footerTop = $('.lnw-collection-row').first().offset().top - $('.lnw-collection-row').height();
             console.log('footerTop ==== '+ footerTop)
               menuHeight = parseInt($(":root").css('--menu-height'), 10);
             
