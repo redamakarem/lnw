@@ -246,6 +246,7 @@
           deviceWidth = window.innerWidth;
           if(deviceWidth > 780){
             footerTop = $('.lnw-collection-row').first().offset().top - $('.lnw-collection-row').height();
+            footerTop = $('.col-2 .col-box').first().height() * $('.col-2 .col-box').length;
             console.log('footerTop ==== '+ footerTop)
               menuHeight = parseInt($(":root").css('--menu-height'), 10);
             
