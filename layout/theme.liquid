@@ -213,13 +213,14 @@
   {%- comment -%}
     In order to use your custom javascript file at assets/custom.js
     just cut this next line and paste it outside this comment:
+    <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     {%- endcomment -%}
     
   
   <!-- Paste marketing code or third party scripts below this comment line ============== -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+  
  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script
@@ -228,6 +229,44 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <script>
+      var bannerHeight = 0;
+        var scrollVal = 0
+        var footerTop = 0
+        var perCol = 0
+        var myOffset = 0
+        var colHeight = 0;
+        var initialMarginTop = 0
+        var currentMarginTop = 0;
+        var footerTop =0
+        $(document).ready(function(){
+             footerTop = $('footer').offset().top - $('footer').height();
+            bannerHeight = $('.banner').height();
+            colHeight = $('.col-2').height();
+            initialMarginTop = ($('.col-2').height() - $('.col-2 .col-box').first().height())*-1 ;
+            perCol = $('.col-2').children.length;
+            myOffset = perCol -1;
+            $('.col-2').css('margin-top',initialMarginTop + 'px')
+
+
+        });
+        $(window).scroll(function(){
+            if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
+                scrollVal = $(window).scrollTop() - bannerHeight;
+                $(":root").css('--scroll-val',scrollVal+'px')
+            }
+            else if($(window).scrollTop()<bannerHeight){
+                scrollVal = 0;
+                $(":root").css('--scroll-val',scrollVal+'px');
+            }
+            else if($(window).scrollTop()>footerTop){
+                scrollVal = initialMarginTop;
+                $(":root").css('--scroll-val',scrollVal+'px');
+            }
+        });
+
+    </script>
    
 
   <!-- And above this comment line ================================================== -->
