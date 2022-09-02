@@ -244,6 +244,10 @@ color: #14222D;
         padding:15px;
     }
 
+  section.recommended-products {
+    padding: 0 15px;
+}
+
   .standard__rte p{
     text-align:center;
   }
