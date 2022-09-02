@@ -93,7 +93,8 @@
         "6db6180b-6387-4ba7-8933-04dc17628448": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-text": "Col 1 Text"
+            "first-column-image": "shopify:\/\/shop_images\/first-row.png",
+            "first-column-text": ""
           }
         },
         "23d02b6c-f932-4c4f-b41e-9b74a2b7c7fb": {
