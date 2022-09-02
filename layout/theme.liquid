@@ -245,7 +245,7 @@
             //bannerHeight = $('#shopify-section-template--14727323222064__slideshow').height();
             bannerHeight = $('.col-1').offset().top;
             colHeight = $('.col-2').height();
-          perCol = $('.col-2').children.length;
+          perCol = $('.col-2 .col-box').length
           myOffset = perCol -1;
           
             initialMarginTop = (myOffset * $('.col-2 .col-box').first().height()) *-1 ;
