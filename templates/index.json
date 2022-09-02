@@ -131,6 +131,7 @@
     },
     "1658851103e97320c6": {
       "type": "section-custom-content",
+      "disabled": true,
       "blocks": {
         "1658851102d9951bd7-0": {
           "type": "image",
@@ -181,6 +182,7 @@
     },
     "image-with-text": {
       "type": "section-custom-content",
+      "disabled": true,
       "blocks": {
         "text": {
           "type": "text",
@@ -408,7 +410,7 @@
             "text": "<p><em>\"We have partnered with One Tree Planted, a non-profit organization on a mission to help the earth by planting trees. For every Love Not War purchase on our website, we will plant a tree.\"<\/em><\/p>",
             "text_size": 4,
             "text_columns": 1,
-            "align_text": "text-left",
+            "align_text": "text-center",
             "text_color": "text-dark",
             "bg_color": "#ffffff",
             "button_text": "Learn more",
