@@ -94,47 +94,7 @@
 }
 {% endschema %}
 
-{% stylesheet %}
-:root{
-    --scroll-val:0;
-}
-body{
-    padding: 0px;
-    margin: 0px;
-    height: 100vh;
-}
-.banner{
-    height: 100vh;
-}
-.col-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .col {
-    display: flex;
-    flex-direction: column;
-  }
-  .col-2{
-    transform:translate3d(0,calc(var(--scroll-val)*2),0);
-  }
-  .col-box{
-    height: 100vh;
-    width: 100%;
-  }
-  .image img {
-    object-fit: cover;
-    height: 100%;
-  }
-  .image {
-    width: 100%;
-  }
-  footer{
-    background-color: #000;
-    height: 100vh;
-  }
-{% endstylesheet %}
+
 
 {% javascript %}
 var bannerHeight = 0;
