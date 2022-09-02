@@ -48,6 +48,9 @@ body{
     padding: 52px;
     justify-content: center;
 }
+.text.col-box h2{
+  text-transform: uppercase;
+}
 .image img {
   object-fit: cover;
   height: 100%;
