@@ -248,6 +248,11 @@ color: #14222D;
     padding: 0 15px;
 }
 
+.product {
+    flex: 1;
+    padding: 5px;
+}
+
   .standard__rte p{
     text-align:center;
   }
