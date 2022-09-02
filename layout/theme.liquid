@@ -245,7 +245,7 @@
         $(document).ready(function(){
           deviceWidth = window.innerWidth;
           if(deviceWidth > 780){
-            footerTop = $('footer').offset().top - $('footer').height();
+            footerTop = $('.lnw-collection-row').first().offset().top;
               menuHeight = parseInt($(":root").css('--menu-height'), 10);
             //bannerHeight = $('#shopify-section-template--14727323222064__slideshow').height();
             bannerHeight = $('.col-1').offset().top - menuHeight;
