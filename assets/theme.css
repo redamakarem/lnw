@@ -203,6 +203,9 @@ color: #14222D;
   .lnw-wrapper{
       padding: 0 15px;
 }
+  .lnw__btn{
+    margin-top:20px;
+  }
   section.award-slider {
     padding: 0px 15px;
 }
