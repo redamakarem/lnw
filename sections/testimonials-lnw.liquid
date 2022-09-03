@@ -85,39 +85,6 @@
 {% endschema %}
 
 
-{% javascript %}
-  var awardSlider = $('.award-track').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        },
-        1600:{
-            items:4
-        }
-    }
-});
-$('.award-track .prev-slide').click(function() {
-    console.log('AWARD PREV')
-    awardSlider.trigger('prev.owl.carousel');
-});
-$('.award-track .next-slide').click(function() {
-    console.log('AWARD PREV');
-    awardSlider.trigger('next.owl.carousel');
-});
-
-$(".card").flip();
-
-  {% endjavascript %}
-
   {% stylesheet %}
   .award-slider .slider-controls{
     margin: 15px 15px;
