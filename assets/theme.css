@@ -183,6 +183,10 @@ color: #14222D;
     height: auto !important;
   }
 
+  .text.col-box{
+    padding:15px
+  }
+
   .text.col-box h2{
   text-transform: uppercase;
   font-size:28px;
