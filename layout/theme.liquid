@@ -265,7 +265,7 @@
         $(window).scroll(function(){
           if(deviceWidth > 780){
             console.log($(window).scrollTop())
-            if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
+            if($(window).scrollTop()>bannerHeight && scrollVal< (initialMarginTop *-1)){
                 scrollVal = $(window).scrollTop() - bannerHeight;
                 $(":root").css('--scroll-val',scrollVal+'px')
               
