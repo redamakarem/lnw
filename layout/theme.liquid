@@ -295,7 +295,6 @@ $(".card").flip();
         });
         $(window).scroll(function(){
           if(deviceWidth > 780){
-            console.log($(window).scrollTop())
             if($(window).scrollTop()>bannerHeight && $(window).scrollTop()<footerTop){
                 scrollVal = $(window).scrollTop() - bannerHeight;
                 if(scrollVal>(initialMarginTop * -1)){
