@@ -267,11 +267,21 @@
             "year": "2020",
             "back-text": "test test test"
           }
+        },
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test 3",
+            "year": "2021",
+            "back-text": "test test test"
+          }
         }
       },
       "block_order": [
         "6888fd3b-51f5-412a-82d9-70d595294ad9",
-        "5b1e249b-524b-4f89-b212-622849fb7762"
+        "5b1e249b-524b-4f89-b212-622849fb7762",
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e"
       ],
       "settings": {
         "award-slider": "Awards"
