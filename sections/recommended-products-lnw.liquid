@@ -7,6 +7,7 @@
             <div class="lnw-recommended-products">
                 <h3>{{ section.settings.heading }}</h3>
                 <p class="recommended-desc">{{ section.settings.description }}</p>
+                <a href='{{ section.settings.recommended-link }}'>Load More</a>
                 <div class="products-wrapper">
                     <div class="product">
                         <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
@@ -64,6 +65,11 @@
             "id": "product2",
             "type": "product",
             "label": "Select a product"
+        },
+      {
+            "id": "recommended-link",
+            "type": "url",
+            "label": "Link to recommendation"
         }
     ],
     "templates": ["index"],
