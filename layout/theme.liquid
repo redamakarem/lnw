@@ -262,11 +262,14 @@
             
           }
 
+          var awardPrev = '<img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon">';
+          var awardNext = '<img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon">';
           
            var awardSlider = $('.award-track').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    navText:[awardPrev,awardNext],
     responsive:{
         0:{
             items:1
