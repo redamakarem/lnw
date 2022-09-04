@@ -315,7 +315,8 @@
         "heading": "LNW X HERO Condoms = “Good Kama”",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature",
         "product1": "good-karma",
-        "product2": "karma-head"
+        "product2": "karma-head",
+        "recommended-link": ""
       }
     },
     "logos": {
@@ -374,8 +375,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-card",
+            "icon_alt": "shopify:\/\/shop_images\/i1.png",
             "icon_color": "#545454",
-            "title": "Secure transactions",
+            "title": "Our products are made with FDA grade silicone",
             "text": ""
           }
         },
@@ -383,8 +385,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-window",
+            "icon_alt": "shopify:\/\/shop_images\/i2.png",
             "icon_color": "#545454",
-            "title": "Discreet Packaging",
+            "title": "checkout is quick and easy to use",
             "text": ""
           }
         },
@@ -392,8 +395,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-basket-like",
+            "icon_alt": "shopify:\/\/shop_images\/i3.png",
             "icon_color": "#545454",
-            "title": "Simple checkout",
+            "title": "Your secret is safe with us",
             "text": ""
           }
         },
@@ -401,8 +405,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-chat",
+            "icon_alt": "shopify:\/\/shop_images\/i4.png",
             "icon_color": "#545454",
-            "title": "Get in touch",
+            "title": "Get in touch with us  at hello@l-n-w.com",
             "text": ""
           }
         }
