@@ -59,6 +59,11 @@ body{
 .image {
   width: 100%;
 }
+
+h2.icon__column__text__heading.h5 {
+    font-size: 12px;
+}
+
 footer{
   background-color: #000;
   height: 100vh;
