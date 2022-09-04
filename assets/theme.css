@@ -233,7 +233,7 @@ color: #14222D;
     align-items:center;
 }
   .lnw-recommended-products{
-    padding: 20px !important;
+    padding: 0px !important;
   }
   
   a.hero__btn.btn.btn--large.btn--outline.caps.btn--white.aos-init.aos-animate {
