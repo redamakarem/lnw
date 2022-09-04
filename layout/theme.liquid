@@ -247,17 +247,17 @@
           if(deviceWidth > 780){
             footerTop = $('.lnw-collection-row').first().offset().top - $('.lnw-collection-row').first().height();
             
-            console.log('footerTop ==== '+ footerTop)
+            
               menuHeight = parseInt($(":root").css('--menu-height'), 10);
             
             bannerHeight = $('.col-1').offset().top - menuHeight;
             colHeight = $('.col-2').height();
           perCol = $('.col-2 .col-box').length
           myOffset = perCol -1;
-          console.log('initialMarginTop ===== '+initialMarginTop)
+          
           
             initialMarginTop = $('.col-2 .col-box').first().height() * ($('.col-2 .col-box').length-1) *-1
-            console.log('menuHeight ===== '+menuHeight)            
+            
             $(":root").css('--initial-margin',initialMarginTop+'px')
           }
 
