@@ -60,6 +60,15 @@ body{
   width: 100%;
 }
 
+.text-row[data-text-alignment=center] .icon--top .icon__animated {
+    margin: 0px 10px;
+}
+
+.icon__column {
+    display: flex;
+    justify-content: flex-start;
+}
+
 h2.icon__column__text__heading.h5 {
     font-size: 12px;
 }
