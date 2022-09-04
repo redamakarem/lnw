@@ -309,6 +309,11 @@ color: #14222D;
   .standard__rte p{
     text-align:center;
   }
+  .icon__column {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
 }
 
 @media screen and (min-width:781px){   
