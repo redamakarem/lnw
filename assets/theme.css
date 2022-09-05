@@ -52,6 +52,10 @@ body{
   text-transform: uppercase;
   font-size:48px;
 }
+
+.col-box .lnw__btn {
+    margin-top: 48px;
+}
 .image img {
   object-fit: cover;
   height: 100%;
