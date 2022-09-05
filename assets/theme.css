@@ -56,6 +56,12 @@ body{
 .col-box .lnw__btn {
     margin-top: 48px;
 }
+
+.col-box p{
+    color: #14222D66;
+
+}
+
 .image img {
   object-fit: cover;
   height: 100%;
