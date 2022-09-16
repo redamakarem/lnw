@@ -93,6 +93,9 @@ footer{
   .row-reverse{
     flex-direction: row-reverse !important;
   }
+  .row-reverse .collection-title{
+    text-align:right;
+  }
 .desktop-only{
   display: flex !important;
 }
