@@ -96,6 +96,15 @@ footer{
   .row-reverse .collection-title{
     text-align:right;
   }
+
+.slide-nav {
+    padding-top: 4px;
+    height: 27px;
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .desktop-only{
   display: flex !important;
 }
