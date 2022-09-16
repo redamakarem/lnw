@@ -104,6 +104,12 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
+
+.slide-nav img {
+    width: 25px;
+    height: 25px;
+}
+
 .desktop-only{
   display: flex !important;
 }
