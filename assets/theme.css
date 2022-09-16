@@ -105,6 +105,10 @@ footer{
     justify-content: center;
 }
 
+.slide-nav:hover {
+    background-color: #9aa4a4;
+}
+
 .slide-nav img {
     width: 25px;
     height: 25px;
