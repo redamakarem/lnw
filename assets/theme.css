@@ -222,11 +222,8 @@ color: #14222D;
     display: block;
     height: 100%;
     width: 100%;
-    line-height: 260px;
-    color: white;
     text-align: center;
     font-weight: bold;
-    
     position: absolute;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
