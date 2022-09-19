@@ -7,6 +7,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
+            "mobile_image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
