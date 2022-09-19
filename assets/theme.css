@@ -218,7 +218,7 @@ color: #14222D;
     transform-style: preserve-3d;
     -webkit-transform-origin: 50% 50%;
 }
-.card div {
+.card>div {
     display: block;
     
     text-align: center;
