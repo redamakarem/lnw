@@ -478,10 +478,17 @@
           "settings": {
             "blog-article": "love-not-war-blog\/we-ve-been-shortlisted"
           }
+        },
+        "efd863d5-4732-4a99-ae41-bd93379b727f": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/it-s-been-a-busy-week-for-love-not-war"
+          }
         }
       },
       "block_order": [
-        "1cd87566-8dd6-4743-a0be-905248cf210b"
+        "1cd87566-8dd6-4743-a0be-905248cf210b",
+        "efd863d5-4732-4a99-ae41-bd93379b727f"
       ],
       "settings": {
         "blog-posts-slider": "Educational Hub",
