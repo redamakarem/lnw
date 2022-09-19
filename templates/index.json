@@ -370,6 +370,7 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-card",
+            "icon_alt": "shopify:\/\/shop_images\/i1.png",
             "icon_color": "#545454",
             "title": "Our products are made with FDA grade silicone",
             "text": ""
@@ -379,6 +380,7 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-window",
+            "icon_alt": "shopify:\/\/shop_images\/i2.png",
             "icon_color": "#545454",
             "title": "checkout is quick and easy to use",
             "text": ""
@@ -388,6 +390,7 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-basket-like",
+            "icon_alt": "shopify:\/\/shop_images\/i3.png",
             "icon_color": "#545454",
             "title": "Your secret is safe with us",
             "text": ""
@@ -397,6 +400,7 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-chat",
+            "icon_alt": "shopify:\/\/shop_images\/i4.png",
             "icon_color": "#545454",
             "title": "Get in touch with us  at hello@l-n-w.com",
             "text": ""
