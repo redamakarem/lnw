@@ -321,13 +321,15 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”<\/em><\/p>",
-            "logo_width": 130
+            "logo": "shopify:\/\/shop_images\/image_9.png",
+            "logo_width": 180
           }
         },
         "bcb1660a-bf58-457b-818a-3deaa03fac83": {
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“The best part is, it’s eco-friendly, made from recycled materials that are as good for the planet as they are for you or your partner.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/image_6.png",
             "logo_width": 180
           }
         },
@@ -335,7 +337,8 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”<\/em><\/p>",
-            "logo_width": 160
+            "logo": "shopify:\/\/shop_images\/image_7.png",
+            "logo_width": 180
           }
         },
         "logos-2": {
