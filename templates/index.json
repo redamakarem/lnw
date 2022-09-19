@@ -7,8 +7,6 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Mask_group.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
@@ -26,8 +24,6 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Mask_group.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
@@ -86,14 +82,14 @@
         "1af3d64b-5a74-461e-a54a-739551b871a9": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/Mask_group.png",
+            "second-column-image": "shopify:\/\/shop_images\/Screenshot_2022-08-26_at_14.51.51.png",
             "second-column-text": ""
           }
         },
         "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-image": "shopify:\/\/shop_images\/second-row.png",
+            "first-column-image": "shopify:\/\/shop_images\/Screenshot_2022-07-15_at_12.05.06.png",
             "first-column-text": ""
           }
         },
@@ -112,7 +108,6 @@
         "8e48a74d-7a36-4a03-a407-15654b978ddb": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/first-row.png",
             "second-column-text": ""
           }
         }
@@ -136,7 +131,6 @@
         "1658851102d9951bd7-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/first-row.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -205,7 +199,6 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/second-row.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -253,7 +246,6 @@
         "6888fd3b-51f5-412a-82d9-70d595294ad9": {
           "type": "award-card",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test",
             "year": "test",
             "back-text": "test"
@@ -262,7 +254,6 @@
         "5b1e249b-524b-4f89-b212-622849fb7762": {
           "type": "award-card",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test2",
             "year": "2020",
             "back-text": "test test test"
@@ -271,7 +262,6 @@
         "a2722f3d-36c8-40fa-8c82-faeea9f1004e": {
           "type": "award-card",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test 3",
             "year": "2021",
             "back-text": "test test test"
@@ -280,7 +270,6 @@
         "915fea9d-5eca-403b-a622-03d0afc01934": {
           "type": "award-card",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test 4",
             "year": "2022",
             "back-text": "test test test"
@@ -289,7 +278,6 @@
         "4e8327c3-9326-4f49-acd7-d67d52826288": {
           "type": "award-card",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test 5",
             "year": "2019",
             "back-text": "test test test"
@@ -311,7 +299,6 @@
       "type": "recommended-products-lnw",
       "settings": {
         "lnw-recommended-products": "Recommendedd",
-        "main-image": "shopify:\/\/shop_images\/second-row.png",
         "heading": "LNW X HERO Condoms = “Good Kama”",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
         "product1": "good-karma",
@@ -326,7 +313,6 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”<\/em><\/p>",
-            "logo": "shopify:\/\/shop_images\/image_9.png",
             "logo_width": 130
           }
         },
@@ -334,7 +320,6 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“The best part is, it’s eco-friendly, made from recycled materials that are as good for the planet as they are for you or your partner.”<\/em><\/p>",
-            "logo": "shopify:\/\/shop_images\/image_6.png",
             "logo_width": 180
           }
         },
@@ -342,7 +327,6 @@
           "type": "logo-item",
           "settings": {
             "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”<\/em><\/p>",
-            "logo": "shopify:\/\/shop_images\/image_7.png",
             "logo_width": 160
           }
         },
@@ -350,7 +334,6 @@
           "type": "logo-item",
           "settings": {
             "description": "<p>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly<\/p><p> one of the best I’ve ever tried….I lost a weekend to this one.”<\/p>",
-            "logo": "shopify:\/\/shop_images\/image_8.png",
             "logo_width": 160
           }
         }
@@ -375,7 +358,6 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-card",
-            "icon_alt": "shopify:\/\/shop_images\/i1.png",
             "icon_color": "#545454",
             "title": "Our products are made with FDA grade silicone",
             "text": ""
@@ -385,7 +367,6 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-window",
-            "icon_alt": "shopify:\/\/shop_images\/i2.png",
             "icon_color": "#545454",
             "title": "checkout is quick and easy to use",
             "text": ""
@@ -395,7 +376,6 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-basket-like",
-            "icon_alt": "shopify:\/\/shop_images\/i3.png",
             "icon_color": "#545454",
             "title": "Your secret is safe with us",
             "text": ""
@@ -405,7 +385,6 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-chat",
-            "icon_alt": "shopify:\/\/shop_images\/i4.png",
             "icon_color": "#545454",
             "title": "Get in touch with us  at hello@l-n-w.com",
             "text": ""
@@ -434,7 +413,6 @@
         "166068655001e7d1cb-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/One_Tree_Planted_Partners_-_shop_1.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
