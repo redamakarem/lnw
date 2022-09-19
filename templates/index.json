@@ -247,6 +247,7 @@
         "6888fd3b-51f5-412a-82d9-70d595294ad9": {
           "type": "award-card",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test",
             "year": "test",
             "back-text": "test"
@@ -300,7 +301,7 @@
       "type": "recommended-products-lnw",
       "settings": {
         "lnw-recommended-products": "Recommendedd",
-        "main-image": "shopify:\/\/shop_images\/Screenshot_2022-08-26_at_14.51.51.png",
+        "main-image": "shopify:\/\/shop_images\/first-row.png",
         "heading": "LNW X HERO Condoms = “Good Kama”",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
         "product1": "blue-kama",
@@ -415,6 +416,7 @@
         "166068655001e7d1cb-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/One_Tree_Planted_Partners_-_shop_1.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
