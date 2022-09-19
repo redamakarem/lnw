@@ -125,6 +125,9 @@ footer{
 section.award-slider {
     padding: 0px 102px;
 }
+.owl-carousel.owl-drag .owl-item{
+  min-height:300px;
+}
 section.recommended-products {
   padding: 0px 102px;
 }
