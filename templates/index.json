@@ -490,12 +490,19 @@
           "settings": {
             "blog-article": "love-not-war-blog\/finding-green-flags-in-a-partner"
           }
+        },
+        "fbfe0632-9bd7-40e7-b5d5-ed145e88a361": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/kink-vs-fetishes"
+          }
         }
       },
       "block_order": [
         "1cd87566-8dd6-4743-a0be-905248cf210b",
         "efd863d5-4732-4a99-ae41-bd93379b727f",
-        "dc26e08a-536d-434a-85f0-a5a965a9e918"
+        "dc26e08a-536d-434a-85f0-a5a965a9e918",
+        "fbfe0632-9bd7-40e7-b5d5-ed145e88a361"
       ],
       "settings": {
         "blog-posts-slider": "Educational Hub",
