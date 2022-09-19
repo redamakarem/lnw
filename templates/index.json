@@ -256,6 +256,7 @@
         "5b1e249b-524b-4f89-b212-622849fb7762": {
           "type": "award-card",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test2",
             "year": "2020",
             "back-text": "test test test"
