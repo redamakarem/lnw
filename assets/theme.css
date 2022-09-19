@@ -220,8 +220,7 @@ color: #14222D;
 }
 .card div {
     display: block;
-    height: 100%;
-    width: 100%;
+    
     text-align: center;
     font-weight: bold;
     position: absolute;
@@ -232,11 +231,18 @@ color: #14222D;
 }
 
 .card .back {
+  height: 100%;
+    width: 100%;
     
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+}
+
+.card .front{
+  height: 100%;
+    width: 100%;
 }
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
