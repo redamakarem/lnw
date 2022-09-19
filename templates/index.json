@@ -274,6 +274,7 @@
         "915fea9d-5eca-403b-a622-03d0afc01934": {
           "type": "award-card",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test 4",
             "year": "2022",
             "back-text": "test test test"
