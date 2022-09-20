@@ -159,16 +159,16 @@ section.recommended-products {
   }
 
 .newsletter-form {
-    display: flex;
+/*     display: flex;
     flex-direction: column;
     height: auto !important;
-    border: none;
+    border: none; */
 }
 
 button#subscribe {
-    width: 100%;
+/*     width: 100%;
     border-radius: 8px;
-    padding: 10px 0px;
+    padding: 10px 0px; */
     background-color: #14222D;
 }
 
