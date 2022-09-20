@@ -143,11 +143,11 @@
               "title": ""
             }
           },
-          "983e7143-e7dd-4068-ae85-2bc671fb7b8c": {
-            "type": "linklist",
+          "08ad2fad-40ec-4115-b43c-63fab2a43e1d": {
+            "type": "social",
             "settings": {
-              "linklist": "footer",
-              "title": ""
+              "title": "Social",
+              "richtext": ""
             }
           },
           "footer-2": {
@@ -160,7 +160,7 @@
         },
         "block_order": [
           "footer-0",
-          "983e7143-e7dd-4068-ae85-2bc671fb7b8c",
+          "08ad2fad-40ec-4115-b43c-63fab2a43e1d",
           "footer-2"
         ],
         "settings": {
