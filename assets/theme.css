@@ -177,11 +177,11 @@ button#subscribe {
 }
 
 span.input-group-btn {
-    display: block;
+/*     display: block;
     width: 100%;
     background-color: white !important;
     border: 0px;
-    margin-top: 15px;
+    margin-top: 15px; */
 }
 
 h2{
