@@ -147,7 +147,7 @@
             "type": "social",
             "settings": {
               "title": "Social",
-              "richtext": ""
+              "richtext": "<p>Stay current with updates from our social channels.<\/p>"
             }
           },
           "footer-2": {
