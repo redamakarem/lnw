@@ -154,7 +154,7 @@
             "type": "newsletter",
             "settings": {
               "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
-              "enable_name": false
+              "enable_name": true
             }
           }
         },
