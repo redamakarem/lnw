@@ -107,6 +107,20 @@ footer{
     
 }
 
+.owl-nav button {
+    width: 35px;
+    height: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc !important;
+}
+
+.owl-nav button:hover{
+  background-color: #ccc !important;
+}
+
 .slide-nav:hover {
     background-color: #9aa4a4;
     border-radius:5px;
