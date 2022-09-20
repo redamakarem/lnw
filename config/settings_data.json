@@ -82,7 +82,6 @@
         "settings": {
           "header_style": "logo_beside",
           "icon_family": "clean",
-          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_max_limit": 215,
           "main_menu_linklist": "",
           "enable_search": true,
@@ -137,13 +136,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
-              "enable_name": false
-            }
-          },
           "footer-0": {
             "type": "linklist",
             "settings": {
@@ -157,12 +149,19 @@
               "linklist": "footer",
               "title": ""
             }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
+              "enable_name": false
+            }
           }
         },
         "block_order": [
-          "footer-2",
           "footer-0",
-          "983e7143-e7dd-4068-ae85-2bc671fb7b8c"
+          "983e7143-e7dd-4068-ae85-2bc671fb7b8c",
+          "footer-2"
         ],
         "settings": {
           "logo_image_width": 150,
