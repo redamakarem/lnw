@@ -203,6 +203,10 @@ text-transform: uppercase;
 color: #14222D;
 }
 
+section.blog-slider .owl-nav {
+    display: none;
+}
+
 /* FlipCard CSS */
 .card {
     width: 100%;
