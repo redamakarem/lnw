@@ -102,10 +102,12 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .slide-nav:hover {
     background-color: #9aa4a4;
+    border-radius:5px;
 }
 
 .slide-nav img {
