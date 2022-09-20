@@ -114,7 +114,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ccc !important;
+    
 }
 
 .owl-nav button:hover{
