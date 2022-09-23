@@ -244,77 +244,6 @@
         "controls-position": "left"
       }
     },
-    "165930724844934d89": {
-      "type": "testimonials-lnw",
-      "blocks": {
-        "6888fd3b-51f5-412a-82d9-70d595294ad9": {
-          "type": "award-card",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
-            "heading": "test",
-            "year": "2019",
-            "back-text": "test"
-          }
-        },
-        "5b1e249b-524b-4f89-b212-622849fb7762": {
-          "type": "award-card",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
-            "heading": "test2",
-            "year": "2020",
-            "back-text": "test test test"
-          }
-        },
-        "a2722f3d-36c8-40fa-8c82-faeea9f1004e": {
-          "type": "award-card",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
-            "heading": "test 3",
-            "year": "2021",
-            "back-text": "test test test"
-          }
-        },
-        "915fea9d-5eca-403b-a622-03d0afc01934": {
-          "type": "award-card",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
-            "heading": "test 4",
-            "year": "2022",
-            "back-text": "test test test"
-          }
-        },
-        "4e8327c3-9326-4f49-acd7-d67d52826288": {
-          "type": "award-card",
-          "settings": {
-            "heading": "test 5",
-            "year": "2019",
-            "back-text": "test test test"
-          }
-        }
-      },
-      "block_order": [
-        "6888fd3b-51f5-412a-82d9-70d595294ad9",
-        "5b1e249b-524b-4f89-b212-622849fb7762",
-        "a2722f3d-36c8-40fa-8c82-faeea9f1004e",
-        "915fea9d-5eca-403b-a622-03d0afc01934",
-        "4e8327c3-9326-4f49-acd7-d67d52826288"
-      ],
-      "settings": {
-        "award-slider": "Awards"
-      }
-    },
-    "16593742018d4c775a": {
-      "type": "recommended-products-lnw",
-      "settings": {
-        "lnw-recommended-products": "Recommendedd",
-        "main-image": "shopify:\/\/shop_images\/first-row.png",
-        "heading": "LNW X HERO Condoms = “Good Kama”",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
-        "product1": "blue-kama",
-        "product2": "kama-head",
-        "recommended-link": ""
-      }
-    },
     "logos": {
       "type": "section-press",
       "blocks": {
@@ -362,6 +291,18 @@
         "logo_opacity": 100,
         "text_color": "text-dark",
         "bg_color": "#e7e3de"
+      }
+    },
+    "16593742018d4c775a": {
+      "type": "recommended-products-lnw",
+      "settings": {
+        "lnw-recommended-products": "Recommendedd",
+        "main-image": "shopify:\/\/shop_images\/first-row.png",
+        "heading": "LNW X HERO Condoms = “Good Kama”",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
+        "product1": "blue-kama",
+        "product2": "kama-head",
+        "recommended-link": ""
       }
     },
     "icons": {
@@ -422,6 +363,65 @@
         "heading_size": "h5",
         "height": "margin--small",
         "bg_color": "#ffffff"
+      }
+    },
+    "165930724844934d89": {
+      "type": "testimonials-lnw",
+      "blocks": {
+        "6888fd3b-51f5-412a-82d9-70d595294ad9": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test",
+            "year": "2019",
+            "back-text": "test"
+          }
+        },
+        "5b1e249b-524b-4f89-b212-622849fb7762": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test2",
+            "year": "2020",
+            "back-text": "test test test"
+          }
+        },
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test 3",
+            "year": "2021",
+            "back-text": "test test test"
+          }
+        },
+        "915fea9d-5eca-403b-a622-03d0afc01934": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test 4",
+            "year": "2022",
+            "back-text": "test test test"
+          }
+        },
+        "4e8327c3-9326-4f49-acd7-d67d52826288": {
+          "type": "award-card",
+          "settings": {
+            "heading": "test 5",
+            "year": "2019",
+            "back-text": "test test test"
+          }
+        }
+      },
+      "block_order": [
+        "6888fd3b-51f5-412a-82d9-70d595294ad9",
+        "5b1e249b-524b-4f89-b212-622849fb7762",
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e",
+        "915fea9d-5eca-403b-a622-03d0afc01934",
+        "4e8327c3-9326-4f49-acd7-d67d52826288"
+      ],
+      "settings": {
+        "award-slider": "Awards"
       }
     },
     "1660686550db8b3a9c": {
@@ -568,10 +568,10 @@
     "image-with-text",
     "16589478971c3227ea",
     "1661084539183a92c4",
-    "165930724844934d89",
-    "16593742018d4c775a",
     "logos",
+    "16593742018d4c775a",
     "icons",
+    "165930724844934d89",
     "1660686550db8b3a9c",
     "16593604036b256fa6",
     "rich-text",
