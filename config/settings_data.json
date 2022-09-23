@@ -82,7 +82,8 @@
         "settings": {
           "header_style": "logo_beside",
           "icon_family": "clean",
-          "logo_max_limit": 215,
+          "logo": "shopify:\/\/shop_images\/lnw-horizontal_1_0b2a5602-9bfa-478c-b74d-c21e3accddb2.png",
+          "logo_max_limit": 150,
           "main_menu_linklist": "",
           "enable_search": true,
           "enable_account": true,

@@ -19,7 +19,7 @@
             "link_text": "Shop Now",
             "link": "shopify:\/\/products\/maya",
             "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline lnw"
+            "button_style": "hero__btn btn btn--input caps"
           }
         },
         "998ecb7d-e469-4362-93ee-51f560d1210f": {
