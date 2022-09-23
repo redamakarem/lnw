@@ -23,10 +23,10 @@
             
         </div>
         <div id="slider-container">
-            <div id="lnw-product-list" class="owl-carousel lnw-collection-slider">
+            <div id="lnw-product-list" class="owl-carousel- lnw-collection-slider">
                 {% for product in section.settings.collection-slider.products %}
                     <a href="{{ product.url }}">
-                      <div class="item" style="width:338px;">
+                      <div class="carousel-item" style="width:338px;">
                         <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
                         <div class="carousel-item-footer">
                             <div class="product-title">{{product.title}}</div>
