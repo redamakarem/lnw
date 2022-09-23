@@ -455,7 +455,7 @@
             "text_columns": 1,
             "align_text": "text-center",
             "text_color": "text-dark",
-            "bg_color": "#ffffff",
+            "bg_color": "#f0eeec",
             "button_text": "Learn more",
             "button_url": "",
             "button_color": "btn--neutral",
