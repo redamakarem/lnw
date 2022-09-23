@@ -1,9 +1,11 @@
 
 {% liquid
 
+    assign row_reverse_class = '1' 
     assign row_reverse_class = '' 
     if section.settings.controls-position=='right'
     assign row_reverse_class = 'row-reverse'
+    
     endif
     
     %}
