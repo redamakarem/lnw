@@ -101,6 +101,10 @@ section.recommended-products {
     border-radius:8px;
   }
 
+  .hero__btn.btn.btn--outline.lnw{
+    border-radius:8px;
+  }
+
   .homepage-slideshow .flickity-page-dots .dot, .homepage-slideshow .slick-dots .dot{
     width: 10px;
     height: 10px;
