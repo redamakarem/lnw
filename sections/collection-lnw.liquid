@@ -27,7 +27,7 @@
                     <a href="{{ product.url }}">
                       <div class="carousel-item" style="height:500px;width:338px;">
                         
-                        <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" style="height: calc(100%-60px)" />
+                        <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" style="height: calc(100% - 60px);" />
                         <div class="carousel-item-footer">
                             <div class="product-title">{{product.title}}</div>
                             <div class="product-price">{{product.price | money_with_currency}}</div>
