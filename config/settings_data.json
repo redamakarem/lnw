@@ -168,7 +168,7 @@
           "logo_image_width": 150,
           "bg_position": "center-center",
           "overlay_opacity": 75,
-          "overlay_color": "#ffffff",
+          "overlay_color": "#f0eeec",
           "footer_secondary_linklist": "footer",
           "footer_payment_enable": true,
           "show_locale_selector": true,
