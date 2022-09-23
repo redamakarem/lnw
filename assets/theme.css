@@ -460,6 +460,14 @@ text-transform: uppercase;
     flex-direction: column;
     margin-bottom:64px;
 }
+
+  .logos p em {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #14222d;
+}
 }
 
 @media screen and (min-width:781px){   
