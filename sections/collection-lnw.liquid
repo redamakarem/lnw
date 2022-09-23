@@ -25,6 +25,7 @@
         <div id="slider-container">
             <div id="lnw-product-list" class="owl-carousel lnw-collection-slider">
                 {% for product in section.settings.collection-slider.products %}
+                    <a href="{{ product.url }}">
                       <div class="carousel-item" style="width:338px;">
                         <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
                         <div class="carousel-item-footer">
@@ -32,6 +33,7 @@
                             <div class="product-price">{{product.price | money_with_currency}}</div>
                         </div>
                       </div>
+                  </a>
                   {% endfor %}
               </div>
         </div>
@@ -160,7 +162,7 @@
         loop:true,
         margin:10,
         nav:true,
-            autoWidth:true,
+        autoWidth:true,
         responsive:{
             0:{
                 items:2
