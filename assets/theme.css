@@ -191,7 +191,7 @@ button#subscribe {
 }
 
 .newsletter-form #email_input_footer {
-    border-bottom: 1px solid #14222D;
+/*     border-bottom: 1px solid #14222D; */
 }
 
 span.input-group-btn {
