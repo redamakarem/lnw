@@ -83,6 +83,11 @@ h2.icon__column__text__heading.h5 {
     font-size: 12px;
 }
 
+.margin--small{
+  padding-top:16px;
+  padding-bottom:16px;
+}
+
 footer{
   background-color: #000;
 }
