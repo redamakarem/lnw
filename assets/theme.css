@@ -90,7 +90,7 @@ h2.icon__column__text__heading.h5 {
 }
 
 footer{
-  background-color: #F0EEEC;
+  background-color: #F0EEEC !important;
 }
 
 /* Reverse scroll css end */
