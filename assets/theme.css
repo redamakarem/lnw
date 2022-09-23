@@ -309,6 +309,12 @@ section.blog-slider .owl-nav {
   .screen-height-full{
     height: auto !important;
   }
+  .footer__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 1.5em;
+    justify-content: center;
+}
 
   .text.col-box{
     padding:15px;
