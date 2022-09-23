@@ -549,7 +549,7 @@
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
-            "html_area": "<style>\n#insta-feed {\n    padding: 0px 50px;\n}\n<\/style>"
+            "html_area": "<style>\n#insta-feed {\n    padding: 0px 50px;\nbackground-color:#F0EEEC;\n}\n<\/style>"
           }
         }
       },
