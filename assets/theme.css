@@ -442,6 +442,17 @@ section.blog-slider .owl-nav {
     flex-direction:column;
     align-items:center;
 }
+
+  .edu-hub-header h2{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 32px;
+    text-align: center;
+text-transform: uppercase;
+
+  }
 }
 
 @media screen and (min-width:781px){   
