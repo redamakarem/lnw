@@ -38,6 +38,7 @@
     "parallax_enable": false,
     "parallax_strength": 15,
     "product_grid_outline": false,
+    "button_radius_style": "rounded",
     "show_scroll_top_button": true,
     "enable_disqus": false,
     "instagram_link": "https:\/\/www.instagram.com\/_lovenotwar\/",
@@ -82,8 +83,8 @@
         "settings": {
           "header_style": "logo_beside",
           "icon_family": "clean",
-          "logo": "shopify:\/\/shop_images\/logo.png",
-          "logo_max_limit": 215,
+          "logo": "shopify:\/\/shop_images\/lnw-horizontal_1_0b2a5602-9bfa-478c-b74d-c21e3accddb2.png",
+          "logo_max_limit": 150,
           "main_menu_linklist": "",
           "enable_search": true,
           "enable_account": true,
@@ -137,13 +138,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
-              "enable_name": false
-            }
-          },
           "footer-0": {
             "type": "linklist",
             "settings": {
@@ -151,24 +145,31 @@
               "title": ""
             }
           },
-          "983e7143-e7dd-4068-ae85-2bc671fb7b8c": {
-            "type": "linklist",
+          "08ad2fad-40ec-4115-b43c-63fab2a43e1d": {
+            "type": "social",
             "settings": {
-              "linklist": "footer",
-              "title": ""
+              "title": "Social",
+              "richtext": "<p>Stay current with updates from our social channels.<\/p>"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
+              "enable_name": true
             }
           }
         },
         "block_order": [
-          "footer-2",
           "footer-0",
-          "983e7143-e7dd-4068-ae85-2bc671fb7b8c"
+          "08ad2fad-40ec-4115-b43c-63fab2a43e1d",
+          "footer-2"
         ],
         "settings": {
           "logo_image_width": 150,
           "bg_position": "center-center",
           "overlay_opacity": 75,
-          "overlay_color": "#ffffff",
+          "overlay_color": "#f0eeec",
           "footer_secondary_linklist": "footer",
           "footer_payment_enable": true,
           "show_locale_selector": true,

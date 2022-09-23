@@ -8,7 +8,7 @@
 
             {%- for block in section.blocks -%}
             <div class="item">
-                <div class="card">
+                <div class="card" onclick="$(this).toggleClass('flipped');">
                     <div class="front blog-post" style="background-image: url('{{ block.settings.blog-article.image | img_url }}'); background-size: cover;">
                         <div class="article-date">{{ block.settings.blog-article.published_at | date: "%a, %b %d, %Y" }}</div>
                         <div class="heading-wrapper">
@@ -94,7 +94,8 @@
     }
 });
 
-$(".card").flip();
+// $(".card").flip();
+  
 
   {% endjavascript %}
 
@@ -102,6 +103,8 @@ $(".card").flip();
   .blog-slider {
     padding: 0px 50px;
 }
+    
+    
 .card{
     min-height:300px;
 }

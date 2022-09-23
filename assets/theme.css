@@ -20,7 +20,8 @@ body{
 }
 
 .lnw-wrapper{
-      padding: 0 56px;
+      padding: 50px;
+      background-color: #F0EEEC;
 }
 
 .col-container {
@@ -44,10 +45,24 @@ body{
 .text.col-box {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 52px;
     justify-content: center;
 }
+.text.col-box h2{
+  text-transform: uppercase;
+  font-size:48px;
+}
+
+.col-box .lnw__btn {
+    margin-top: 48px;
+}
+
+.col-box p{
+    color: #14222D66;
+
+}
+
 .image img {
   object-fit: cover;
   height: 100%;
@@ -55,9 +70,27 @@ body{
 .image {
   width: 100%;
 }
+
+.text-row[data-text-alignment=center] .icon--top .icon__animated {
+    margin: 0px 10px;
+}
+
+.icon__column {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2.icon__column__text__heading.h5 {
+    font-size: 12px;
+}
+
+.margin--small{
+  padding-top:16px;
+  padding-bottom:16px;
+}
+
 footer{
-  background-color: #000;
-  height: 100vh;
+  background-color: #F0EEEC !important;
 }
 
 /* Reverse scroll css end */
@@ -65,6 +98,45 @@ footer{
   .row-reverse{
     flex-direction: row-reverse !important;
   }
+  .row-reverse .collection-title{
+    text-align:right;
+  }
+
+.slide-nav {
+    height: 31px;
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.owl-nav button {
+    width: 35px;
+    height: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.owl-nav button:hover{
+  background-color: #ccc !important;
+}
+
+.slide-nav:hover {
+    background-color: #9aa4a4;
+    border-radius:5px;
+}
+
+.slide-nav img {
+    width: 25px;
+    height: 25px;
+}
+
 .desktop-only{
   display: flex !important;
 }
@@ -74,10 +146,14 @@ footer{
 }
 
 section.award-slider {
-    padding: 0px 56px;
+    padding: 0px 50px;
+}
+.owl-carousel.owl-drag .owl-item{
+  min-height:300px;
 }
 section.recommended-products {
-  padding: 0px 56px;
+  padding: 0px 50px;
+  margin-bottom:128px
 }
 
 .edu-hub-header {
@@ -85,6 +161,16 @@ section.recommended-products {
     justify-content: space-between;
     align-items: center;
 }
+.edu-hub-header h2{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 48px;
+  text-transform: uppercase;
+
+}
+
 
   .lnw__btn{
     text-transform: none;
@@ -112,29 +198,29 @@ section.recommended-products {
   }
 
 .newsletter-form {
-    display: flex;
+/*     display: flex;
     flex-direction: column;
     height: auto !important;
-    border: none;
+    border: none; */
 }
 
 button#subscribe {
-    width: 100%;
+/*     width: 100%;
     border-radius: 8px;
-    padding: 10px 0px;
+    padding: 10px 0px; */
     background-color: #14222D;
 }
 
 .newsletter-form #email_input_footer {
-    border-bottom: 1px solid #14222D;
+/*     border-bottom: 1px solid #14222D; */
 }
 
 span.input-group-btn {
-    display: block;
+/*     display: block;
     width: 100%;
     background-color: white !important;
     border: 0px;
-    margin-top: 15px;
+    margin-top: 15px; */
 }
 
 h2{
@@ -154,6 +240,61 @@ line-height: 32px;
 text-transform: uppercase;
 color: #14222D;
 }
+
+section.blog-slider .owl-nav {
+    display: none;
+}
+
+/* FlipCard CSS */
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+.card>div {
+    display: block;
+    
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card .back {
+  height: 100%;
+    width: 100%;
+    
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card .front{
+  height: 100%;
+    width: 100%;
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+/* Enf of FlipCard CSS */
 
   @media screen and (max-width:780px){  
   .screen-height-full {
@@ -182,6 +323,28 @@ color: #14222D;
   .screen-height-full{
     height: auto !important;
   }
+  .footer__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 1.5em;
+    justify-content: center;
+}
+
+  .text.col-box{
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+
+  .text.col-box h2{
+  text-transform: uppercase;
+  font-size:28px;
+}
+
+  .award-track .owl-nav{
+  }
 
   .edu-hub-header{
     justify-content:center !important;
@@ -190,6 +353,9 @@ color: #14222D;
   .lnw-wrapper{
       padding: 0 15px;
 }
+  .lnw__btn{
+    margin-top:20px;
+  }
   section.award-slider {
     padding: 0px 15px;
 }
@@ -217,7 +383,7 @@ color: #14222D;
     align-items:center;
 }
   .lnw-recommended-products{
-    padding: 20px !important;
+    padding: 0px !important;
   }
   
   a.hero__btn.btn.btn--large.btn--outline.caps.btn--white.aos-init.aos-animate {
@@ -258,6 +424,7 @@ color: #14222D;
 
   section.recommended-products {
     padding: 0 15px;
+    margin-bottom:64px;
 }
 
 .product {
@@ -276,6 +443,37 @@ color: #14222D;
   .standard__rte p{
     text-align:center;
   }
+  .icon__column {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+  .edu-hub-header h2{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 32px;
+    text-align: center;
+text-transform: uppercase;
+
+  }
+
+  .product-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom:64px;
+}
+
+  .logos p em {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #14222d;
+}
 }
 
 @media screen and (min-width:781px){   

@@ -1,9 +1,10 @@
 
 {% liquid
-
+  
     assign row_reverse_class = '' 
     if section.settings.controls-position=='right'
     assign row_reverse_class = 'row-reverse'
+    
     endif
     
     %}
@@ -12,8 +13,8 @@
     <div class="{{'lnw-collection-row ' | append:row_reverse_class}}">
         <div class="title-wrapper">
             <div class="slider-controls">
-                <div class="prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
-                <div class="next-slide"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
+                <div class="prev-slide slide-nav"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
+                <div class="next-slide slide-nav"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
             </div>
             <div class="collection-title">
                 {{section.settings.collection-slider.title}}
@@ -23,12 +24,13 @@
         <div id="slider-container">
             <div id="lnw-product-list" class="owl-carousel lnw-collection-slider">
                 {% for product in section.settings.collection-slider.products %}
-                  <a href="{{ product.url }}">
-                      <div class="carousel-item">
-                        <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" />
+                    <a href="{{ product.url }}">
+                      <div class="carousel-item" style="height:500px;width:338px;">
+                        
+                        <img src="{{ product.featured_image | image_url }}" alt="{{ product.title | escape }}" style="height: calc(100% - 60px);" />
                         <div class="carousel-item-footer">
                             <div class="product-title">{{product.title}}</div>
-                            <div class="product-title">{{product.price | money_with_currency}}</div>
+                            <div class="product-price">{{product.price | money_with_currency}}</div>
                         </div>
                       </div>
                   </a>
@@ -37,6 +39,7 @@
         </div>
     </div>
   </section>
+  
   
   {% schema %}
   {
@@ -83,10 +86,10 @@
   }
 
   .lnw-collection-row {
-    margin: 56px;
+    margin: 50px;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
 }
 
  /* the slides */
@@ -101,13 +104,15 @@
 
 .slider-controls {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-shrink: inherit;
-    padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
     align-self: flex-end;
     margin-right: 15px;
+  width:72px;
+  height:32px;
+  align-items:center;
 }
 
 .slick-arrow {
@@ -115,27 +120,47 @@
     padding: 0px 5px;
 }
 
-.carousel-item-footer {
+
+    .carousel-item-footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
+    
 
 .title-wrapper {
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content:space-between;
-    padding: 20px 10px;
+
+  
+  
 }
 .collection-title {
     font-size: 48px;
     font-weight: 900;
     padding-bottom: 10px
 }
-.owl-nav{
+
+    .product-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #14222D;
+}
+.lnw-collection-slider .owl-nav{
 
     display:none;
 }
+
+    @media screen and (max-width:780px){
+      .slider-controls{
+        margin-bottom: 10px;
+      }
+      
+    }
 
   {% endstylesheet %}
   
@@ -146,6 +171,8 @@
         loop:true,
         margin:10,
         nav:true,
+        autoWidth:true,
+      autoHeight: false,
         responsive:{
             0:{
                 items:2

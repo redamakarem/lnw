@@ -7,22 +7,34 @@
             <div class="lnw-recommended-products">
                 <h3>{{ section.settings.heading }}</h3>
                 <p class="recommended-desc">{{ section.settings.description }}</p>
+                <a class="recommended-link" href='{{ section.settings.recommended-link }}'>Load More <img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></a>
                 <div class="products-wrapper">
                     <div class="product">
                         <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
-                        <div class="product-image"><img src="{{section.settings.product1.featured_image | img_url}}" alt=""></div>
+                        <div class="product-image">
+                          <a href="{{ section.settings.product1.url }}">
+                          <img src="{{section.settings.product1.featured_image | img_url}}" alt="">
+                          </a>
+                        </div>
                         <div class="product-footer">
-                            <div class="product-name">{{section.settings.product1.title}}</div>
+                            <div class="product-name"><a href="{{ section.settings.product1.url }}">{{section.settings.product1.title}}</a></div>
                             <div class="product-price">{{ section.settings.product1.price | money_with_currency }}</div>
                         </div>
                     </div>
                     <div class="product">
                         <div class="product-collection">{{section.settings.product2.collections[0].title}}</div>
-                        <div class="product-image"><img src="{{section.settings.product2.featured_image | img_url}}" alt=""></div>
-                        <div class="product-footer">
-                            <div class="product-name">{{section.settings.product2.title}}</div>
-                            <div class="product-price">{{ section.settings.product2.price | money_with_currency }}</div>
+                        <div class="product-image">
+                          <a href="{{ section.settings.product2.url }}">
+                          <img src="{{section.settings.product2.featured_image | img_url}}" alt="">
+                          </a>
                         </div>
+                        <div class="product-footer">
+                            <div class="product-name"><a href="{{ section.settings.product2.url }}">{{section.settings.product2.title}}</a></div>
+                          
+                            <div class="product-price">{{ section.settings.product2.price | money_with_currency }}</div>
+                          
+                        </div>
+                      
                     </div>
                     
                 </div>
@@ -64,6 +76,11 @@
             "id": "product2",
             "type": "product",
             "label": "Select a product"
+        },
+      {
+            "id": "recommended-link",
+            "type": "url",
+            "label": "Link to recommendation"
         }
     ],
     "templates": ["index"],
@@ -92,8 +109,23 @@
     padding:50px
     }
 
+    a.recommended-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+      margin-top: 36px;
+      font-weight: 700;
+}
+    
+      a.recommended-link img{
+        margin-left:15px;
+        padding-top: 2px;
+      }
+    
     .lnw-recommended-image img {
     width: 100%;
+      aspect-ratio: 692/680;
+      padding: 6px;
     }
 
     .products-wrapper {
@@ -110,7 +142,7 @@
 
     .product {
         flex: 1;
-        padding: 20px;
+        padding-right: 20px;
     }
     
     
@@ -122,7 +154,7 @@
         justify-content: space-between;
     }
     .product-name{
-    width: 100px;
+/*     width: 100px; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

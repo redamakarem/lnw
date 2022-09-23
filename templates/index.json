@@ -7,8 +7,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
+            "mobile_image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
@@ -19,15 +19,14 @@
             "link_text": "Shop Now",
             "link": "shopify:\/\/products\/maya",
             "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline lnw"
+            "button_style": "hero__btn btn btn--input caps"
           }
         },
         "998ecb7d-e469-4362-93ee-51f560d1210f": {
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
@@ -66,7 +65,7 @@
         "042eb747-b057-48dd-9fc2-e0acdf258677"
       ],
       "settings": {
-        "height": "image-height",
+        "height": "screen-height-three-quarters",
         "transition": "slide",
         "arrows_style": false,
         "dots_style": "line",
@@ -80,39 +79,39 @@
         "bcfe1060-4350-44d2-bfea-df9462518619": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-text": "Col 1 text 1"
+            "first-column-text": "<h2>WHY CHOOSE LOVE NOT WAR?<\/h2>\n<p>\nWe have been nominated for four top industry awards including ‘Progressive Sex Toy Company’, ‘New Pleasure Company of the Year’,  ‘Luxury Pleasure Product: Gra’ and also for a Green Product Award. \n<\/p>\n<a class=\"lnw__btn\" href=\"#\">Shop Now<\/a>"
           }
         },
         "1af3d64b-5a74-461e-a54a-739551b871a9": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/Mask_group.png",
+            "second-column-image": "shopify:\/\/shop_images\/Screenshot_2022-08-26_at_14.51.51.png",
             "second-column-text": ""
           }
         },
         "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-image": "shopify:\/\/shop_images\/second-row.png",
+            "first-column-image": "shopify:\/\/shop_images\/Screenshot_2022-07-15_at_12.05.06.png",
             "first-column-text": ""
           }
         },
         "e818b3fa-5130-408f-aaac-c4c3b2507bc4": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-text": "Col 2 text 1"
+            "second-column-text": "<h2>The heads collection<\/h2>\n<p>\nThe whole Love Not War range is interchangeable, so once you own a base unit, you can buy a separate head, creating multiple toys in one! This significantly increases your choices while reducing consumption.\n<\/p>\n<a class=\"lnw__btn\" href=\"#\">Shop Now<\/a>"
           }
         },
         "f152003e-92a2-4e88-acd4-695a92eaaff4": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-text": "col1 text 2"
+            "first-column-text": "<h2>The heads collection<\/h2>\n<p>\nThe whole Love Not War range is interchangeable, so once you own a base unit, you can buy a separate head, creating multiple toys in one! This significantly increases your choices while reducing consumption.\n<\/p>\n<a class=\"lnw__btn\" href=\"#\">Shop Now<\/a>"
           }
         },
         "8e48a74d-7a36-4a03-a407-15654b978ddb": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/first-row.png",
+            "second-column-image": "shopify:\/\/shop_images\/Screenshot_2022-08-05_at_13.09.44.png",
             "second-column-text": ""
           }
         }
@@ -136,7 +135,6 @@
         "1658851102d9951bd7-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/first-row.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -205,7 +203,6 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/second-row.png",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -236,14 +233,14 @@
     "16589478971c3227ea": {
       "type": "collection-lnw",
       "settings": {
-        "collection-slider": "adidas",
+        "collection-slider": "vibrators",
         "controls-position": "right"
       }
     },
     "1661084539183a92c4": {
       "type": "collection-lnw",
       "settings": {
-        "collection-slider": "adidas",
+        "collection-slider": "heads",
         "controls-position": "left"
       }
     },
@@ -255,13 +252,52 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
             "heading": "test",
-            "year": "test",
+            "year": "2019",
             "back-text": "test"
+          }
+        },
+        "5b1e249b-524b-4f89-b212-622849fb7762": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test2",
+            "year": "2020",
+            "back-text": "test test test"
+          }
+        },
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test 3",
+            "year": "2021",
+            "back-text": "test test test"
+          }
+        },
+        "915fea9d-5eca-403b-a622-03d0afc01934": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/award-symbol_1.png",
+            "heading": "test 4",
+            "year": "2022",
+            "back-text": "test test test"
+          }
+        },
+        "4e8327c3-9326-4f49-acd7-d67d52826288": {
+          "type": "award-card",
+          "settings": {
+            "heading": "test 5",
+            "year": "2019",
+            "back-text": "test test test"
           }
         }
       },
       "block_order": [
-        "6888fd3b-51f5-412a-82d9-70d595294ad9"
+        "6888fd3b-51f5-412a-82d9-70d595294ad9",
+        "5b1e249b-524b-4f89-b212-622849fb7762",
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e",
+        "915fea9d-5eca-403b-a622-03d0afc01934",
+        "4e8327c3-9326-4f49-acd7-d67d52826288"
       ],
       "settings": {
         "award-slider": "Awards"
@@ -271,11 +307,12 @@
       "type": "recommended-products-lnw",
       "settings": {
         "lnw-recommended-products": "Recommendedd",
-        "main-image": "shopify:\/\/shop_images\/second-row.png",
+        "main-image": "shopify:\/\/shop_images\/first-row.png",
         "heading": "LNW X HERO Condoms = “Good Kama”",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature",
-        "product1": "good-karma",
-        "product2": "karma-head"
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
+        "product1": "blue-kama",
+        "product2": "kama-head",
+        "recommended-link": ""
       }
     },
     "logos": {
@@ -286,7 +323,7 @@
           "settings": {
             "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”<\/em><\/p>",
             "logo": "shopify:\/\/shop_images\/image_9.png",
-            "logo_width": 130
+            "logo_width": 180
           }
         },
         "bcb1660a-bf58-457b-818a-3deaa03fac83": {
@@ -302,7 +339,7 @@
           "settings": {
             "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”<\/em><\/p>",
             "logo": "shopify:\/\/shop_images\/image_7.png",
-            "logo_width": 160
+            "logo_width": 180
           }
         },
         "logos-2": {
@@ -310,7 +347,7 @@
           "settings": {
             "description": "<p>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly<\/p><p> one of the best I’ve ever tried….I lost a weekend to this one.”<\/p>",
             "logo": "shopify:\/\/shop_images\/image_8.png",
-            "logo_width": 160
+            "logo_width": 180
           }
         }
       },
@@ -334,8 +371,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-card",
+            "icon_alt": "shopify:\/\/shop_images\/i1.png",
             "icon_color": "#545454",
-            "title": "Secure transactions",
+            "title": "Our products are made with FDA grade silicone",
             "text": ""
           }
         },
@@ -343,8 +381,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-lock-window",
+            "icon_alt": "shopify:\/\/shop_images\/i2.png",
             "icon_color": "#545454",
-            "title": "Discreet Packaging",
+            "title": "checkout is quick and easy to use",
             "text": ""
           }
         },
@@ -352,8 +391,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-basket-like",
+            "icon_alt": "shopify:\/\/shop_images\/i3.png",
             "icon_color": "#545454",
-            "title": "Simple checkout",
+            "title": "Your secret is safe with us",
             "text": ""
           }
         },
@@ -361,8 +401,9 @@
           "type": "text-item",
           "settings": {
             "icon_name": "icon-chat",
+            "icon_alt": "shopify:\/\/shop_images\/i4.png",
             "icon_color": "#545454",
-            "title": "Get in touch",
+            "title": "Get in touch with us  at hello@l-n-w.com",
             "text": ""
           }
         }
@@ -414,7 +455,7 @@
             "text_columns": 1,
             "align_text": "text-center",
             "text_color": "text-dark",
-            "bg_color": "#ffffff",
+            "bg_color": "#f0eeec",
             "button_text": "Learn more",
             "button_url": "",
             "button_color": "btn--neutral",
@@ -440,12 +481,40 @@
         "1cd87566-8dd6-4743-a0be-905248cf210b": {
           "type": "blog-post-card",
           "settings": {
-            "blog-article": "test-blog\/nulla-aliqua-in-earum-aspernatur-cillum-libero-unde-natus-reprehenderit"
+            "blog-article": "love-not-war-blog\/we-ve-been-shortlisted"
+          }
+        },
+        "efd863d5-4732-4a99-ae41-bd93379b727f": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/it-s-been-a-busy-week-for-love-not-war"
+          }
+        },
+        "dc26e08a-536d-434a-85f0-a5a965a9e918": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/finding-green-flags-in-a-partner"
+          }
+        },
+        "fbfe0632-9bd7-40e7-b5d5-ed145e88a361": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/kink-vs-fetishes"
+          }
+        },
+        "f28ff7d7-3cb5-477f-aa36-f51ddd762694": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/how-to-use-a-bullet-vibrator-5-tips-for-mind-blowing-orgasms"
           }
         }
       },
       "block_order": [
-        "1cd87566-8dd6-4743-a0be-905248cf210b"
+        "1cd87566-8dd6-4743-a0be-905248cf210b",
+        "efd863d5-4732-4a99-ae41-bd93379b727f",
+        "dc26e08a-536d-434a-85f0-a5a965a9e918",
+        "fbfe0632-9bd7-40e7-b5d5-ed145e88a361",
+        "f28ff7d7-3cb5-477f-aa36-f51ddd762694"
       ],
       "settings": {
         "blog-posts-slider": "Educational Hub",
@@ -474,6 +543,19 @@
     },
     "16426127035bd96a27": {
       "type": "apps",
+      "blocks": {
+        "26794431-ce82-40a4-afa0-a5b173eb83d9": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<style>\n#insta-feed {\n    padding: 56px 50px 0px 50px;\nbackground-color:#F0EEEC;\n}\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "26794431-ce82-40a4-afa0-a5b173eb83d9"
+      ],
       "settings": {
         "include_margins": false
       }
