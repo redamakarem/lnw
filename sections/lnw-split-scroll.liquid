@@ -6,7 +6,7 @@
         <div class="col col-1">
             {% for block in first_col_blocks %}
             {% if block.settings.first-column-image != blank %}
-            <div class="image col-box" style="background-image:url('{{ block.settings.first-column-image | img_url }}'); background-size: cover;">
+            <div class="image col-box" style="background-image:url('{{ block.settings.first-column-image | img_url:"master" }}'); background-size: cover;">
                     
                 </div>
             {% endif %} 
