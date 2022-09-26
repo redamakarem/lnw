@@ -13,7 +13,7 @@
                         <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
                         <div class="product-image">
                           <a href="{{ section.settings.product1.url }}">
-                          <img src="{{section.settings.product1.featured_image | img_url}}" alt="">
+                          <img src="{{section.settings.product1.featured_image | img_url:'master'}}" alt="">
                           </a>
                         </div>
                         <div class="product-footer">
@@ -25,7 +25,7 @@
                         <div class="product-collection">{{section.settings.product2.collections[0].title}}</div>
                         <div class="product-image">
                           <a href="{{ section.settings.product2.url }}">
-                          <img src="{{section.settings.product2.featured_image | img_url}}" alt="">
+                          <img src="{{section.settings.product2.featured_image | img_url:'master'}}" alt="">
                           </a>
                         </div>
                         <div class="product-footer">
