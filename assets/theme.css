@@ -302,6 +302,10 @@ section.blog-slider .owl-nav {
 
 /* Enf of FlipCard CSS */
 
+.text-row[data-text-alignment=center] .icon--top .icon__animated{
+  margin:0px;
+}
+
 .lnw-ccl {
   margin-top: 56px;
 }
