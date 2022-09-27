@@ -148,6 +148,7 @@ footer{
 
 section.award-slider {
     padding: 0px 50px;
+      margin-bottom: 80px;
 }
 .owl-carousel.owl-drag .owl-item{
   min-height:300px;
