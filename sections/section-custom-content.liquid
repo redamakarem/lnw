@@ -87,7 +87,7 @@
                 {%- endunless -%}
 
                 {%- if block.settings.link_text != '' -%}
-                    <div class="lnw-ccl">
+                    
                   <a class="{{ block.settings.button_style }} {{ block.settings.button_color }}"
                     href="{{ block.settings.link }}"
                     data-aos="hero"
@@ -95,7 +95,7 @@
                     data-aos-order="3">
                     {{ block.settings.link_text | escape }}
                   </a>
-                  </div>
+                  
                 {%- endif -%}
               </div>
 
@@ -137,11 +137,13 @@
                     data-aos-order="3">{{ block.settings.text }}</div>
                 {% endif %}
                 {% if block.settings.button_text != blank %}
+                  <div class="lnw-ccl">
                   <a href="{{ block.settings.button_url }}"
                     class="standard__cta {{ block.settings.button_style }} {{ block.settings.button_color }}"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
                     data-aos-order="4">{{ block.settings.button_text }}</a>
+                  </div>
                 {% endif %}
               </div>
             </div>
