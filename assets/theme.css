@@ -301,6 +301,10 @@ section.blog-slider .owl-nav {
 
 /* Enf of FlipCard CSS */
 
+.lnw-ccl {
+  margin-top: 56px;
+}
+
   @media screen and (max-width:780px){  
   .screen-height-full {
     height: 29vh;
@@ -488,7 +492,7 @@ section.blog-slider .owl-nav {
   .lnw-ccl {
     display: flex;
     justify-content: center;
-    margin-top: 56px;
+    
 }
   
   
