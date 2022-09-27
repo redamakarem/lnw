@@ -87,6 +87,7 @@
                 {%- endunless -%}
 
                 {%- if block.settings.link_text != '' -%}
+                    <div class="lnw-ccl">
                   <a class="{{ block.settings.button_style }} {{ block.settings.button_color }}"
                     href="{{ block.settings.link }}"
                     data-aos="hero"
@@ -94,6 +95,7 @@
                     data-aos-order="3">
                     {{ block.settings.link_text | escape }}
                   </a>
+                  </div>
                 {%- endif -%}
               </div>
 
