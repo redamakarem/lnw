@@ -10,7 +10,7 @@
             <div class="item">
                 <div class="card" onclick="$(this).toggleClass('flipped');">
                     <div class="front blog-post" style="background-image: url('{{ block.settings.blog-article.image | img_url:'master' }}'); background-size: cover;">
-                        <div class="article-date">{{ block.settings.blog-article.published_at | date: "%a, %b %d, %Y" }}</div>
+                        <div class="article-date">{{ block.settings.blog-article.published_at | date: "%b %d, %y" }}</div>
                         <div class="heading-wrapper">
                             <h3 class="article-heading">{{ block.settings.blog-article.title }}</h3>
                         </div>
