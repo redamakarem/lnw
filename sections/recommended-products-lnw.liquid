@@ -9,7 +9,7 @@
                 <p class="recommended-desc">{{ section.settings.description }}</p>
                 <a class="recommended-link" href='{{ section.settings.recommended-link }}'>Load More <img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></a>
                 <div class="products-wrapper">
-                    <div class="product">
+                    <div class="recommended-product">
                         <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
                         <div class="product-image">
                           <a href="{{ section.settings.product1.url }}">
@@ -144,13 +144,13 @@
     }
     
 
-    .product {
+    .recommended-product {
         flex: 1;
         padding-right: 20px;
     }
     
     
-    .product img {
+    .recommended-product img {
         width: 100%;
     }
     .product-footer {
