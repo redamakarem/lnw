@@ -419,6 +419,7 @@ section.blog-slider .owl-nav {
         flex-direction: row-reverse !important;
         width:100%;
         font-size:28px;
+          padding: 22px 15px;
     }
     .collection-title {
         font-size: 28px !important;
