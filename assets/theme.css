@@ -99,7 +99,8 @@ footer{
     flex-direction: row-reverse !important;
   }
   .row-reverse .collection-title{
-    text-align:right;
+    text-align:left;
+    padding
   }
 
 .slide-nav {
@@ -421,7 +422,7 @@ section.blog-slider .owl-nav {
     .collection-title {
         font-size: 28px !important;
         font-weight: 900;
-        padding:15px;
+        padding:16px;
     }
 
   section.recommended-products {
