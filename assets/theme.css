@@ -77,7 +77,7 @@ body{
 
 .icon__column {
     display: flex;
-    justify-content: space-evenly;
+/*     justify-content: space-evenly; */
 }
 
 h2.icon__column__text__heading.h5 {
