@@ -7,7 +7,7 @@
         <div class="blog-posts-track owl-carousel">
 
             {%- for block in section.blocks -%}
-            <div class="item">
+            <div class="item" style="width:448px">
                 <div class="card" onclick="$(this).toggleClass('flipped');">
                     <div class="front blog-post" style="background-image: url('{{ block.settings.blog-article.image | img_url:'master' }}'); background-size: cover;">
                         <div class="article-date">{{ block.settings.blog-article.published_at | date: "%a, %b %d, %Y" }}</div>
