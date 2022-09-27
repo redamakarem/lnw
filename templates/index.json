@@ -7,8 +7,6 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
-            "mobile_image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
@@ -26,7 +24,6 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "PLEASURE YOU DESERVE",
@@ -85,14 +82,12 @@
         "1af3d64b-5a74-461e-a54a-739551b871a9": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/Screenshot_2022-08-26_at_14.51.51.png",
             "second-column-text": ""
           }
         },
         "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-image": "shopify:\/\/shop_images\/Screenshot_2022-07-15_at_12.05.06.png",
             "first-column-text": ""
           }
         },
@@ -111,7 +106,6 @@
         "8e48a74d-7a36-4a03-a407-15654b978ddb": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
             "second-column-text": ""
           }
         }
@@ -507,6 +501,12 @@
           "settings": {
             "blog-article": "love-not-war-blog\/how-to-use-a-bullet-vibrator-5-tips-for-mind-blowing-orgasms"
           }
+        },
+        "15cce161-c51c-4672-b238-9a594f0b58e8": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "test-blog\/nulla-aliqua-in-earum-aspernatur-cillum-libero-unde-natus-reprehenderit"
+          }
         }
       },
       "block_order": [
@@ -514,7 +514,8 @@
         "efd863d5-4732-4a99-ae41-bd93379b727f",
         "dc26e08a-536d-434a-85f0-a5a965a9e918",
         "fbfe0632-9bd7-40e7-b5d5-ed145e88a361",
-        "f28ff7d7-3cb5-477f-aa36-f51ddd762694"
+        "f28ff7d7-3cb5-477f-aa36-f51ddd762694",
+        "15cce161-c51c-4672-b238-9a594f0b58e8"
       ],
       "settings": {
         "blog-posts-slider": "Educational Hub",
