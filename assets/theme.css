@@ -307,6 +307,10 @@ section.blog-slider .owl-nav {
   margin-right:12px;
 }
 
+h2.icon__column__text__heading.h5 strong{
+  font-weight:800;
+}
+
 .lnw-ccl {
   margin-top: 56px;
 }
