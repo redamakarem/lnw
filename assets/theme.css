@@ -99,7 +99,7 @@ footer{
 li.dot {
     border: 1px solid #fff !important;
     background: transparent !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 li.dot.is-selected {
     border: 1px solid #fff !important;
