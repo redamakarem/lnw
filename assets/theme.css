@@ -101,6 +101,7 @@ li.dot {
     background: transparent;
     opacity: 1;
 }
+
   .row-reverse{
     flex-direction: row-reverse !important;
   }
