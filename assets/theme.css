@@ -101,6 +101,11 @@ li.dot {
     background: transparent !important;
     opacity: 1;
 }
+li.dot.is-selected {
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: 1;
+}
 
   .row-reverse{
     flex-direction: row-reverse !important;
