@@ -27,7 +27,7 @@
         "b40d6da1-bf36-4636-9166-460735536c00"
       ],
       "settings": {
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "transition": "slide",
         "arrows_style": false,
         "dots_style": "line",
