@@ -7,59 +7,24 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/LNW_-_Site_Banners_-_Desktop_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/LNW_-_Site_Banners_-_Mobile_1080_x_1080_px_1.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
-            "title": "PLEASURE YOU DESERVE",
+            "title": "",
             "description": "",
             "flex_align": "align--middle-center",
             "text_color": "text-light",
             "transparent": true,
-            "link_text": "Shop Now",
-            "link": "shopify:\/\/products\/maya",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--input btn--outline lnw caps"
-          }
-        },
-        "998ecb7d-e469-4362-93ee-51f560d1210f": {
-          "type": "image",
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "PLEASURE YOU DESERVE",
-            "description": "",
-            "flex_align": "align--middle-center",
-            "text_color": "text-light",
-            "transparent": true,
-            "link_text": "Shop Now",
-            "link": "shopify:\/\/pages\/good-kama",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "042eb747-b057-48dd-9fc2-e0acdf258677": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "VIBES FOR LIFE",
-            "description": "",
-            "flex_align": "align--middle-left",
-            "text_color": "text-light",
-            "transparent": true,
-            "link_text": "View products",
+            "link_text": "",
             "link": "",
             "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
+            "button_style": "hero__btn btn btn--input btn--outline lnw caps"
           }
         }
       },
       "block_order": [
-        "b40d6da1-bf36-4636-9166-460735536c00",
-        "998ecb7d-e469-4362-93ee-51f560d1210f",
-        "042eb747-b057-48dd-9fc2-e0acdf258677"
+        "b40d6da1-bf36-4636-9166-460735536c00"
       ],
       "settings": {
         "height": "screen-height-three-quarters",
