@@ -44,10 +44,10 @@
             "first-column-text": "<h2>WHY CHOOSE LOVE NOT WAR?<\/h2>\n<p>\nAward winning, sustainable sex toys that don’t cost the earth… All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.  \n<\/p>\n<a class=\"lnw__btn\" href=\"#\">Shop Now<\/a>"
           }
         },
-        "8e48a74d-7a36-4a03-a407-15654b978ddb": {
+        "1af3d64b-5a74-461e-a54a-739551b871a9": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/3.png",
+            "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
             "second-column-text": ""
           }
         },
@@ -70,21 +70,21 @@
             "first-column-text": "<h2>The heads collection<\/h2>\n<p>\nThe whole Love Not War range is interchangeable, so once you own a base unit, you can buy a separate head, creating multiple toys in one! This significantly increases your choices while reducing consumption.\n<\/p>\n<a class=\"lnw__btn\" href=\"#\">Shop Now<\/a>"
           }
         },
-        "1af3d64b-5a74-461e-a54a-739551b871a9": {
+        "8e48a74d-7a36-4a03-a407-15654b978ddb": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
+            "second-column-image": "shopify:\/\/shop_images\/3.png",
             "second-column-text": ""
           }
         }
       },
       "block_order": [
         "bcfe1060-4350-44d2-bfea-df9462518619",
-        "8e48a74d-7a36-4a03-a407-15654b978ddb",
+        "1af3d64b-5a74-461e-a54a-739551b871a9",
         "e818b3fa-5130-408f-aaac-c4c3b2507bc4",
         "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52",
         "f152003e-92a2-4e88-acd4-695a92eaaff4",
-        "1af3d64b-5a74-461e-a54a-739551b871a9"
+        "8e48a74d-7a36-4a03-a407-15654b978ddb"
       ],
       "settings": {
         "lnw-split-scroll": ""
