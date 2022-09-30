@@ -146,9 +146,10 @@
         "4e8327c3-9326-4f49-acd7-d67d52826288": {
           "type": "award-card",
           "settings": {
-            "heading": "test 5",
-            "year": "2019",
-            "back-text": "test test test"
+            "logo": "shopify:\/\/shop_images\/LNW_Green_Product_Award_2022.jpg",
+            "heading": "Green Product Award",
+            "year": "2022",
+            "back-text": "Since 2013, the Green Product Award distinguishes globally sustainable, innovative products and services that are on the market. It is aimed at start-ups and established companies alike who wish to highlight their sustainable achievements. We are thrilled to win a Green Product Award as it shows we are not green-washing, we are extremely passionate about becoming the most sustainable option on the market."
           }
         }
       },
