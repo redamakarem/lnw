@@ -90,108 +90,6 @@
         "lnw-split-scroll": ""
       }
     },
-    "1658851103e97320c6": {
-      "type": "section-custom-content",
-      "disabled": true,
-      "blocks": {
-        "1658851102d9951bd7-0": {
-          "type": "image",
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "description": "",
-            "flex_align": "align--middle-center",
-            "text_color": "text-light",
-            "transparent": true,
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "1658851102d9951bd7-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "Why Choose Love <br>Not War",
-            "text": "<p>We have been nominated for four top industry awards including ‘Progressive Sex Toy Company’, ‘New Pleasure Company of the Year’,  ‘Luxury Pleasure Product: Gra’ and also for a Green Product Award. <\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "text_color": "text-dark",
-            "bg_color": "#ffffff",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "lnw__btn"
-          }
-        }
-      },
-      "block_order": [
-        "1658851102d9951bd7-0",
-        "1658851102d9951bd7-1"
-      ],
-      "settings": {
-        "height": "screen-height-full",
-        "padding": false,
-        "borders": false,
-        "wrapper": false,
-        "lnw-wrapper": false
-      }
-    },
-    "image-with-text": {
-      "type": "section-custom-content",
-      "disabled": true,
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "The heads collection",
-            "text": "<p>The whole Love Not War range is interchangeable, so once you own a base unit, you can buy a separate head, creating multiple toys in one! This significantly increases your choices while reducing consumption.<\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "text_color": "text-dark",
-            "bg_color": "#e7e3de",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections",
-            "button_color": "btn--link",
-            "button_style": "lnw__btn"
-          }
-        },
-        "image": {
-          "type": "image",
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "description": "",
-            "flex_align": "align--middle-left",
-            "text_color": "text-light",
-            "transparent": true,
-            "link_text": "",
-            "link": "\/collections\/all",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "image"
-      ],
-      "settings": {
-        "height": "screen-height-full",
-        "padding": false,
-        "borders": false,
-        "wrapper": false,
-        "lnw-wrapper": false
-      }
-    },
     "16589478971c3227ea": {
       "type": "collection-lnw",
       "settings": {
@@ -490,26 +388,6 @@
         "blog-link": "shopify:\/\/blogs\/test-blog"
       }
     },
-    "rich-text": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "subheading": "with KAMA15 on checkout for 15% off",
-        "title": "Grab some GOOD KAMA",
-        "text": "",
-        "text_size": 2,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "hero__btn btn btn--large btn--outline caps",
-        "height": "margin--medium",
-        "width": "wrapper",
-        "text_color": "text-dark",
-        "bg_color": "#ffffff"
-      }
-    },
     "16426127035bd96a27": {
       "type": "apps",
       "blocks": {
@@ -528,13 +406,26 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "166452763576c5c04e": {
+      "type": "section-blog",
+      "settings": {
+        "blog_name": "love-not-war-blog",
+        "title": "EDUCATIONAL HUB",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false
+      }
     }
   },
   "order": [
     "slideshow",
     "1662137516bf5e9250",
-    "1658851103e97320c6",
-    "image-with-text",
     "16589478971c3227ea",
     "1661084539183a92c4",
     "165930724844934d89",
@@ -543,7 +434,7 @@
     "icons",
     "1660686550db8b3a9c",
     "16593604036b256fa6",
-    "rich-text",
-    "16426127035bd96a27"
+    "16426127035bd96a27",
+    "166452763576c5c04e"
   ]
 }
