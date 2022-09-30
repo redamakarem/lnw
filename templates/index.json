@@ -153,6 +153,12 @@
         "bg_color": "#e7e3de"
       }
     },
+    "166455636977cfff1e": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<h2 class=\"rich-text__title text-block__item text-block__heading type-heading-1\" style=\"border-top: 1px; margin-top:0px;\" >\n        RECENTLY ADDED\n      <\/h2>"
+      }
+    },
     "16593742018d4c775a": {
       "type": "recommended-products-lnw",
       "settings": {
@@ -537,6 +543,7 @@
     "16589478971c3227ea",
     "1661084539183a92c4",
     "logos",
+    "166455636977cfff1e",
     "16593742018d4c775a",
     "165930724844934d89",
     "icons",
