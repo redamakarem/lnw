@@ -463,6 +463,68 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "16645319337036fe1f": {
+      "type": "section-columns",
+      "blocks": {
+        "1664531932d4e63bec-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reddot_winner_2022.jpg",
+            "bg_position": "center-center",
+            "title": "Red Dot Winner | Innovative Product",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1664531932d4e63bec-1": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1664531932d4e63bec-2": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1664531932d4e63bec-0",
+        "1664531932d4e63bec-1",
+        "1664531932d4e63bec-2"
+      ],
+      "settings": {
+        "title": "At Love Not War we make no compromises when it comes to PLEASURE or the PLANET.",
+        "bg_color": "#ffffff",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 0.5,
+        "enable_image": true
+      }
     }
   },
   "order": [
@@ -478,6 +540,7 @@
     "1664530854617d9b35",
     "166452763576c5c04e",
     "16593604036b256fa6",
-    "16426127035bd96a27"
+    "16426127035bd96a27",
+    "16645319337036fe1f"
   ]
 }
