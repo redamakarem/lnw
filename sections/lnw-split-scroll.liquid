@@ -37,9 +37,6 @@
               {%- unless block.settings.second-column-btn-text == '' -%}
                 <a class="{{ block.settings.second-column-btn-style }}"
                   href="{{ block.settings.second-column-btn-link }}"
-                  data-aos="hero"
-                  data-anchor="{{ animation_anchor }}"
-                  data-aos-order="3">
                   {{ block.settings.second-column-btn-text | escape }}
                 </a>
               {%- endunless -%}
