@@ -8,7 +8,7 @@
                 <div class="card" onclick="$(this).toggleClass('flipped');">
                     <div class="front">
                         <div class="logo-wrapper">
-                            <img src="{{ block.settings.logo | img_url }}" alt="Logo image" class="logo">
+                            <img src="{{ block.settings.logo | img_url:'master' }}" alt="Logo image" class="logo">
                         </div>
                         <div class="heading-wrapper">
                             <h3>{{ block.settings.heading }}</h3>
