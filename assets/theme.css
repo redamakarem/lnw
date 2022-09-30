@@ -304,6 +304,11 @@ section.blog-slider .owl-nav {
   height: 100%;
     width: 100%;
 }
+
+.card .front h3{
+  font-size:28px;
+}
+
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
