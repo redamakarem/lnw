@@ -485,8 +485,9 @@
         "1664531932d4e63bec-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/LNW_if_Gold_Award_2022.jpg",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
+            "title": "IF Gold Design Award Winner | Outstanding Design Achievements",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_text": "Learn more",
             "button_url": "",
