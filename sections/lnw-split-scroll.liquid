@@ -32,6 +32,7 @@
             {% endif %} 
             {% if block.settings.second-column-text != blank %}
             <div class="text col-box">
+              <h2>{{ block.settings.second-column-heading }}</h2>>
                     {{ block.settings.second-column-text }}
                 </div>
                 {% endif %} 
@@ -88,6 +89,11 @@
                         "id": "second-column-image",
                         "label": "Image"
                     },
+                  {
+                        "type": "text",
+                        "id": "first-column-heading",
+                        "label": "Heading"
+                      },
                     {
                         "type": "richtext",
                         "id": "second-column-text",
