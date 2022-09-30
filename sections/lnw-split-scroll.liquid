@@ -12,6 +12,7 @@
             {% endif %} 
             {% if block.settings.first-column-text != blank %}
             <div class="text col-box">
+              <h2>{{ block.settings.first-column-heading }}</h2>>
                     {{ block.settings.first-column-text }}
                 </div>
                 {% endif %} 
@@ -66,6 +67,11 @@
                         "id": "first-column-image",
                         "label": "Image"
                     },
+                   {
+                        "type": "text",
+                        "id": "first-column-heading",
+                        "label": "Heading"
+                      },
                     {
                         "type": "richtext",
                         "id": "first-column-text",
