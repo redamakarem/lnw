@@ -317,7 +317,7 @@
             "text_color": "text-dark",
             "bg_color": "#f0eeec",
             "button_text": "Learn more",
-            "button_url": "",
+            "button_url": "shopify:\/\/pages\/one-tree-planted",
             "button_color": "btn--neutral",
             "button_style": "lnw__btn"
           }
@@ -328,15 +328,31 @@
         "166068655001e7d1cb-1"
       ],
       "settings": {
-        "height": "screen-height-full",
+        "height": "five-fifty-height-hero",
         "padding": false,
         "borders": false,
         "wrapper": false,
         "lnw-wrapper": true
       }
     },
+    "166452763576c5c04e": {
+      "type": "section-blog",
+      "settings": {
+        "blog_name": "love-not-war-blog",
+        "title": "EDUCATIONAL HUB",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false
+      }
+    },
     "16593604036b256fa6": {
       "type": "blog-carousel-lnw",
+      "disabled": true,
       "blocks": {
         "1cd87566-8dd6-4743-a0be-905248cf210b": {
           "type": "blog-post-card",
@@ -406,21 +422,6 @@
       "settings": {
         "include_margins": false
       }
-    },
-    "166452763576c5c04e": {
-      "type": "section-blog",
-      "settings": {
-        "blog_name": "love-not-war-blog",
-        "title": "EDUCATIONAL HUB",
-        "grid": 4,
-        "rows": 1,
-        "aspect_ratio": 1,
-        "show_tags": false,
-        "show_author": false,
-        "show_date": false,
-        "show_button": true,
-        "show_comments": false
-      }
     }
   },
   "order": [
@@ -433,8 +434,8 @@
     "logos",
     "icons",
     "1660686550db8b3a9c",
+    "166452763576c5c04e",
     "16593604036b256fa6",
-    "16426127035bd96a27",
-    "166452763576c5c04e"
+    "16426127035bd96a27"
   ]
 }
