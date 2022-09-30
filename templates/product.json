@@ -68,83 +68,6 @@
         "enable_video_looping": false
       }
     },
-    "1642623665c27608ff": {
-      "type": "page-faq",
-      "disabled": true,
-      "blocks": {
-        "1642623665d875b64a-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Features"
-          }
-        },
-        "1642623665d875b64a-1": {
-          "type": "question",
-          "settings": {
-            "title": "Made from body & earth safe materials",
-            "content": "<p>The earth and your clit will thank you<\/p>"
-          }
-        },
-        "1642623665d875b64a-2": {
-          "type": "question",
-          "settings": {
-            "title": "Repairable and recyclable",
-            "content": "<p>We’re built to last<\/p>"
-          }
-        },
-        "1642623665d875b64a-3": {
-          "type": "question",
-          "settings": {
-            "title": "Compatible with all Love Not War vibe heads",
-            "content": "<p>Only 1 rechargeable battery needed for multiple toys<\/p>"
-          }
-        },
-        "75cbec64-fb73-480d-8f3c-f05de199fc45": {
-          "type": "question",
-          "settings": {
-            "title": "4 intensity levels and 7 patterns",
-            "content": "<p>Take your own route<\/p>"
-          }
-        },
-        "fecab561-a827-40b1-aad6-d78c13f3f4bf": {
-          "type": "question",
-          "settings": {
-            "title": "Waterproof",
-            "content": "<p>Long baths, quick showers and naughty lake days approved<\/p>"
-          }
-        },
-        "4529f90d-ae95-4bd9-bdbe-c2609361f3fa": {
-          "type": "question",
-          "settings": {
-            "title": "Quiet",
-            "content": "<p>Because some things you might like to keep to yourself<\/p>"
-          }
-        },
-        "4784b091-7fe8-4414-a217-f409adfa54d4": {
-          "type": "question",
-          "settings": {
-            "title": "Travel lock",
-            "content": "<p>You could always blame your phone…<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1642623665d875b64a-0",
-        "1642623665d875b64a-1",
-        "1642623665d875b64a-2",
-        "1642623665d875b64a-3",
-        "75cbec64-fb73-480d-8f3c-f05de199fc45",
-        "fecab561-a827-40b1-aad6-d78c13f3f4bf",
-        "4529f90d-ae95-4bd9-bdbe-c2609361f3fa",
-        "4784b091-7fe8-4414-a217-f409adfa54d4"
-      ],
-      "settings": {
-        "width": "wrapper--narrow",
-        "height": "margin--small",
-        "text_color": "text-dark",
-        "bg_color": "#ffffff"
-      }
-    },
     "faq": {
       "type": "section-accordion",
       "blocks": {
@@ -249,165 +172,6 @@
       ],
       "settings": {
         "title": "Shipping"
-      }
-    },
-    "about": {
-      "type": "section-accordion",
-      "disabled": true,
-      "blocks": {
-        "about-0": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
-            "bg_position": "center-center",
-            "aspect_ratio": 0.6
-          }
-        },
-        "about-1": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
-            "bg_position": "center-center",
-            "aspect_ratio": 0.6
-          }
-        },
-        "about-2": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
-            "bg_position": "center-center",
-            "aspect_ratio": 0.6
-          }
-        }
-      },
-      "block_order": [
-        "about-0",
-        "about-1",
-        "about-2"
-      ],
-      "settings": {
-        "title": "Serving Suggestions"
-      }
-    },
-    "16427029638b1ce2c8": {
-      "type": "section-columns",
-      "disabled": true,
-      "blocks": {
-        "1642702963d854e509-0": {
-          "type": "text_block",
-          "settings": {
-            "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--large",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "1642702963d854e509-1": {
-          "type": "text_block",
-          "settings": {
-            "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--large",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "1642702963d854e509-2": {
-          "type": "text_block",
-          "settings": {
-            "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--large",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        }
-      },
-      "block_order": [
-        "1642702963d854e509-0",
-        "1642702963d854e509-1",
-        "1642702963d854e509-2"
-      ],
-      "settings": {
-        "title": "",
-        "bg_color": "#ffffff",
-        "align_text": "text-left",
-        "width": "wrapper--full",
-        "equalize_height": true,
-        "photo_aspect_ratio": 0.7,
-        "enable_image": true
-      }
-    },
-    "1642702952374cb112": {
-      "type": "section-text-row",
-      "blocks": {
-        "16427029526c96a46f-0": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-lock-card",
-            "icon_color": "#545454",
-            "title": "Secure transactions",
-            "text": "Transactions are handled with bank-grade security."
-          }
-        },
-        "77330e7b-9a74-4980-b177-1d5840391717": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-lock-window",
-            "icon_color": "#545454",
-            "title": "Discreet Packaging",
-            "text": "It's our little secret."
-          }
-        },
-        "16427029526c96a46f-1": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-basket-like",
-            "icon_color": "#545454",
-            "title": "Simple checkout",
-            "text": "Our secure checkout is quick and easy to use."
-          }
-        },
-        "16427029526c96a46f-2": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_color": "#545454",
-            "title": "Get in touch",
-            "text": "Have questions? Get in touch with us at any time at hello@l-n-w.com."
-          }
-        }
-      },
-      "block_order": [
-        "16427029526c96a46f-0",
-        "77330e7b-9a74-4980-b177-1d5840391717",
-        "16427029526c96a46f-1",
-        "16427029526c96a46f-2"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "icon_size": "icon--large",
-        "icon_alignment": "icon--top",
-        "text_color": "text-dark",
-        "heading_size": "h6",
-        "height": "margin--small",
-        "bg_color": "#fca38c"
       }
     },
     "reviews": {
@@ -535,6 +299,62 @@
         "include_margins": true
       }
     },
+    "1642702952374cb112": {
+      "type": "section-text-row",
+      "blocks": {
+        "16427029526c96a46f-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-lock-card",
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        "77330e7b-9a74-4980-b177-1d5840391717": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-lock-window",
+            "icon_color": "#545454",
+            "title": "Discreet Packaging",
+            "text": "It's our little secret."
+          }
+        },
+        "16427029526c96a46f-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-basket-like",
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        "16427029526c96a46f-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text": "Have questions? Get in touch with us at any time at hello@l-n-w.com."
+          }
+        }
+      },
+      "block_order": [
+        "16427029526c96a46f-0",
+        "77330e7b-9a74-4980-b177-1d5840391717",
+        "16427029526c96a46f-1",
+        "16427029526c96a46f-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_size": "icon--large",
+        "icon_alignment": "icon--top",
+        "text_color": "text-dark",
+        "heading_size": "h6",
+        "height": "margin--small",
+        "bg_color": "#fca38c"
+      }
+    },
     "related": {
       "type": "related",
       "settings": {
@@ -652,16 +472,13 @@
   },
   "order": [
     "main",
-    "1642623665c27608ff",
     "faq",
     "shipping",
-    "about",
-    "16427029638b1ce2c8",
-    "1642702952374cb112",
     "reviews",
     "custom",
     "imgtxt",
     "1642579921c69a7296",
+    "1642702952374cb112",
     "related",
     "1642357484244dd584",
     "16423576797364b4a9"
