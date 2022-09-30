@@ -473,13 +473,13 @@
             "image": "shopify:\/\/shop_images\/reddot_winner_2022.jpg",
             "bg_position": "center-center",
             "title": "Red Dot Winner | Innovative Product",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "text": "<p><strong>The Red Dot Awards<\/strong> have become known as a much sought after ‘seal of quality’ and is presented only to products that have an outstanding design feature, so we are delighted to win an award for our <strong>KOI<\/strong> Vibrator. <strong>The Red Dot Awards<\/strong> receive more than 18,000 entries each year from design professionals, and is considered one of the world’s largest and most renowned design competitions. <\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "caps--large",
             "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            "video_link": ""
           }
         },
         "1664531932d4e63bec-1": {
