@@ -148,22 +148,16 @@
       ],
       "settings": {
         "title": "",
-        "logo_opacity": 100,
-        "text_color": "text-light",
+        "logo_opacity": 80,
+        "text_color": "text-dark",
         "bg_color": "#e7e3de"
-      }
-    },
-    "166455636977cfff1e": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<h2 class=\"rich-text__title text-block__item text-block__heading type-heading-1\" style=\"border-top: 1px; margin-top:0px;\" >\n        RECENTLY ADDED\n      <\/h2>"
       }
     },
     "16593742018d4c775a": {
       "type": "recommended-products-lnw",
       "settings": {
-        "lnw-recommended-products": "Recommendedd",
-        "main-image": "shopify:\/\/shop_images\/lifestyle_resize.jpg",
+        "lnw-recommended-products": "Recommended",
+        "main-image": "shopify:\/\/shop_images\/LNW_AD04_Liebe_unit_16.jpg",
         "heading": "Meet the LIEBE",
         "description": "<p>Are you one to take things slow and let it build up? (Otherwise known as a slowgasm…) If so, you’re in luck! LIEBE is the head for you. The soft and flexible silicone head is designed to perfectly massage your G-spot, allowing you to apply as little or maximum pressure as you want. Just like all our toy, LIEBE features 4 intensity levels and 7 vibration patterns, perfect for exploring your body, finding your G-spot and letting your pleasure build.<\/p>",
         "product1": "liebe",
@@ -543,7 +537,6 @@
     "16589478971c3227ea",
     "1661084539183a92c4",
     "logos",
-    "166455636977cfff1e",
     "16593742018d4c775a",
     "165930724844934d89",
     "icons",
