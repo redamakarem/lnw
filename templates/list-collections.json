@@ -1,1 +1,48 @@
-{"sections":{"main":{"type":"list-collections","blocks":{"d441e703-cd5d-4729-b33d-c6569ce0920f":{"type":"collection","settings":{"collection":"vibrators","collection_name":"","bg_position":"center-center"}},"231e7ff6-e251-447c-8516-218ae4945ae8":{"type":"collection","settings":{"collection":"heads","collection_name":"","bg_position":"center-center"}}},"block_order":["d441e703-cd5d-4729-b33d-c6569ce0920f","231e7ff6-e251-447c-8516-218ae4945ae8"],"settings":{"display_type":"selected","title":"Discover our products","grid":4,"rows":2,"layout_mobile":"2"}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "blocks": {
+        "2a3ab556-0b3d-4ad3-bf9c-151ec89ad411": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundle",
+            "collection_name": "Bundles",
+            "bg_position": "center-center"
+          }
+        },
+        "d441e703-cd5d-4729-b33d-c6569ce0920f": {
+          "type": "collection",
+          "settings": {
+            "collection": "vibrators",
+            "collection_name": "",
+            "bg_position": "center-center"
+          }
+        },
+        "231e7ff6-e251-447c-8516-218ae4945ae8": {
+          "type": "collection",
+          "settings": {
+            "collection": "heads",
+            "collection_name": "",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "2a3ab556-0b3d-4ad3-bf9c-151ec89ad411",
+        "d441e703-cd5d-4729-b33d-c6569ce0920f",
+        "231e7ff6-e251-447c-8516-218ae4945ae8"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "title": "Discover our products",
+        "grid": 4,
+        "rows": 2,
+        "layout_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
