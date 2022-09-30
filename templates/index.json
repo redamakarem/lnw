@@ -90,20 +90,6 @@
         "lnw-split-scroll": ""
       }
     },
-    "16589478971c3227ea": {
-      "type": "collection-lnw",
-      "settings": {
-        "collection-slider": "vibrators",
-        "controls-position": "right"
-      }
-    },
-    "1661084539183a92c4": {
-      "type": "collection-lnw",
-      "settings": {
-        "collection-slider": "heads",
-        "controls-position": "left"
-      }
-    },
     "logos": {
       "type": "section-press",
       "blocks": {
@@ -151,6 +137,20 @@
         "logo_opacity": 80,
         "text_color": "text-dark",
         "bg_color": "#e7e3de"
+      }
+    },
+    "16589478971c3227ea": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "vibrators",
+        "controls-position": "right"
+      }
+    },
+    "1661084539183a92c4": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "heads",
+        "controls-position": "left"
       }
     },
     "16593742018d4c775a": {
@@ -534,9 +534,9 @@
   "order": [
     "slideshow",
     "1662137516bf5e9250",
+    "logos",
     "16589478971c3227ea",
     "1661084539183a92c4",
-    "logos",
     "16593742018d4c775a",
     "165930724844934d89",
     "icons",
