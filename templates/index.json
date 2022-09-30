@@ -167,7 +167,7 @@
       "type": "recommended-products-lnw",
       "settings": {
         "lnw-recommended-products": "Recommendedd",
-        "main-image": "shopify:\/\/shop_images\/chase-yi-LhiUBDAO-wI-unsplash_1_9c9d0acc-87d7-4c64-bac4-70e0e187bad5.jpg",
+        "main-image": "shopify:\/\/shop_images\/orange_liebe_resize.jpg",
         "heading": "Meet the LIEBE",
         "description": "Are you one to take things slow and let it build up? (Otherwise known as a slowgasm…) If so, you’re in luck! LIEBE is the head for you. The soft and flexible silicone head is designed to perfectly massage your G-spot, allowing you to apply as little or maximum pressure as you want. Just like all our toy, LIEBE features 4 intensity levels and 7 vibration patterns, perfect for exploring your body, finding your G-spot and letting your pleasure build.",
         "product1": "liebe",
@@ -418,6 +418,51 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "1664530854617d9b35": {
+      "type": "section-reviews",
+      "blocks": {
+        "1664530854464a3118-0": {
+          "type": "review",
+          "settings": {
+            "title": "Ellen Scott",
+            "subheading": "METRO",
+            "review_text": "<p>An eco-friendly vibrator so you can masturbate without worrying about wrecking the environment? A win in our books<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        },
+        "1664530854464a3118-1": {
+          "type": "review",
+          "settings": {
+            "title": "Bethany Allard",
+            "subheading": "MASHABLE",
+            "review_text": "<p>Love Not War takes sustainability seriously, all the way from the production line to the vibrator that ends up in your hands<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        },
+        "f99ed243-ff39-49a2-b29d-fe87b1277821": {
+          "type": "review",
+          "settings": {
+            "title": "Archie Bongiovanni",
+            "subheading": "VICE",
+            "review_text": "<p>Not only are they nice for the environment, these vibrators are seriously powerful, too<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664530854464a3118-0",
+        "1664530854464a3118-1",
+        "f99ed243-ff39-49a2-b29d-fe87b1277821"
+      ],
+      "settings": {
+        "text_align": "text-left",
+        "text_color": "text-dark",
+        "bg_color": "#fafafa"
+      }
     }
   },
   "order": [
@@ -432,6 +477,7 @@
     "1660686550db8b3a9c",
     "166452763576c5c04e",
     "16593604036b256fa6",
-    "16426127035bd96a27"
+    "16426127035bd96a27",
+    "1664530854617d9b35"
   ]
 }
