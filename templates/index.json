@@ -488,27 +488,28 @@
             "image": "shopify:\/\/shop_images\/LNW_if_Gold_Award_2022.jpg",
             "bg_position": "center-center",
             "title": "IF Gold Design Award Winner | Outstanding Design Achievements",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "text": "<p>Love Not War has been awarded a prestigious Gold IF Design Award, their highest recognition, for our outstanding design achievements. The IF Design Award is one of the world’s most prestigious design awards. Organised in Germany since 1953, the IF seal signifies a great product design for consumers and the design community. There are more htan 11,000 entries every year from design professionals, companies and organisations<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "caps--large",
             "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            "video_link": ""
           }
         },
         "1664531932d4e63bec-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/XBIZ_Europa_Awards_2022.jpg",
             "bg_position": "center-center",
             "title": "Add a title or tagline",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "caps--large",
             "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            "video_link": ""
           }
         }
       },
@@ -523,7 +524,7 @@
         "align_text": "text-center",
         "width": "wrapper",
         "equalize_height": true,
-        "photo_aspect_ratio": 0.5,
+        "photo_aspect_ratio": 1,
         "enable_image": true
       }
     }
