@@ -16,7 +16,7 @@
                     {{ block.settings.first-column-text }}
               {%- unless block.settings.first-column-btn-text == '' -%}
                 <a class="{{ block.settings.first-column-btn-style }}"
-                  href="{{ block.settings.first-column-btn-link }}"
+                  href="{{ block.settings.first-column-btn-link }}">
                   {{ block.settings.first-column-btn-text | escape }}
                 </a>
               {%- endunless -%}
@@ -42,7 +42,7 @@
                     {{ block.settings.second-column-text }}
               {%- unless block.settings.second-column-btn-text == '' -%}
                 <a class="{{ block.settings.second-column-btn-style }}"
-                  href="{{ block.settings.second-column-btn-link }}"
+                  href="{{ block.settings.second-column-btn-link }}">
                   {{ block.settings.second-column-btn-text | escape }}
                 </a>
               {%- endunless -%}
