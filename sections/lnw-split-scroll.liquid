@@ -34,6 +34,15 @@
             <div class="text col-box">
               <h2>{{ block.settings.second-column-heading }}</h2>
                     {{ block.settings.second-column-text }}
+              {%- unless block.settings.second-column-btn-text == '' -%}
+                <a class="{{ block.settings.second-column-btn-style }}"
+                  href="{{ block.settings.second-column-btn-link }}"
+                  data-aos="hero"
+                  data-anchor="{{ animation_anchor }}"
+                  data-aos-order="3">
+                  {{ block.settings.link_text | escape }}
+                </a>
+              {%- endunless -%}
                 </div>
                 {% endif %} 
             {% endfor %}
