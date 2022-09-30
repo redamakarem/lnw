@@ -49,13 +49,15 @@
           "type": "second-column-elements",
           "settings": {
             "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
+            "first-column-heading": "",
             "second-column-text": ""
           }
         },
         "e818b3fa-5130-408f-aaac-c4c3b2507bc4": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-text": "<p>Pleasure that doesn’t cost the earth<br\/><\/p><p><br\/>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.<br\/><\/p>"
+            "first-column-heading": "Pleasure that doesn’t cost the earth",
+            "second-column-text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.<br\/><\/p>"
           }
         },
         "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52": {
@@ -77,6 +79,7 @@
           "type": "second-column-elements",
           "settings": {
             "second-column-image": "shopify:\/\/shop_images\/3.png",
+            "first-column-heading": "",
             "second-column-text": ""
           }
         }
