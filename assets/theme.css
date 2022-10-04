@@ -56,6 +56,8 @@ body{
 .text.col-box a.btn {
   font-weight: 700;
   margin-top: 56px;
+  width: auto;
+  padding: 8px 24px;
 }
 
 .col-box .lnw__btn {
