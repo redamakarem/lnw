@@ -214,6 +214,11 @@ line-height: 48px;
     border-radius:8px;
   }
 
+  a.btn--input.btn--outline.lnw.btn {
+    text-transform: none;
+    padding: 8px 24px;
+}
+
   .homepage-slideshow .flickity-page-dots .dot, .homepage-slideshow .slick-dots .dot{
     width: 10px;
     height: 10px;
