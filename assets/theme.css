@@ -53,6 +53,10 @@ body{
   text-transform: uppercase;
   font-size:48px;
 }
+.text.col-box a.btn {
+  font-weight: 700;
+  margin-top: 56px;
+}
 
 .col-box .lnw__btn {
     margin-top: 48px;
@@ -376,9 +380,14 @@ h2.icon__column__text__heading.h5 strong{
     
   }
 
+
   .text.col-box h2{
   text-transform: uppercase;
   font-size:28px;
+}
+.text.col-box a.btn {
+  font-weight: 700;
+  margin-top: 56px;
 }
 
   .award-track .owl-nav{
