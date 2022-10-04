@@ -5,7 +5,7 @@
 
             {%- for block in section.blocks -%}
             <div class="item">
-                <div class="card" onclick="$(this).toggleClass('flipped');">
+                <div class="card" onclick="$('.card').removeClass('flipped');$(this).toggleClass('flipped');">
                     <div class="front">
                         <div class="logo-wrapper">
                             <img src="{{ block.settings.logo | img_url:'master' }}" alt="Logo image" class="logo">
