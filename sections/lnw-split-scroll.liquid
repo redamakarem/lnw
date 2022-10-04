@@ -41,7 +41,7 @@
               <h2>{{ block.settings.second-column-heading }}</h2>
                     {{ block.settings.second-column-text }}
               {%- unless block.settings.second-column-btn-text == '' -%}
-                <a class="{{ block.settings.second-column-btn-style }}"
+                <a class="{{ block.settings.second-column-btn-style }} {{ block.settings.button_color }}"
                   href="{{ block.settings.second-column-btn-link }}">
                   {{ block.settings.second-column-btn-text | escape }}
                 </a>
