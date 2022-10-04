@@ -89,7 +89,7 @@
             "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
             "first-column-btn-text": "Shop Now",
             "first-column-btn-link": "shopify:\/\/pages\/privacy-policy",
-            "button_color": "btn--link",
+            "button_color": "btn--secondary",
             "first-column-btn-style": "hero__btn btn btn--large btn--outline lnw"
           }
         },
