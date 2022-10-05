@@ -7,8 +7,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/LNW_-_Site_Banners_-_Desktop_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/LNW_-_Site_Banners_-_Mobile_1080_x_1080_px_1.png",
+            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
+            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "title": "",
@@ -17,7 +17,7 @@
             "text_color": "text-light",
             "transparent": true,
             "link_text": "",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--input btn--outline lnw caps"
           }
