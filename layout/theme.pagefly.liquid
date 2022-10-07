@@ -19,6 +19,10 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   <link rel="preload" href="{{ 'lazysizes.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'vendor.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style"> 
 
   {% if settings.favicon %}
@@ -59,6 +63,8 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   {% render 'css-variables' %}
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
+
+  
 
   <script>
     if (window.navigator.userAgent.indexOf('MSIE ') > 0 || window.navigator.userAgent.indexOf('Trident/') > 0) {
