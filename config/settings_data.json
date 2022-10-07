@@ -100,7 +100,6 @@
         "blocks": {
           "d901df09-2ce1-406c-ac5f-037f26f494c3": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "<p><strong>FREE & DISCREET SHIPPING FOR USA & UK <\/strong>| SHOP NOW<\/p>",
               "target_url_enabled": false,
@@ -113,6 +112,7 @@
           },
           "16797837-bb5f-4f69-a11f-4dcee4bf1d24": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><strong>Hump Day Sale 20% off applied at checkout for Vibrators & Heads<\/strong> | <strong>FREE DISCREET SHIPPING USA & UK<\/strong><\/p>",
               "target_url_enabled": false,
