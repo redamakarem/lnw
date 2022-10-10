@@ -42,7 +42,7 @@
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "WHY CHOOSE LOVE NOT WAR?",
-            "first-column-text": "<p><br\/>Award winning, sustainable sex toys that don’t cost the earth. All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
+            "first-column-text": "<p><br\/>Award-winning, sustainable sex toys that don’t cost the earth. <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
             "first-column-btn-text": "",
             "first-column-btn-link": "",
             "button_color": "btn--white",
@@ -64,7 +64,7 @@
           "type": "second-column-elements",
           "settings": {
             "second-column-heading": "Pleasure that doesn’t cost the earth",
-            "second-column-text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.<br\/><\/p>",
+            "second-column-text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created the first-ever range of eco-friendly sex toys.<\/p><p>Featuring recycled and recyclable materials, our products are good for your body and the planet.  <\/p>",
             "second-column-btn-text": "",
             "second-column-btn-link": "",
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
@@ -86,7 +86,7 @@
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "The heads collection",
-            "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
+            "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. <\/p><p>It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
             "first-column-btn-text": "SHOP NOW",
             "first-column-btn-link": "shopify:\/\/collections\/heads",
             "button_color": "btn--link",
