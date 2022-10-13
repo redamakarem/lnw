@@ -2203,6 +2203,7 @@
 
           const cleanResponse = element.querySelector('[data-api-content]').innerHTML;
           this.build(cleanResponse);
+          console.log('YAAAS');
         })
         .catch((error) => console.log(error));
     }
