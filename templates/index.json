@@ -7,8 +7,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/LNW_-_Site_Banners_-_Desktop_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/LNW_-_Site_Banners_-_Mobile_1080_x_1080_px_1.png",
+            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
+            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "title": "",
@@ -17,7 +17,7 @@
             "text_color": "text-light",
             "transparent": true,
             "link_text": "",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--input btn--outline lnw caps"
           }
@@ -42,7 +42,7 @@
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "WHY CHOOSE LOVE NOT WAR?",
-            "first-column-text": "<p><br\/>Award winning, sustainable sex toys that don’t cost the earth. All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
+            "first-column-text": "<p><br\/>Award-winning, sustainable sex toys that don’t cost the earth. <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
             "first-column-btn-text": "",
             "first-column-btn-link": "",
             "button_color": "btn--white",
@@ -64,7 +64,7 @@
           "type": "second-column-elements",
           "settings": {
             "second-column-heading": "Pleasure that doesn’t cost the earth",
-            "second-column-text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.<br\/><\/p>",
+            "second-column-text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created the first-ever range of eco-friendly sex toys made from recycled and recyclable materials.<\/p><p>Our products are good for your body and the planet.  <\/p>",
             "second-column-btn-text": "",
             "second-column-btn-link": "",
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
@@ -86,10 +86,10 @@
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "The heads collection",
-            "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
+            "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. <\/p><p>It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
             "first-column-btn-text": "SHOP NOW",
-            "first-column-btn-link": "shopify:\/\/pages\/privacy-policy",
-            "button_color": "btn--primary",
+            "first-column-btn-link": "shopify:\/\/collections\/heads",
+            "button_color": "btn--link",
             "first-column-btn-style": "hero__btn btn btn--large btn--outline lnw"
           }
         },
@@ -162,7 +162,7 @@
       "settings": {
         "title": "",
         "logo_opacity": 80,
-        "text_color": "text-light",
+        "text_color": "text-dark",
         "bg_color": "#e7e3de"
       }
     },
@@ -387,7 +387,7 @@
           "settings": {
             "title": "Archie Bongiovanni",
             "subheading": "VICE",
-            "review_text": "<p>Not only are they nice for the environment, these vibrators are seriously powerful, too<\/p>",
+            "review_text": "<p>Fantastic, rechargeable, eco-friendly...not only are they nice for the environment, these vibrators are seriously powerful too.<\/p><p><\/p>",
             "review_url": "",
             "review_link_name": ""
           }
@@ -481,7 +481,7 @@
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
-            "html_area": "<style>\n#insta-feed {\n    padding: 56px 50px 0px 50px;\nbackground-color:#F0EEEC;\n}\n<\/style>"
+            "html_area": "<style>\n#insta-feed {\n    padding: 56px 50px 0px 50px;\nbackground-color:#F0EEEC;\n}\n\n<\/style>"
           }
         }
       },

@@ -24,7 +24,7 @@
     "footer_bg": "#ffffff",
     "footer_border": "#212121",
     "footer_text": "#808080",
-    "footer_link": "#fca38c",
+    "footer_link": "#fa5e41",
     "footer_link_hover": "#212121",
     "type_heading_font": "lato_n4",
     "type_heading_size": 115,
@@ -100,7 +100,6 @@
         "blocks": {
           "d901df09-2ce1-406c-ac5f-037f26f494c3": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "<p><strong>FREE & DISCREET SHIPPING FOR USA & UK <\/strong>| SHOP NOW<\/p>",
               "target_url_enabled": false,
@@ -113,6 +112,7 @@
           },
           "16797837-bb5f-4f69-a11f-4dcee4bf1d24": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><strong>Hump Day Sale 20% off applied at checkout for Vibrators & Heads<\/strong> | <strong>FREE DISCREET SHIPPING USA & UK<\/strong><\/p>",
               "target_url_enabled": false,
