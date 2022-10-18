@@ -305,7 +305,7 @@
         "text_color": "text-dark",
         "heading_size": "h5",
         "height": "margin--small",
-        "bg_color": "#ffffff"
+        "bg_color": "#f0eeec"
       }
     },
     "1660686550db8b3a9c": {
@@ -400,8 +400,8 @@
       ],
       "settings": {
         "text_align": "text-left",
-        "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "text_color": "text-light",
+        "bg_color": "#fa5e41"
       }
     },
     "166452763576c5c04e": {
