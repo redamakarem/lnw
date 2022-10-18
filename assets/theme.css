@@ -494,8 +494,12 @@ h2.icon__column__text__heading.h5 strong{
   }
 
   .col-box {
-    height: 50vh;
+    height: auto;
     width: 100%;
+}
+
+  .image.col-box {
+    min-height: 400px;
 }
   .standard__rte p{
     text-align:center;
