@@ -464,6 +464,7 @@ h2.icon__column__text__heading.h5 strong{
     }
     .lnw-recommended-wrapper{
         flex-direction: column;
+      overflow-x:hidden;
     }
     .title-wrapper{
         flex-direction: row-reverse !important;
