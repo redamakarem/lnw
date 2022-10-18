@@ -302,10 +302,10 @@
         "text_alignment": "center",
         "icon_size": "icon--large",
         "icon_alignment": "icon--top",
-        "text_color": "text-dark",
+        "text_color": "text-light",
         "heading_size": "h5",
         "height": "margin--small",
-        "bg_color": "#f0eeec"
+        "bg_color": "#fca38d"
       }
     },
     "1660686550db8b3a9c": {
