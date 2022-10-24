@@ -1,1 +1,38 @@
-{"sections":{"main":{"type":"customer-account","blocks":{"account":{"type":"account","settings":{}},"email":{"type":"email","settings":{}}},"block_order":["account","email"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "customer-account",
+      "blocks": {
+        "account": {
+          "type": "account",
+          "settings": {
+          }
+        },
+        "1e442301-7029-47f1-82c7-9587d42e2bfd": {
+          "type": "link",
+          "settings": {
+            "title": "Rewards",
+            "link": "shopify:\/\/pages\/reward"
+          }
+        },
+        "email": {
+          "type": "email",
+          "settings": {
+            "title": "Support",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "account",
+        "1e442301-7029-47f1-82c7-9587d42e2bfd",
+        "email"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
