@@ -132,7 +132,7 @@
           "bg_color": "#fa5e41",
           "color": "#ffffff",
           "layout": "slider",
-          "speed": 7
+          "speed": 12
         }
       },
       "footer": {
