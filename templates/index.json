@@ -30,7 +30,7 @@
             "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "",
             "description": "",
             "flex_align": "align--middle-center",
