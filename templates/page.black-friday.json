@@ -90,13 +90,34 @@
       "type": "section-collection-carousel",
       "settings": {
         "heading": "Best sellers",
-        "description": "<p>Enjoy up to 40% on selected items!<\/p>",
+        "description": "<p>Enjoy up to 40% on Amore in grey, Grá in orange and Kama in grey<\/p>",
         "text_alignment": "center",
         "link_text": "",
         "link_url": "",
         "button_color": "btn--primary",
         "button_style": "hero__btn btn btn--input btn--outline caps",
         "featured_collection": "40"
+      }
+    },
+    "3a7d2d03-59f1-4570-b1fd-be190b4bcf16": {
+      "type": "featured-posts",
+      "blocks": {
+        "template--15349521940573__3a7d2d03-59f1-4570-b1fd-be190b4bcf16-1668615010cc480a0f-0": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "love-not-war-blog\/the-complete-love-not-war-shopping-guide",
+            "subheading": "",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15349521940573__3a7d2d03-59f1-4570-b1fd-be190b4bcf16-1668615010cc480a0f-0"
+      ],
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "show_button": true
       }
     },
     "b90d705f-f9f0-4948-bedb-d51ab58c0ccd": {
@@ -107,7 +128,7 @@
           "settings": {
             "title": "Jeremy Usborne",
             "subheading": "Industry Expert",
-            "review_text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+            "review_text": "<p>will add specific quotes above the products above?<\/p>",
             "review_url": "",
             "review_link_name": ""
           }
@@ -117,7 +138,17 @@
           "settings": {
             "title": "Willy Bridge",
             "subheading": "Industry Expert",
-            "review_text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+            "review_text": "<p>will add specific quotes above the products above?<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        },
+        "c77da3ed-d0f7-4496-84ba-bac7fd9185a6": {
+          "type": "review",
+          "settings": {
+            "title": "Example Customer",
+            "subheading": "Industry Expert",
+            "review_text": "<p>will add specific quotes above the products above?<\/p>",
             "review_url": "",
             "review_link_name": ""
           }
@@ -125,7 +156,8 @@
       },
       "block_order": [
         "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-0",
-        "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-1"
+        "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-1",
+        "c77da3ed-d0f7-4496-84ba-bac7fd9185a6"
       ],
       "settings": {
         "text_align": "text-left",
@@ -155,7 +187,7 @@
         "bg_position": "center-center",
         "height": "screen-height-one-half",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "title": "Image with text overlay",
         "description": "Image\/text about how heads are interchangeable",
         "flex_align": "align--middle-center",
@@ -182,6 +214,27 @@
         "rows": 3,
         "layout_mobile": "carousel"
       }
+    },
+    "f780c316-ea64-42bc-a4a8-c27c4326cf71": {
+      "type": "featured-posts",
+      "blocks": {
+        "template--15349521940573__f780c316-ea64-42bc-a4a8-c27c4326cf71-16686150497af43657-0": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "love-not-war-blog\/is-it-weird-to-gift-a-sex-toy",
+            "subheading": "",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15349521940573__f780c316-ea64-42bc-a4a8-c27c4326cf71-16686150497af43657-0"
+      ],
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "show_button": true
+      }
     }
   },
   "order": [
@@ -189,9 +242,11 @@
     "71fe84c4-4726-4613-81b0-329471171100",
     "a0d0e8cc-a176-4f78-ad6c-78efa391020d",
     "fd690607-8326-4630-a97f-9e462170f257",
+    "3a7d2d03-59f1-4570-b1fd-be190b4bcf16",
     "b90d705f-f9f0-4948-bedb-d51ab58c0ccd",
     "2dd30252-a4de-436a-9d9a-b1bd51fd7dcf",
     "c6ef8081-b46e-4a06-9842-754bc1176ce2",
-    "4b5e3e18-5349-475c-8c19-0fec0cda78da"
+    "4b5e3e18-5349-475c-8c19-0fec0cda78da",
+    "f780c316-ea64-42bc-a4a8-c27c4326cf71"
   ]
 }
