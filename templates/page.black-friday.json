@@ -86,17 +86,20 @@
         "bg_color": "#ffffff"
       }
     },
-    "fd690607-8326-4630-a97f-9e462170f257": {
-      "type": "section-collection-carousel",
+    "4fbc0ad4-0423-475c-97b7-4c08e75bec7c": {
+      "type": "section-collection",
       "settings": {
-        "heading": "Best sellers",
+        "heading": "Best Sellers",
         "description": "<p>Enjoy up to 40% on Amore in grey, Grá in orange and Kama in grey<\/p>",
         "text_alignment": "center",
         "link_text": "",
         "link_url": "",
-        "button_color": "btn--primary",
+        "button_color": "btn--black",
         "button_style": "hero__btn btn btn--input btn--outline caps",
-        "featured_collection": "40"
+        "featured_collection": "40",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "2"
       }
     },
     "3a7d2d03-59f1-4570-b1fd-be190b4bcf16": {
@@ -178,7 +181,7 @@
         "featured_collection": "free-head",
         "grid": 4,
         "rows": 3,
-        "layout_mobile": "carousel"
+        "layout_mobile": "2"
       }
     },
     "c6ef8081-b46e-4a06-9842-754bc1176ce2": {
@@ -241,7 +244,7 @@
     "main",
     "71fe84c4-4726-4613-81b0-329471171100",
     "a0d0e8cc-a176-4f78-ad6c-78efa391020d",
-    "fd690607-8326-4630-a97f-9e462170f257",
+    "4fbc0ad4-0423-475c-97b7-4c08e75bec7c",
     "3a7d2d03-59f1-4570-b1fd-be190b4bcf16",
     "b90d705f-f9f0-4948-bedb-d51ab58c0ccd",
     "2dd30252-a4de-436a-9d9a-b1bd51fd7dcf",
