@@ -86,125 +86,12 @@
         "bg_color": "#ffffff"
       }
     },
-    "b5137096-5469-47a3-a80a-7df6e753a951": {
-      "type": "section-product",
-      "blocks": {
-        "template--15349521940573__b5137096-5469-47a3-a80a-7df6e753a951-1668601620422703aa-0": {
-          "type": "price_and_title",
-          "settings": {
-            "subheading_option": "none",
-            "show_rating": true,
-            "enable_star_rating": true,
-            "show_rating_count": false
-          }
-        },
-        "template--15349521940573__b5137096-5469-47a3-a80a-7df6e753a951-1668601620422703aa-1": {
-          "type": "form",
-          "settings": {
-            "info_page": "",
-            "show_labels": false,
-            "show_quantity": true,
-            "show_payment_button": true,
-            "subscriptions_enable_selectors": false
-          }
-        },
-        "template--15349521940573__b5137096-5469-47a3-a80a-7df6e753a951-1668601620422703aa-2": {
-          "type": "tab_richtext",
-          "settings": {
-            "show_read_more": true,
-            "style": "tabs",
-            "title_1": "Tab",
-            "raw_content_1": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
-            "title_2": "Info",
-            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
-            "title_3": "",
-            "raw_content_3": "",
-            "title_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "raw_content_5": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15349521940573__b5137096-5469-47a3-a80a-7df6e753a951-1668601620422703aa-0",
-        "template--15349521940573__b5137096-5469-47a3-a80a-7df6e753a951-1668601620422703aa-1",
-        "template--15349521940573__b5137096-5469-47a3-a80a-7df6e753a951-1668601620422703aa-2"
-      ],
-      "settings": {
-        "home_product": "amore",
-        "image_layout": "thumbnails",
-        "enable_zoom": true,
-        "enable_video_looping": false
-      }
-    },
-    "78186f07-ef7a-4881-a6ac-bbe8faf4c8f0": {
-      "type": "section-columns",
-      "blocks": {
-        "template--15349521940573__78186f07-ef7a-4881-a6ac-bbe8faf4c8f0-1668610938ff72bd74-0": {
-          "type": "text_block",
-          "settings": {
-            "bg_position": "center-center",
-            "title": "Amore",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--large",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "template--15349521940573__78186f07-ef7a-4881-a6ac-bbe8faf4c8f0-1668610938ff72bd74-1": {
-          "type": "text_block",
-          "settings": {
-            "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--large",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "template--15349521940573__78186f07-ef7a-4881-a6ac-bbe8faf4c8f0-1668610938ff72bd74-2": {
-          "type": "text_block",
-          "settings": {
-            "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--large",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        }
-      },
-      "block_order": [
-        "template--15349521940573__78186f07-ef7a-4881-a6ac-bbe8faf4c8f0-1668610938ff72bd74-0",
-        "template--15349521940573__78186f07-ef7a-4881-a6ac-bbe8faf4c8f0-1668610938ff72bd74-1",
-        "template--15349521940573__78186f07-ef7a-4881-a6ac-bbe8faf4c8f0-1668610938ff72bd74-2"
-      ],
-      "settings": {
-        "title": "",
-        "bg_color": "#ffffff",
-        "align_text": "text-left",
-        "width": "wrapper--full",
-        "equalize_height": true,
-        "photo_aspect_ratio": 0.7,
-        "enable_image": true
-      }
-    },
     "fd690607-8326-4630-a97f-9e462170f257": {
       "type": "section-collection-carousel",
       "settings": {
         "heading": "Best sellers",
         "description": "<p>Enjoy up to 40% on selected items!<\/p>",
-        "text_alignment": "inline",
+        "text_alignment": "center",
         "link_text": "",
         "link_url": "",
         "button_color": "btn--primary",
@@ -212,11 +99,88 @@
         "featured_collection": "40"
       }
     },
-    "cb2c5903-b7fc-4ef1-a3c8-8716c12902fd": {
-      "type": "collection-lnw",
+    "b90d705f-f9f0-4948-bedb-d51ab58c0ccd": {
+      "type": "section-reviews",
+      "blocks": {
+        "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-0": {
+          "type": "review",
+          "settings": {
+            "title": "Jeremy Usborne",
+            "subheading": "Industry Expert",
+            "review_text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        },
+        "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-1": {
+          "type": "review",
+          "settings": {
+            "title": "Willy Bridge",
+            "subheading": "Industry Expert",
+            "review_text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-0",
+        "template--15349521940573__b90d705f-f9f0-4948-bedb-d51ab58c0ccd-16686119361a0ef46f-1"
+      ],
       "settings": {
-        "collection-slider": "40",
-        "controls-position": "left"
+        "text_align": "text-left",
+        "text_color": "text-dark",
+        "bg_color": "#fafafa"
+      }
+    },
+    "2dd30252-a4de-436a-9d9a-b1bd51fd7dcf": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Get a free head with selected toys!",
+        "description": "<p>Select any head with the purchase of a KAMA in orange or a Liebe in orange or a Meile in orange or Maya<\/p>",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "free-head",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "carousel"
+      }
+    },
+    "c6ef8081-b46e-4a06-9842-754bc1176ce2": {
+      "type": "section-hero",
+      "settings": {
+        "bg_position": "center-center",
+        "height": "screen-height-one-half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "title": "Image with text overlay",
+        "description": "Image\/text about how heads are interchangeable",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": false,
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "4b5e3e18-5349-475c-8c19-0fec0cda78da": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Looking to expend your collection?",
+        "description": "<p>Enjoy 20% off for our Heads!<\/p>",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "heads",
+        "grid": 3,
+        "rows": 3,
+        "layout_mobile": "carousel"
       }
     }
   },
@@ -224,9 +188,10 @@
     "main",
     "71fe84c4-4726-4613-81b0-329471171100",
     "a0d0e8cc-a176-4f78-ad6c-78efa391020d",
-    "b5137096-5469-47a3-a80a-7df6e753a951",
-    "78186f07-ef7a-4881-a6ac-bbe8faf4c8f0",
     "fd690607-8326-4630-a97f-9e462170f257",
-    "cb2c5903-b7fc-4ef1-a3c8-8716c12902fd"
+    "b90d705f-f9f0-4948-bedb-d51ab58c0ccd",
+    "2dd30252-a4de-436a-9d9a-b1bd51fd7dcf",
+    "c6ef8081-b46e-4a06-9842-754bc1176ce2",
+    "4b5e3e18-5349-475c-8c19-0fec0cda78da"
   ]
 }
