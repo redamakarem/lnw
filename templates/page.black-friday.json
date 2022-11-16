@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -13,9 +14,61 @@
         "text_color": "text-dark",
         "bg_color": "#ffffff"
       }
+    },
+    "71fe84c4-4726-4613-81b0-329471171100": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--15349521940573__71fe84c4-4726-4613-81b0-329471171100-16685929014776fbaf-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--15349521940573__71fe84c4-4726-4613-81b0-329471171100-16685929014776fbaf-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--15349521940573__71fe84c4-4726-4613-81b0-329471171100-16685929014776fbaf-0",
+        "template--15349521940573__71fe84c4-4726-4613-81b0-329471171100-16685929014776fbaf-1"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "71fe84c4-4726-4613-81b0-329471171100"
   ]
 }
