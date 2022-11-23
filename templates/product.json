@@ -12,6 +12,12 @@
             "show_rating_count": false
           }
         },
+        "eaaf49bd-1a8f-4f7f-a83e-85abecbdabf4": {
+          "type": "text",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.bf_22_free_head.value }}<\/p>"
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -20,12 +26,6 @@
             "show_quantity": true,
             "show_payment_button": true,
             "subscriptions_enable_selectors": true
-          }
-        },
-        "eaaf49bd-1a8f-4f7f-a83e-85abecbdabf4": {
-          "type": "text",
-          "settings": {
-            "title": "<p>{{ product.metafields.custom.bf_22_free_head.value }}<\/p>"
           }
         },
         "70fa9398-fa84-4241-9cf4-bfc6c5c06d8d": {
@@ -60,8 +60,8 @@
       },
       "block_order": [
         "price_and_title",
-        "form",
         "eaaf49bd-1a8f-4f7f-a83e-85abecbdabf4",
+        "form",
         "70fa9398-fa84-4241-9cf4-bfc6c5c06d8d",
         "pickup",
         "tabs"
