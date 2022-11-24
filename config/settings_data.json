@@ -114,9 +114,9 @@
           "16797837-bb5f-4f69-a11f-4dcee4bf1d24": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>BLACK FRIDAY is here! All offers are applied at checkout<\/strong> | <strong>FREE DISCREET SHIPPING USA & UK<\/strong><\/p>",
+              "text": "<p><strong>BLACK FRIDAY is here! Checkout our deal page!<\/strong> | <strong>FREE DISCREET SHIPPING USA & UK<\/strong><\/p>",
               "target_url_enabled": false,
-              "target_url": "",
+              "target_url": "shopify:\/\/pages\/black-friday-sex-toys-deal",
               "target_referrer_enabled": false,
               "target_referrer": "",
               "target_device_enabled": false,
