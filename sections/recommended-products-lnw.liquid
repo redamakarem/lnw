@@ -10,7 +10,7 @@
                 <a class="recommended-link" href='{{ section.settings.recommended-link }}'>Load More <img src="{{ 'load-more-arrow.png'|asset_url }}" alt="carousel-previous-icon"></a>
                 <div class="products-wrapper">
                     <div class="recommended-product">
-                        <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
+                        <div class="product-collection">{{section.settings.product1-text}}</div>
                         <div class="product-image">
                           <a href="{{ section.settings.product1.url }}">
                           <img src="{{section.settings.product1.featured_image | img_url:'master'}}" alt="">
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                     <div class="recommended-product">
-                        <div class="product-collection">{{section.settings.product2.collections[0].title}}</div>
+                        <div class="product-collection">{{section.settings.product2-text}}</div>
                         <div class="product-image">
                           <a href="{{ section.settings.product2.url }}">
                           <img src="{{section.settings.product2.featured_image | img_url:'master'}}" alt="">
