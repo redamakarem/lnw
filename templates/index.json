@@ -7,8 +7,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/LNW_-_Black_Friday_Site_Banners_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/LNW_-_Black_Friday_Site_Banners_1080_x_1080_px_1.png",
+            "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
+            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
