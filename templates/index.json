@@ -208,11 +208,11 @@
         "main-image": "shopify:\/\/shop_images\/LNW_AD04_Liebe_unit_16.jpg",
         "heading": "Meet the LIEBE",
         "description": "<p>Are you one to take things slow and let it build up? (Otherwise known as a slowgasm…) If so, you’re in luck! LIEBE is the head for you. The soft and flexible silicone head is designed to perfectly massage your G-spot, allowing you to apply as little or maximum pressure as you want. Just like all our toy, LIEBE features 4 intensity levels and 7 vibration patterns, perfect for exploring your body, finding your G-spot and letting your pleasure build.<\/p>",
-        "product1": "liebe",
+        "product1": "liebe-flexible-firm-gspot-vibrator-internal-stimulation",
         "product1-text": "Vibrators",
         "product2": "liebe-head",
         "product2-text": "Heads",
-        "recommended-link": "shopify:\/\/products\/liebe"
+        "recommended-link": "shopify:\/\/products\/liebe-flexible-firm-gspot-vibrator-internal-stimulation"
       }
     },
     "165930724844934d89": {
@@ -444,7 +444,6 @@
     },
     "16593604036b256fa6": {
       "type": "blog-carousel-lnw",
-      "disabled": true,
       "blocks": {
         "1cd87566-8dd6-4743-a0be-905248cf210b": {
           "type": "blog-post-card",
@@ -491,6 +490,7 @@
         "f28ff7d7-3cb5-477f-aa36-f51ddd762694",
         "15cce161-c51c-4672-b238-9a594f0b58e8"
       ],
+      "disabled": true,
       "settings": {
         "blog-posts-slider": "Educational Hub",
         "blog-link": "shopify:\/\/blogs\/test-blog"
@@ -500,10 +500,8 @@
       "type": "apps",
       "blocks": {
         "26794431-ce82-40a4-afa0-a5b173eb83d9": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": "<style>\n#insta-feed {\n    padding: 56px 50px 0px 50px;\nbackground-color:#F0EEEC;\n}\n\n<\/style>"
           }
         }
@@ -517,7 +515,6 @@
     },
     "16645319337036fe1f": {
       "type": "section-columns",
-      "disabled": true,
       "blocks": {
         "1664531932d4e63bec-0": {
           "type": "text_block",
@@ -570,6 +567,7 @@
         "1664531932d4e63bec-1",
         "1664531932d4e63bec-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "At Love Not War we make no compromises when it comes to PLEASURE or the PLANET.",
         "bg_color": "#ffffff",
